@@ -32,10 +32,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#0a1428" />
-        <title>LoL検定 — League of Legends 知識検定</title>
+        <title>LoLもん — League of Legends 知識クイズ</title>
         <meta
           name="description"
-          content="League of Legends の知識を試す検定クイズ。20問に答えてあなたのランクを判定します。"
+          content="LoLもんは League of Legends の知識クイズ。出題範囲を選んで20問に挑戦、正解数に応じてランクを判定します。"
         />
         <Meta />
         <Links />

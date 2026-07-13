@@ -9,14 +9,14 @@ export function buildShareText(
   rank: Rank,
 ): string {
   const label = laneLabel(lanes);
-  return `LoL検定${label ? `（${label}）` : ""}で${total}問中${correct}問正解、【${rank.label}】ランクでした！`;
+  return `LoLもん${label ? `（${label}）` : ""}で${total}問中${correct}問正解、【${rank.label}】ランクでした！`;
 }
 
 export function buildShareUrl(text: string, pageUrl: string): string {
   const params = new URLSearchParams({
     text,
     url: pageUrl,
-    hashtags: "LoL検定",
+    hashtags: "LoLもん",
   });
   return `https://twitter.com/intent/tweet?${params}`;
 }

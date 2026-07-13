@@ -49,7 +49,7 @@ export default function Result() {
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col items-center gap-8 px-4 py-12">
       <header className="text-center">
         <h1 className="text-lg font-black text-gold">
-          {laneLabel(lanes) || "総合"}検定 結果発表
+          結果発表{laneLabel(lanes) && `（${laneLabel(lanes)}）`}
         </h1>
         <p className="mt-2 text-4xl font-black">
           {correct}

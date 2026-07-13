@@ -1,7 +1,7 @@
 {
-  "name": "lol-ken",
+  "name": "lol-mon",
   "version": "1.0.0",
-  "description": "League of Legends 検定クイズ — ランク判定つきの LoL 知識検定",
+  "description": "LoLもん — League of Legends 知識クイズ（ランク判定つき）",
   "private": true,
   "type": "module",
   "scripts": {

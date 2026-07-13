@@ -159,9 +159,12 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col px-4 py-10">
       <header className="text-center mb-8">
-        <h1 className="text-4xl font-black tracking-wide text-gold">LoL検定</h1>
+        <h1 className="text-4xl font-black tracking-wide text-gold">LoLもん</h1>
+        <p className="mt-2 text-xs tracking-widest text-gold-light/50">
+          — League of Legends 知識クイズ —
+        </p>
         <p className="mt-3 text-sm leading-relaxed text-gold-light/80">
-          League of Legends の知識を試す全{QUESTION_COUNT}問の検定クイズ。
+          出題範囲を選んで全{QUESTION_COUNT}問に挑戦。
           <br />
           正解数に応じてあなたのランクを判定します。
         </p>
@@ -246,7 +249,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
         disabled={blocker !== undefined}
         className="w-full rounded-lg border border-gold bg-gold/10 px-4 py-3 font-bold text-gold transition-colors hover:bg-gold/20 disabled:cursor-not-allowed disabled:opacity-40 cursor-pointer"
       >
-        検定を開始する
+        クイズを開始する
       </button>
       {blocker && (
         <p className="mt-2 text-center text-xs text-red-400">{blocker}</p>
@@ -260,7 +263,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
           Analytics
         </p>
         <p className="mt-1">
-          LoL検定は Riot Games 非公式のファンコンテンツです。League of Legends
+          LoLもんは Riot Games 非公式のファンコンテンツです。League of Legends
           は Riot Games, Inc. の商標です。
         </p>
       </footer>

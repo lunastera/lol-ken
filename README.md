@@ -1,14 +1,15 @@
-# LoL検定 (lol-ken)
+# LoLもん (lol-mon)
 
-League of Legends の知識を試す検定クイズサイト。20 問の 4 択クイズに答えると、正解数に応じてアイアン〜チャレンジャーのランクを判定します。結果は X (Twitter) にシェアできます。
+LoLもん — League of Legends 知識クイズ。20 問の 4 択問題に答えると、正解数に応じてアイアン〜チャレンジャーのランクを判定します。結果は X (Twitter) にシェアできます。
 
-https://lunastera.github.io/lol-ken/
+https://lunastera.github.io/lol-mon/
 
 ## 特徴
 
 - **出題タイプをチェックリストで選択**: スキル / 称号 / チャンピオン画像 / アイテム価格 / アイテム効果 / アイテム画像 / ルーン系統 / サモナースペル
 - **レーン絞り込み**: TOP / JG / MID / ADC / SUP を複数選択でき、チャンピオン問題の出題範囲が選んだレーンに限定される
 - **完全静的**: 問題は [Riot Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon) のデータからクライアントサイドで動的生成。サーバー不要で GitHub Pages にデプロイ
+- **画像の事前ダウンロード**: Service Worker + Cache Storage で問題画像を端末にキャッシュし、表示を高速化
 
 ## 技術スタック
 
@@ -44,15 +45,15 @@ npm run generate-data
 
 `main` ブランチへの push で GitHub Actions ([deploy-pages.yml](.github/workflows/deploy-pages.yml)) が走り、GitHub Pages に自動デプロイされます。リポジトリ設定で Pages の Source を **GitHub Actions** にしてください。
 
-ベースパス (`/lol-ken/`) は CI 上で `GITHUB_REPOSITORY` 環境変数から自動決定されます。ローカルで Pages 相当のビルドを確認する場合:
+ベースパス (`/lol-mon/`) は CI 上で `GITHUB_REPOSITORY` 環境変数から自動決定されます。ローカルで Pages 相当のビルドを確認する場合:
 
 ```sh
-GITHUB_REPOSITORY=lunastera/lol-ken npm run build
+GITHUB_REPOSITORY=lunastera/lol-mon npm run build
 npx vite preview
 ```
 
 ## クレジット
 
-LoL検定は Riot Games 非公式のファンコンテンツです。League of Legends および Riot Games は Riot Games, Inc. の商標です。ゲームデータは Riot Data Dragon、レーン情報は Meraki Analytics を利用しています。
+LoLもんは Riot Games 非公式のファンコンテンツです。League of Legends および Riot Games は Riot Games, Inc. の商標です。ゲームデータは Riot Data Dragon、レーン情報は Meraki Analytics を利用しています。
 
 プロジェクト構成は [pokutuna/google-cloud-roleup](https://github.com/pokutuna/google-cloud-roleup) を参考にしています。

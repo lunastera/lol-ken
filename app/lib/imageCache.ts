@@ -5,7 +5,7 @@
  */
 export const IMAGE_CACHE = "ddragon-images";
 
-const FLAG_KEY = "lol-ken.predownloaded-version";
+const FLAG_KEY = "lol-mon.predownloaded-version";
 
 export function canPredownload(): boolean {
   return typeof window !== "undefined" && "caches" in window;

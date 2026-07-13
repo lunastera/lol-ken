@@ -59,7 +59,8 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
   const question = questions[index];
   const revealed = selected !== null;
   const isLast = index + 1 >= questions.length;
-  const title = `${laneLabel(selection.lanes) || "総合"}検定`;
+  const label = laneLabel(selection.lanes);
+  const title = label ? `LoLもん（${label}）` : "LoLもん";
 
   const choose = (choiceIndex: number) => {
     if (revealed) return;
