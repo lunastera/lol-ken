@@ -1,0 +1,41 @@
+{
+  "name": "lol-ken",
+  "version": "1.0.0",
+  "description": "League of Legends 検定クイズ — ランク判定つきの LoL 知識検定",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build && node scripts/copy-404.mjs",
+    "dev": "react-router dev",
+    "typecheck": "react-router typegen && tsc",
+    "preview": "react-router build && vite preview",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "check": "biome check --write .",
+    "generate-data": "tsx scripts/generate-data.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@react-router/node": "^8.0.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router": "^8.0.1",
+    "isbot": "^5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.1",
+    "@react-router/dev": "^8.0.1",
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/node": "^26.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.3.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.0",
+    "vitest": "^4.1.9"
+  },
+  "overrides": {
+    "esbuild": "^0.28.1"
+  }
+}

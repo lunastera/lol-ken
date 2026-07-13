@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
+
+  /* Hextech-inspired palette */
+  --color-hextech-black: #010a13;
+  --color-abyss: #0a1428;
+  --color-deep-blue: #0a323c;
+  --color-gold: #c89b3c;
+  --color-gold-dark: #785a28;
+  --color-gold-light: #f0e6d2;
+  --color-hextech-blue: #0ac8b9;
+  --color-blue-light: #cdfafa;
+}

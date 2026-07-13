@@ -1,0 +1,6071 @@
+{
+ "version": "16.13.1",
+ "generatedAt": "2026-07-13T18:05:32.157Z",
+ "champions": [
+  {
+   "id": "Aatrox",
+   "key": "266",
+   "name": "エイトロックス",
+   "title": "ダーキンの暴剣",
+   "tags": [
+    "Fighter"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ダーキンブレード",
+    "炎獄の鎖",
+    "影進撃",
+    "ワールドエンダー"
+   ],
+   "passive": "死兆の構え"
+  },
+  {
+   "id": "Ahri",
+   "key": "103",
+   "name": "アーリ",
+   "title": "九尾の狐",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "幻惑のオーブ",
+    "フォックスファイア",
+    "チャーム",
+    "スピリットラッシュ"
+   ],
+   "passive": "生気吸引"
+  },
+  {
+   "id": "Akali",
+   "key": "84",
+   "name": "アカリ",
+   "title": "主なき暗殺者",
+   "tags": [
+    "Assassin"
+   ],
+   "positions": [
+    "TOP",
+    "MIDDLE"
+   ],
+   "spells": [
+    "五連苦無",
+    "黄昏の帳",
+    "翻身手裏剣",
+    "完遂"
+   ],
+   "passive": "刺客の刻印"
+  },
+  {
+   "id": "Akshan",
+   "key": "166",
+   "name": "アクシャン",
+   "title": "流浪の番人",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "報復のブーメラン",
+    "義賊の流儀",
+    "ヒーロースイング",
+    "当然の報い"
+   ],
+   "passive": "ダーティーファイト"
+  },
+  {
+   "id": "Alistar",
+   "key": "12",
+   "name": "アリスター",
+   "title": "ミノタウロスの戦士",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "圧砕",
+    "頭突き",
+    "踏破",
+    "不屈の意志"
+   ],
+   "passive": "戦士の咆哮"
+  },
+  {
+   "id": "Ambessa",
+   "key": "799",
+   "name": "アンベッサ",
+   "title": "戦乱の母",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "カニングスイープ/サンダリングスラム",
+    "断交",
+    "ラセレイト",
+    "公開処刑"
+   ],
+   "passive": "ドレイクハウンドの猛攻"
+  },
+  {
+   "id": "Amumu",
+   "key": "32",
+   "name": "アムム",
+   "title": "めそめそミイラ",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "絡みつく包帯",
+    "めそめそ",
+    "だだっこ",
+    "めそめそミイラの呪い"
+   ],
+   "passive": "呪いの手"
+  },
+  {
+   "id": "Anivia",
+   "key": "34",
+   "name": "アニビア",
+   "title": "氷の不死鳥",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "フラッシュフロスト",
+    "アイスウォール",
+    "フロストバイト",
+    "ブリザード"
+   ],
+   "passive": "再誕"
+  },
+  {
+   "id": "Annie",
+   "key": "1",
+   "name": "アニー",
+   "title": "闇の申し子",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ファイアボール",
+    "バーニングファイア",
+    "モルテンシールド",
+    "やっちゃえ！ティバーズ！"
+   ],
+   "passive": "火遊びだいすき"
+  },
+  {
+   "id": "Aphelios",
+   "key": "523",
+   "name": "アフェリオス",
+   "title": "信ずる者の武器",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "武器ごとのスキル",
+    "フェーズ",
+    "武器キューシステム",
+    "月光の祈り"
+   ],
+   "passive": "殺す者と導く者"
+  },
+  {
+   "id": "Ashe",
+   "key": "22",
+   "name": "アッシュ",
+   "title": "氷の射手",
+   "tags": [
+    "Marksman",
+    "Support"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "レンジャーフォーカス",
+    "ボレー",
+    "スカウトホーク",
+    "クリスタルアロー"
+   ],
+   "passive": "フロストショット"
+  },
+  {
+   "id": "AurelionSol",
+   "key": "136",
+   "name": "オレリオン・ソル",
+   "title": "星を創りし者",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "星炎の息吹",
+    "天空への飛翔",
+    "特異点",
+    "星の邂逅/崩れ落つ天穹"
+   ],
+   "passive": "宇宙の創造者"
+  },
+  {
+   "id": "Aurora",
+   "key": "893",
+   "name": "オーロラ",
+   "title": "世界の狭間の魔女",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "折れ重なる魔法",
+    "ベールを越えて",
+    "ウィアーディング",
+    "世界の狭間"
+   ],
+   "passive": "精霊の解放"
+  },
+  {
+   "id": "Azir",
+   "key": "268",
+   "name": "アジール",
+   "title": "砂塵の皇帝",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "征服の勅命",
+    "目覚めよ！",
+    "流砂の衝撃",
+    "皇帝の分砂嶺"
+   ],
+   "passive": "シュリーマの遺産"
+  },
+  {
+   "id": "Bard",
+   "key": "432",
+   "name": "バード",
+   "title": "流離いの庇護者",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "宇宙の法則",
+    "回復の遺物",
+    "精霊の旅路",
+    "運命の調律"
+   ],
+   "passive": "旅人の呼び声"
+  },
+  {
+   "id": "Belveth",
+   "key": "200",
+   "name": "ベル＝ヴェス",
+   "title": "ヴォイドの女帝",
+   "tags": [
+    "Fighter"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ヴォイドサージ",
+    "天と地",
+    "ロイヤルストーム",
+    "終わりなき晩餐"
+   ],
+   "passive": "死のラベンダー"
+  },
+  {
+   "id": "Blitzcrank",
+   "key": "53",
+   "name": "ブリッツクランク",
+   "title": "偉大なるスチームゴーレム",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ロケットグラブ",
+    "オーバードライブ",
+    "パワーフィスト",
+    "イナズマフィールド"
+   ],
+   "passive": "マナバリア"
+  },
+  {
+   "id": "Brand",
+   "key": "63",
+   "name": "ブランド",
+   "title": "復讐の炎",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "焦炎",
+    "烈火の柱",
+    "焼灼",
+    "業火"
+   ],
+   "passive": "炎上"
+  },
+  {
+   "id": "Braum",
+   "key": "201",
+   "name": "ブラウム",
+   "title": "フレヨルドの漢気",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "冬の凍瘡",
+    "ワシに任せとけ！",
+    "不破の盾",
+    "氷河の裂溝"
+   ],
+   "passive": "漢の拳"
+  },
+  {
+   "id": "Briar",
+   "key": "233",
+   "name": "ブライアー",
+   "title": "枷と飢え",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ヘッドラッシュ",
+    "血の狂乱/衝動噛み",
+    "呪福の叫び",
+    "迫りくる死"
+   ],
+   "passive": "真紅の呪い"
+  },
+  {
+   "id": "Caitlyn",
+   "key": "51",
+   "name": "ケイトリン",
+   "title": "ピルトーヴァーの保安官",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ピースメーカー",
+    "ヨードルトラップ",
+    "L-90 カリバーネット",
+    "ブルズアイ"
+   ],
+   "passive": "ヘッドショット"
+  },
+  {
+   "id": "Camille",
+   "key": "164",
+   "name": "カミール",
+   "title": "スチールシャドウ",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "プレシジョンプロトコル",
+    "タクティカルスイープ",
+    "フックショット",
+    "ヘクステック・アルティメイタム"
+   ],
+   "passive": "アダプティブディフェンス"
+  },
+  {
+   "id": "Cassiopeia",
+   "key": "69",
+   "name": "カシオペア",
+   "title": "毒蛇の抱擁",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ノクサスブラスト",
+    "ミアズマ",
+    "ツインファング",
+    "石化の魔眼"
+   ],
+   "passive": "妖艶な蛇行"
+  },
+  {
+   "id": "Chogath",
+   "key": "31",
+   "name": "チョ＝ガス",
+   "title": "未知なる恐怖",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ラプチャー",
+    "スクリーム",
+    "ヴォーパルスパイク",
+    "捕食"
+   ],
+   "passive": "暴食"
+  },
+  {
+   "id": "Corki",
+   "key": "42",
+   "name": "コーキ",
+   "title": "豪気の爆撃手",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "閃光弾",
+    "ワルキューレ機行",
+    "ガトリングガン",
+    "連発ミサイル"
+   ],
+   "passive": "ヘクステック榴散弾"
+  },
+  {
+   "id": "Darius",
+   "key": "122",
+   "name": "ダリウス",
+   "title": "ノクサスの戦斧",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "皆殺しの斧",
+    "脚削ぎ",
+    "捕縛",
+    "ノクサスギロチン"
+   ],
+   "passive": "大出血"
+  },
+  {
+   "id": "Diana",
+   "key": "131",
+   "name": "ダイアナ",
+   "title": "嘲りの月",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE",
+    "MIDDLE"
+   ],
+   "spells": [
+    "月影",
+    "朧月の羽衣",
+    "月下美刃",
+    "崩月"
+   ],
+   "passive": "繊月の刃"
+  },
+  {
+   "id": "Draven",
+   "key": "119",
+   "name": "ドレイヴン",
+   "title": "栄光ある処刑人",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "回転斬斧",
+    "血の疼き",
+    "薙ぎ払い",
+    "死の車輪"
+   ],
+   "passive": "リーグ・オブ・ドレイヴン"
+  },
+  {
+   "id": "DrMundo",
+   "key": "36",
+   "name": "ドクター・ムンド",
+   "title": "ゾウンの狂人",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "骨切りノコギリ",
+    "心臓ビリビリ",
+    "野蛮な痛み",
+    "マキシマム投与"
+   ],
+   "passive": "気ままな往診"
+  },
+  {
+   "id": "Ekko",
+   "key": "245",
+   "name": "エコー",
+   "title": "砕けた時を渡る少年",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE",
+    "MIDDLE"
+   ],
+   "spells": [
+    "タイムワインダー",
+    "パラレルトラップ",
+    "フェイズダイブ",
+    "クロノブレイク"
+   ],
+   "passive": "ゼロ・ドライブ"
+  },
+  {
+   "id": "Elise",
+   "key": "60",
+   "name": "エリス",
+   "title": "蜘蛛の女帝",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "神経毒/毒牙",
+    "子蜘蛛爆弾/猛食",
+    "繭化/蜘蛛の糸",
+    "蜘蛛形態"
+   ],
+   "passive": "蜘蛛の女帝"
+  },
+  {
+   "id": "Evelynn",
+   "key": "28",
+   "name": "イブリン",
+   "title": "苦悶の抱擁",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ヘイトスパイク",
+    "アリュール",
+    "ウィップラッシュ",
+    "ラストカレス"
+   ],
+   "passive": "妖魔の影"
+  },
+  {
+   "id": "Ezreal",
+   "key": "81",
+   "name": "エズリアル",
+   "title": "光の冒険心",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ミスティックショット",
+    "エッセンスフラックス",
+    "アーケインシフト",
+    "トゥルーショットバラージ"
+   ],
+   "passive": "ライジングスペルフォース"
+  },
+  {
+   "id": "Fiddlesticks",
+   "key": "9",
+   "name": "フィドルスティックス",
+   "title": "古の恐怖",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "テラー",
+    "豊かな収穫",
+    "刈り取り",
+    "クロウストーム"
+   ],
+   "passive": "無害なカカシ"
+  },
+  {
+   "id": "Fiora",
+   "key": "114",
+   "name": "フィオラ",
+   "title": "高潔なるデュエリスト",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ファント",
+    "リポスト",
+    "ブレードワーク",
+    "グランドチャレンジ"
+   ],
+   "passive": "デュエリスト・ダンス"
+  },
+  {
+   "id": "Fizz",
+   "key": "105",
+   "name": "フィズ",
+   "title": "波間のトリックスター",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ウニトゲストライク",
+    "シートライデント",
+    "プレイ/トリックスター",
+    "フィッシング"
+   ],
+   "passive": "シーファイター"
+  },
+  {
+   "id": "Galio",
+   "key": "3",
+   "name": "ガリオ",
+   "title": "伝説の巨像",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "戦の旋風",
+    "デュランドの守り",
+    "正義の鉄拳",
+    "英雄降臨"
+   ],
+   "passive": "巨像の一撃"
+  },
+  {
+   "id": "Gangplank",
+   "key": "41",
+   "name": "ガングプランク",
+   "title": "大海原の大災厄",
+   "tags": [
+    "Fighter"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "偽りの発砲",
+    "壊血病治癒",
+    "火薬樽",
+    "一斉砲撃"
+   ],
+   "passive": "背水の銃剣"
+  },
+  {
+   "id": "Garen",
+   "key": "86",
+   "name": "ガレン",
+   "title": "デマーシアの勇士",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "断固たる一撃",
+    "勇気の護り",
+    "ジャッジメント",
+    "デマーシアの正義"
+   ],
+   "passive": "タフガイ"
+  },
+  {
+   "id": "Gnar",
+   "key": "150",
+   "name": "ナー",
+   "title": "ミッシングリンク",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ブーメラン/ぽいっ",
+    "ごきげん/こてんぱん",
+    "ぴょんぴょん/ドーン！",
+    "ナー！"
+   ],
+   "passive": "ぷんすこ"
+  },
+  {
+   "id": "Gragas",
+   "key": "79",
+   "name": "グラガス",
+   "title": "騒乱の飲んだくれ",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "タル転がし",
+    "飲みすぎ注意",
+    "ボディスラム",
+    "ワシの奢りじゃ！"
+   ],
+   "passive": "ハッピーアワー"
+  },
+  {
+   "id": "Graves",
+   "key": "104",
+   "name": "グレイブス",
+   "title": "無法者",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "エンドライン",
+    "スモークスクリーン",
+    "クイックドロー",
+    "コラテラルダメージ"
+   ],
+   "passive": "ニュー・デスティニー"
+  },
+  {
+   "id": "Gwen",
+   "key": "887",
+   "name": "グウェン",
+   "title": "聖なるお針子",
+   "tags": [
+    "Fighter"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "チョキチョキッ！",
+    "聖なる霧",
+    "スキップスラッシュ",
+    "針仕事"
+   ],
+   "passive": "裁断"
+  },
+  {
+   "id": "Hecarim",
+   "key": "120",
+   "name": "ヘカリム",
+   "title": "戦場の幻影",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ランページ",
+    "ソウルドレイン",
+    "チャージ",
+    "スペクターズ・オンスロート"
+   ],
+   "passive": "ウォーパス"
+  },
+  {
+   "id": "Heimerdinger",
+   "key": "74",
+   "name": "ハイマーディンガー",
+   "title": "誉れ高き発明王",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "H-28G革新砲",
+    "ヘクステック小型ロケット",
+    "CH-2超電磁グレネード",
+    "アップグレード！！！"
+   ],
+   "passive": "ヘクステックの親和性"
+  },
+  {
+   "id": "Hwei",
+   "key": "910",
+   "name": "フェイ",
+   "title": "夢想家",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "題材: 厄災",
+    "題材: 静謐",
+    "題材: 苦悩",
+    "絶望の渦"
+   ],
+   "passive": "夢想家の銘"
+  },
+  {
+   "id": "Illaoi",
+   "key": "420",
+   "name": "イラオイ",
+   "title": "海の女司祭",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "触手の鉄槌",
+    "過酷なる教訓",
+    "魂の試練",
+    "信仰震"
+   ],
+   "passive": "旧神の預言者"
+  },
+  {
+   "id": "Irelia",
+   "key": "39",
+   "name": "イレリア",
+   "title": "飛刃の舞い手",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP",
+    "MIDDLE"
+   ],
+   "spells": [
+    "瞬刃",
+    "不屈の舞",
+    "無欠の連舞",
+    "先陣の刃"
+   ],
+   "passive": "アイオニアの熱情"
+  },
+  {
+   "id": "Ivern",
+   "key": "427",
+   "name": "アイバーン",
+   "title": "豊緑の神秘",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ネッコナゲ",
+    "シゲミヅクリ",
+    "タネバクダン",
+    "デイジー！"
+   ],
+   "passive": "モリノトモダチ"
+  },
+  {
+   "id": "Janna",
+   "key": "40",
+   "name": "ジャンナ",
+   "title": "嵐の怒り",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ハウリングゲイル",
+    "ゼファー",
+    "ストームブレス",
+    "モンスーン"
+   ],
+   "passive": "テイルウィンド"
+  },
+  {
+   "id": "JarvanIV",
+   "key": "59",
+   "name": "ジャーヴァンⅣ",
+   "title": "デマーシアの儀範",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ドラゴンストライク",
+    "ゴールデンイージス",
+    "デマーシアの旗印",
+    "決戦場"
+   ],
+   "passive": "武魂の律動"
+  },
+  {
+   "id": "Jax",
+   "key": "24",
+   "name": "ジャックス",
+   "title": "最強の武器使い",
+   "tags": [
+    "Fighter"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "リープストライク",
+    "パワーバッシュ",
+    "カウンターストライク",
+    "ウェポングランドマスター"
+   ],
+   "passive": "アサルトアタック"
+  },
+  {
+   "id": "Jayce",
+   "key": "126",
+   "name": "ジェイス",
+   "title": "未来への希望",
+   "tags": [
+    "Fighter",
+    "Marksman"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "スカイバスター/ショックブラスト",
+    "ライトニング/ハイパーチャージ",
+    "サンダーブロー/アクセルゲート",
+    "マーキュリーキャノン/マーキュリーハンマー"
+   ],
+   "passive": "ヘクステック・コンデンサー"
+  },
+  {
+   "id": "Jhin",
+   "key": "202",
+   "name": "ジン",
+   "title": "孤高の芸術家",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "｢爆ぜ狂う果実｣",
+    "｢死者への狂奏曲｣",
+    "｢女神の抱擁｣",
+    "｢終演 -フィナーレ-｣"
+   ],
+   "passive": "この銃の名は｢囁き｣"
+  },
+  {
+   "id": "Jinx",
+   "key": "222",
+   "name": "ジンクス",
+   "title": "暴走パンクガール",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "スイッチング！",
+    "シビレーザー！",
+    "パックンチョッパー！",
+    "スーパーメガデスロケット！"
+   ],
+   "passive": "超エキサイティン！"
+  },
+  {
+   "id": "Kaisa",
+   "key": "145",
+   "name": "カイ＝サ",
+   "title": "虚無を知る娘",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "イカシアの雨",
+    "ヴォイドシーカー",
+    "スーパーチャージ",
+    "キラーヴォイド"
+   ],
+   "passive": "ヴォイドスキン"
+  },
+  {
+   "id": "Kalista",
+   "key": "429",
+   "name": "カリスタ",
+   "title": "復讐の槍",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "貫魂の一投",
+    "執念の霊魂",
+    "引き裂く遺恨",
+    "宿命の呼び声"
+   ],
+   "passive": "戦の所作"
+  },
+  {
+   "id": "Karma",
+   "key": "43",
+   "name": "カルマ",
+   "title": "目覚めし者",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "心炎",
+    "魂縛",
+    "激励",
+    "マントラ"
+   ],
+   "passive": "寄せ火"
+  },
+  {
+   "id": "Karthus",
+   "key": "30",
+   "name": "カーサス",
+   "title": "死を歌う者",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "根絶やし",
+    "嘆きの壁",
+    "冒涜",
+    "鎮魂歌"
+   ],
+   "passive": "怨嗟の叫び"
+  },
+  {
+   "id": "Kassadin",
+   "key": "38",
+   "name": "カサディン",
+   "title": "ヴォイドを歩む者",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ヴォイドスフィア",
+    "ネザーブレード",
+    "ヴォイドパルス",
+    "リフトウォーク"
+   ],
+   "passive": "ヴォイドストーン"
+  },
+  {
+   "id": "Katarina",
+   "key": "55",
+   "name": "カタリナ",
+   "title": "凶兆の刃",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "バウンドナイフ",
+    "プリペレーション",
+    "瞬歩",
+    "デスロータス"
+   ],
+   "passive": "貪欲なる暗殺者"
+  },
+  {
+   "id": "Kayle",
+   "key": "10",
+   "name": "ケイル",
+   "title": "天空の正義",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "裁きの射光",
+    "天の祝福",
+    "星炎の刃",
+    "聖なる審判"
+   ],
+   "passive": "聖なる上昇"
+  },
+  {
+   "id": "Kayn",
+   "key": "141",
+   "name": "ケイン",
+   "title": "無情の影",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "飛影斬",
+    "刃影襲",
+    "影抜き",
+    "真影侵壊"
+   ],
+   "passive": "緋眼の大鎌"
+  },
+  {
+   "id": "Kennen",
+   "key": "85",
+   "name": "ケネン",
+   "title": "雷雲の担い手",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "雷遁手裏剣",
+    "稲妻の奔流",
+    "疾風迅雷",
+    "雷撃の大嵐"
+   ],
+   "passive": "嵐の刻印"
+  },
+  {
+   "id": "Khazix",
+   "key": "121",
+   "name": "カ＝ジックス",
+   "title": "ヴォイドの捕食者",
+   "tags": [
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "甘美なる恐怖",
+    "ヴォイドの刺棘",
+    "リープ",
+    "捕食の本能"
+   ],
+   "passive": "見えざる脅威"
+  },
+  {
+   "id": "Kindred",
+   "key": "203",
+   "name": "キンドレッド",
+   "title": "永遠なる狩人",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "矢の輪舞",
+    "狼の激昂",
+    "忍び寄る恐怖",
+    "羊の執行猶予"
+   ],
+   "passive": "キンドレッドの刻印"
+  },
+  {
+   "id": "Kled",
+   "key": "240",
+   "name": "クレッド",
+   "title": "狂乱の騎兵",
+   "tags": [
+    "Fighter"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "トラバサミロープ",
+    "狂暴の宴",
+    "ジャウスト",
+    "チャァァァァァァァジ！！！"
+   ],
+   "passive": "弱虫トカゲ「スカール」"
+  },
+  {
+   "id": "KogMaw",
+   "key": "96",
+   "name": "コグ＝マウ",
+   "title": "深淵のアギト",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "腐食粘液",
+    "有機性魔力砲",
+    "ヴォイド分泌液",
+    "生体空撃砲"
+   ],
+   "passive": "イカシアの自爆"
+  },
+  {
+   "id": "KSante",
+   "key": "897",
+   "name": "カ・サンテ",
+   "title": "ナズーマの誇り",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "破撃のエントーフォ",
+    "切り開く猛進",
+    "辰砂の足取り",
+    "オールアウト"
+   ],
+   "passive": "不屈の本能"
+  },
+  {
+   "id": "Leblanc",
+   "key": "7",
+   "name": "ルブラン",
+   "title": "幻惑の奇術師",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "シジルマリス",
+    "ディストーション",
+    "エーテルチェイン",
+    "再演"
+   ],
+   "passive": "鏡像"
+  },
+  {
+   "id": "LeeSin",
+   "key": "64",
+   "name": "リー・シン",
+   "title": "盲目の修行僧",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "響掌/共鳴撃",
+    "守りの型/鉄の意志",
+    "破風/縛脚",
+    "龍の怒り"
+   ],
+   "passive": "練気"
+  },
+  {
+   "id": "Leona",
+   "key": "89",
+   "name": "レオナ",
+   "title": "暁光の戦士",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "シールド・オブ・デイブレイク",
+    "エクリプス",
+    "ゼニスブレード",
+    "ソーラーフレア"
+   ],
+   "passive": "サンライト"
+  },
+  {
+   "id": "Lillia",
+   "key": "876",
+   "name": "リリア",
+   "title": "はにかみ屋の花",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "花開く風",
+    "ひゃっ、あぶない！",
+    "コロコロの種",
+    "夢見の子守唄"
+   ],
+   "passive": "夢を集める大枝"
+  },
+  {
+   "id": "Lissandra",
+   "key": "127",
+   "name": "リサンドラ",
+   "title": "氷の魔女",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "アイスシャード",
+    "リング・オブ・フロスト",
+    "グラシアルパス",
+    "フローズングレイブ"
+   ],
+   "passive": "アイスボーンへの服従"
+  },
+  {
+   "id": "Locke",
+   "key": "805",
+   "name": "ロック",
+   "title": "灰の祓魔師",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [],
+   "spells": [
+    "リチュアル・ネイル",
+    "ソウル・イグニッション",
+    "灰塵の追撃",
+    "煉獄"
+   ],
+   "passive": "シルバー・ステイク"
+  },
+  {
+   "id": "Lucian",
+   "key": "236",
+   "name": "ルシアン",
+   "title": "不浄殲滅者",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ピアシングライト",
+    "アーデントブレイズ",
+    "スライド",
+    "二挺掃射"
+   ],
+   "passive": "二挺拳銃"
+  },
+  {
+   "id": "Lulu",
+   "key": "117",
+   "name": "ルル",
+   "title": "森の妖精使い",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ぴかぴかビーム",
+    "イタズラ",
+    "ピックス、おねがい！",
+    "おおきくなぁれ！"
+   ],
+   "passive": "仲良し妖精ピックス"
+  },
+  {
+   "id": "Lux",
+   "key": "99",
+   "name": "ラックス",
+   "title": "光の才女",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE",
+    "UTILITY"
+   ],
+   "spells": [
+    "ライトバインド",
+    "プリズムバリア",
+    "シンギュラリティ",
+    "ファイナルスパーク"
+   ],
+   "passive": "イルミネーション"
+  },
+  {
+   "id": "Malphite",
+   "key": "54",
+   "name": "マルファイト",
+   "title": "モノリスの欠片",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "サイズミックシャード",
+    "サンダークラップ",
+    "グラウンドスラム",
+    "アンストッパブル・フォース"
+   ],
+   "passive": "グラナイトシールド"
+  },
+  {
+   "id": "Malzahar",
+   "key": "90",
+   "name": "マルザハール",
+   "title": "ヴォイドの予言者",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ヴォイドコール",
+    "ヴォイドスワーム",
+    "虚性侵蝕",
+    "ネザーグラスプ"
+   ],
+   "passive": "ヴォイドシフト"
+  },
+  {
+   "id": "Maokai",
+   "key": "57",
+   "name": "マオカイ",
+   "title": "歪みし樹人",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "茨打ち",
+    "樹人の進撃",
+    "苗木投げ",
+    "大地の捕縛"
+   ],
+   "passive": "魔樹液"
+  },
+  {
+   "id": "MasterYi",
+   "key": "11",
+   "name": "マスター・イー",
+   "title": "ウージューの剣客",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "アルファストライク",
+    "明鏡止水",
+    "ウージュースタイル",
+    "ハイランダー"
+   ],
+   "passive": "ダブルストライク"
+  },
+  {
+   "id": "Mel",
+   "key": "800",
+   "name": "メル",
+   "title": "魂の反照",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE",
+    "UTILITY"
+   ],
+   "spells": [
+    "輝きの連撃",
+    "反駁",
+    "陽光の枷",
+    "黄金蝕"
+   ],
+   "passive": "灼熱の輝き"
+  },
+  {
+   "id": "Milio",
+   "key": "902",
+   "name": "ミリオ",
+   "title": "やさしき炎",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ウルトラメガファイヤーキック",
+    "癒しの焚き火",
+    "抱擁のぬくもり",
+    "生命の息吹"
+   ],
+   "passive": "ファイヤーアップ！"
+  },
+  {
+   "id": "MissFortune",
+   "key": "21",
+   "name": "ミス・フォーチュン",
+   "title": "美貌の賞金稼ぎ",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ダブルアップ",
+    "ストラット",
+    "レイニングバレット",
+    "バレットタイム"
+   ],
+   "passive": "ラブタップ"
+  },
+  {
+   "id": "MonkeyKing",
+   "key": "62",
+   "name": "ウーコン",
+   "title": "美猴王",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "強棒打",
+    "戦士の幻惑",
+    "乱像猿技",
+    "旋風猿舞"
+   ],
+   "passive": "岩の皮膚"
+  },
+  {
+   "id": "Mordekaiser",
+   "key": "82",
+   "name": "モルデカイザー",
+   "title": "鋼の魂奪者",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "滅魂の一撃",
+    "不滅の鎧",
+    "死の呪縛",
+    "死の国"
+   ],
+   "passive": "無窮の闇"
+  },
+  {
+   "id": "Morgana",
+   "key": "25",
+   "name": "モルガナ",
+   "title": "堕天の高潔",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ダークバインド",
+    "苦悶の影",
+    "ブラックシールド",
+    "魂の足枷"
+   ],
+   "passive": "ソウルサイフォン"
+  },
+  {
+   "id": "Naafiri",
+   "key": "950",
+   "name": "ナフィーリ",
+   "title": "百刃の猟犬",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ダーキンダガー",
+    "群れの呼び声",
+    "獰猛なる刃",
+    "猟犬の追跡"
+   ],
+   "passive": "我らは一つ"
+  },
+  {
+   "id": "Nami",
+   "key": "267",
+   "name": "ナミ",
+   "title": "潮呼びの巫女",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "水の牢獄",
+    "潮の流れ",
+    "潮使いの祝福",
+    "海神の舞"
+   ],
+   "passive": "さざなみの後押し"
+  },
+  {
+   "id": "Nasus",
+   "key": "75",
+   "name": "ナサス",
+   "title": "砂漠の司書",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "サイフォンストライク",
+    "ウィザー",
+    "スピリットファイア",
+    "アヌビスの怒り"
+   ],
+   "passive": "ソウルイーター"
+  },
+  {
+   "id": "Nautilus",
+   "key": "111",
+   "name": "ノーチラス",
+   "title": "深海の巨人",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "錨投げ",
+    "大海の激憤",
+    "粉砕水",
+    "爆雷発射"
+   ],
+   "passive": "鉄の錨"
+  },
+  {
+   "id": "Neeko",
+   "key": "518",
+   "name": "ニーコ",
+   "title": "不思議のカメレオン",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "弾ける花弁",
+    "シェイプスプリッター",
+    "からまれ！",
+    "ポップブロッサム"
+   ],
+   "passive": "駆け巡る色彩"
+  },
+  {
+   "id": "Nidalee",
+   "key": "76",
+   "name": "ニダリー",
+   "title": "半獣の狩人",
+   "tags": [
+    "Assassin",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "槍投げ/テイクダウン",
+    "虎挟み/ジャンプ",
+    "高揚/クロウ",
+    "クーガーの心"
+   ],
+   "passive": "品定め"
+  },
+  {
+   "id": "Nilah",
+   "key": "895",
+   "name": "ニーラ",
+   "title": "放たれし喜び",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "形なき刃",
+    "歓喜のヴェール",
+    "流撃",
+    "アポテオシス"
+   ],
+   "passive": "終わりなき喜び"
+  },
+  {
+   "id": "Nocturne",
+   "key": "56",
+   "name": "ノクターン",
+   "title": "終わりなき悪夢",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "闇の手",
+    "漆黒の帳",
+    "底知れぬ恐怖",
+    "パラノイア"
+   ],
+   "passive": "夢幻斬"
+  },
+  {
+   "id": "Nunu",
+   "key": "20",
+   "name": "ヌヌ＆ウィルンプ",
+   "title": "少年とイエティ",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "丸かじり",
+    "超特大の雪玉！",
+    "雪玉連射",
+    "アブソリュート・ゼロ"
+   ],
+   "passive": "フレヨルドの呼び声"
+  },
+  {
+   "id": "Olaf",
+   "key": "2",
+   "name": "オラフ",
+   "title": "狂戦士",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "斧投げ",
+    "根性比べ",
+    "捨て身切り",
+    "ラグナロク"
+   ],
+   "passive": "狂戦士の怒り"
+  },
+  {
+   "id": "Orianna",
+   "key": "61",
+   "name": "オリアナ",
+   "title": "時計仕掛けの舞姫",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "オーダー: 攻撃",
+    "オーダー: 乱磁場",
+    "オーダー: 防御",
+    "オーダー: ショックウェーブ"
+   ],
+   "passive": "ぜんまい仕掛け"
+  },
+  {
+   "id": "Ornn",
+   "key": "516",
+   "name": "オーン",
+   "title": "山の下の焔",
+   "tags": [
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "溶岩隆起",
+    "ふいごの息",
+    "灼熱の突撃",
+    "鍛冶神の呼び声"
+   ],
+   "passive": "歩く鍛冶場"
+  },
+  {
+   "id": "Pantheon",
+   "key": "80",
+   "name": "パンテオン",
+   "title": "砕けぬ槍",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "彗星の槍",
+    "跳撃の盾",
+    "イージスの猛攻",
+    "偉大なる星路"
+   ],
+   "passive": "定命の意志"
+  },
+  {
+   "id": "Poppy",
+   "key": "78",
+   "name": "ポッピー",
+   "title": "大鎚の守護者",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ハンマーショック",
+    "ステッドファスト",
+    "ヒロイックチャージ",
+    "守護者の鉄鎚"
+   ],
+   "passive": "鋼鉄の大使"
+  },
+  {
+   "id": "Pyke",
+   "key": "555",
+   "name": "パイク",
+   "title": "ブラッドハーバーの殺戮鬼",
+   "tags": [
+    "Support",
+    "Assassin"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ボーンスキューア",
+    "ゴーストウォーター",
+    "亡者の引き波",
+    "水底の急襲"
+   ],
+   "passive": "沈みし者の力"
+  },
+  {
+   "id": "Qiyana",
+   "key": "246",
+   "name": "キヤナ",
+   "title": "エレメントの女帝",
+   "tags": [
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE",
+    "MIDDLE"
+   ],
+   "spells": [
+    "エレメントの怒り/イシュタルの切先",
+    "大地の力",
+    "俊烈",
+    "天賦絢爛"
+   ],
+   "passive": "女帝の威風"
+  },
+  {
+   "id": "Quinn",
+   "key": "133",
+   "name": "クイン",
+   "title": "デマーシアの両翼",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "暗闇の強襲",
+    "鷲の眼",
+    "飛翔撃",
+    "相棒"
+   ],
+   "passive": "鷲匠"
+  },
+  {
+   "id": "Rakan",
+   "key": "497",
+   "name": "ラカン",
+   "title": "魅惑の翼",
+   "tags": [
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "キラリ羽根",
+    "華麗なる登場",
+    "バトルダンス",
+    "みんなオレに夢中"
+   ],
+   "passive": "神秘の翼"
+  },
+  {
+   "id": "Rammus",
+   "key": "33",
+   "name": "ラムス",
+   "title": "アーマージロ",
+   "tags": [
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ころころ",
+    "かたくなる",
+    "ぴりぴり",
+    "どーんどーん"
+   ],
+   "passive": "トゲトゲ"
+  },
+  {
+   "id": "RekSai",
+   "key": "421",
+   "name": "レク＝サイ",
+   "title": "地底の恐怖",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "女王の怒り/獲物定め",
+    "潜伏/襲撃",
+    "激情の牙/掘削",
+    "ヴォイドラッシュ"
+   ],
+   "passive": "ゼル＝サイの怒り"
+  },
+  {
+   "id": "Rell",
+   "key": "526",
+   "name": "レル",
+   "title": "鋼鉄の乙女",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "破鋼撃",
+    "フェロマンシー: 装着",
+    "重槍突貫",
+    "磁気嵐流"
+   ],
+   "passive": "革新の鬨"
+  },
+  {
+   "id": "Renata",
+   "key": "888",
+   "name": "レナータ・グラスク",
+   "title": "ケミテック長者",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "手荒い挨拶",
+    "緊急支援",
+    "ロイヤリティープログラム",
+    "敵対的買収"
+   ],
+   "passive": "レバレッジ"
+  },
+  {
+   "id": "Renekton",
+   "key": "58",
+   "name": "レネクトン",
+   "title": "砂漠の解体屋",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ミートカット",
+    "メッタ斬り",
+    "スライス・アンド・ダイス",
+    "セベクの怒り"
+   ],
+   "passive": "激情の支配"
+  },
+  {
+   "id": "Rengar",
+   "key": "107",
+   "name": "レンガー",
+   "title": "孤高のハンター",
+   "tags": [
+    "Assassin",
+    "Fighter"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "逆上",
+    "狩りの雄叫び",
+    "鉄球の投げ縄",
+    "狩猟本能"
+   ],
+   "passive": "見えざる襲撃者"
+  },
+  {
+   "id": "Riven",
+   "key": "92",
+   "name": "リヴェン",
+   "title": "贖罪の追放者",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "折れた翼",
+    "気功破",
+    "勇躍",
+    "追放者の剣"
+   ],
+   "passive": "ルーンブレード"
+  },
+  {
+   "id": "Rumble",
+   "key": "68",
+   "name": "ランブル",
+   "title": "戦慄の機甲兵",
+   "tags": [
+    "Fighter",
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "スピットファイア",
+    "ジャンクシールド",
+    "エレクトロハープーン",
+    "イコライザー"
+   ],
+   "passive": "ポンコツタイタン"
+  },
+  {
+   "id": "Ryze",
+   "key": "13",
+   "name": "ライズ",
+   "title": "ルーンの魔導師",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "オーバーロード",
+    "ルーンプリズン",
+    "スペルフラックス",
+    "ポータルワープ"
+   ],
+   "passive": "古代の呪術"
+  },
+  {
+   "id": "Samira",
+   "key": "360",
+   "name": "サミーラ",
+   "title": "砂漠の薔薇",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "フレア",
+    "ブレードワール",
+    "ワイルドラッシュ",
+    "インフェルノトリガー"
+   ],
+   "passive": "デアデビルインパルス"
+  },
+  {
+   "id": "Sejuani",
+   "key": "113",
+   "name": "セジュアニ",
+   "title": "極北の激憤",
+   "tags": [
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "猪突凍進",
+    "氷河の怒り",
+    "永久凍土",
+    "グレイシャルプリズン"
+   ],
+   "passive": "極北の激憤"
+  },
+  {
+   "id": "Senna",
+   "key": "235",
+   "name": "セナ",
+   "title": "救済者",
+   "tags": [
+    "Support",
+    "Marksman"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ピアシングダークネス",
+    "最期の抱擁",
+    "黒き霧の呪い",
+    "ドーニングシャドウ"
+   ],
+   "passive": "魂の赦し"
+  },
+  {
+   "id": "Seraphine",
+   "key": "147",
+   "name": "セラフィーン",
+   "title": "希望のメロディー",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ハイノート",
+    "サラウンドサウンド",
+    "ビートドロップ",
+    "アンコール"
+   ],
+   "passive": "ステージプレゼンス"
+  },
+  {
+   "id": "Sett",
+   "key": "875",
+   "name": "セト",
+   "title": "ザ・ボス",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ナックルダウン",
+    "ヘイメイカー",
+    "フェイスブレイカー",
+    "ショーストッパー"
+   ],
+   "passive": "ファイティングスピリット"
+  },
+  {
+   "id": "Shaco",
+   "key": "35",
+   "name": "シャコ",
+   "title": "悪魔の道化師",
+   "tags": [
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "幻惑",
+    "びっくり箱",
+    "ポイズンダガー",
+    "ハルシネイト"
+   ],
+   "passive": "バックスタブ"
+  },
+  {
+   "id": "Shen",
+   "key": "98",
+   "name": "シェン",
+   "title": "黄昏の瞳",
+   "tags": [
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "護刃招来",
+    "防人の帳",
+    "殺気駆け",
+    "瞬身護法"
+   ],
+   "passive": "内気功"
+  },
+  {
+   "id": "Shyvana",
+   "key": "102",
+   "name": "シヴァーナ",
+   "title": "半龍人",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "エンバーストライク",
+    "インフェルノイージス",
+    "モルテンバースト",
+    "龍の降臨"
+   ],
+   "passive": "スケールメイル"
+  },
+  {
+   "id": "Singed",
+   "key": "27",
+   "name": "シンジド",
+   "title": "マッドケミスト",
+   "tags": [
+    "Tank",
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "毒の軌跡",
+    "強力粘着剤",
+    "すくい投げ",
+    "狂人のポーション"
+   ],
+   "passive": "スリップストリーム"
+  },
+  {
+   "id": "Sion",
+   "key": "14",
+   "name": "サイオン",
+   "title": "不死身の重戦車",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "破滅の斧",
+    "魂の炉心",
+    "殺意の雄叫び",
+    "猪突猛進"
+   ],
+   "passive": "名誉ある死"
+  },
+  {
+   "id": "Sivir",
+   "key": "15",
+   "name": "シヴィア",
+   "title": "戦場の女王",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ブーメランブレード",
+    "跳刃",
+    "スペルシールド",
+    "戦姫の号令"
+   ],
+   "passive": "戦駆け"
+  },
+  {
+   "id": "Skarner",
+   "key": "72",
+   "name": "スカーナー",
+   "title": "原始の守護者",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "砕けし大地/大地の怒り",
+    "激震の砦",
+    "イシュタルの衝動",
+    "インペイル"
+   ],
+   "passive": "響振動"
+  },
+  {
+   "id": "Smolder",
+   "key": "901",
+   "name": "スモルダー",
+   "title": "炎の幼龍",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "スーパーこげこげブレス",
+    "くしゅん！",
+    "パタパタパタ",
+    "ママーッ！！"
+   ],
+   "passive": "駆けだしドラゴン"
+  },
+  {
+   "id": "Sona",
+   "key": "37",
+   "name": "ソナ",
+   "title": "沈黙の弦奏師",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "ヒム・オブ・ヴァロー",
+    "パーセヴァランス",
+    "セレリティ",
+    "クレッシェンド"
+   ],
+   "passive": "パワーコード"
+  },
+  {
+   "id": "Soraka",
+   "key": "16",
+   "name": "ソラカ",
+   "title": "星の子",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "星のささやき",
+    "星霊の癒し",
+    "星の静寂",
+    "星に願いを"
+   ],
+   "passive": "救済の足音"
+  },
+  {
+   "id": "Swain",
+   "key": "50",
+   "name": "スウェイン",
+   "title": "ノクサス帝国元帥",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "死の手",
+    "帝国の眼",
+    "束縛の爪",
+    "魔帝戴冠"
+   ],
+   "passive": "恐襲の魔鴉"
+  },
+  {
+   "id": "Sylas",
+   "key": "517",
+   "name": "サイラス",
+   "title": "解き放たれし者",
+   "tags": [
+    "Mage",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE",
+    "MIDDLE"
+   ],
+   "spells": [
+    "鎖の鞭",
+    "王殺し",
+    "逃亡/拉致",
+    "乗っ取り"
+   ],
+   "passive": "ペトリサイトバースト"
+  },
+  {
+   "id": "Syndra",
+   "key": "134",
+   "name": "シンドラ",
+   "title": "暗黒の女王",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ダークスフィア",
+    "ダークフォース",
+    "闇の波導",
+    "魔力の奔流"
+   ],
+   "passive": "絶大なる魔力"
+  },
+  {
+   "id": "TahmKench",
+   "key": "223",
+   "name": "タム・ケンチ",
+   "title": "川の王様",
+   "tags": [
+    "Tank",
+    "Support"
+   ],
+   "positions": [
+    "TOP",
+    "UTILITY"
+   ],
+   "spells": [
+    "味見",
+    "川潜り",
+    "ゆるゆる皮膜",
+    "丸呑み"
+   ],
+   "passive": "舌慣らし"
+  },
+  {
+   "id": "Taliyah",
+   "key": "163",
+   "name": "タリヤ",
+   "title": "ストーンウィーバー",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "スレッドボレー",
+    "サイズミックシャーブ",
+    "アンレイベルアース",
+    "ウィーバーウォール"
+   ],
+   "passive": "ロックサーフィン"
+  },
+  {
+   "id": "Talon",
+   "key": "91",
+   "name": "タロン",
+   "title": "将軍の懐刀",
+   "tags": [
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "ノクサスの刃",
+    "飛燕手裏剣",
+    "暗殺者の跳躍",
+    "シャドウアサルト"
+   ],
+   "passive": "血塗られし慈悲"
+  },
+  {
+   "id": "Taric",
+   "key": "44",
+   "name": "タリック",
+   "title": "ヴァロランの守護者",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "スターライトタッチ",
+    "バスティオン",
+    "ダズル",
+    "コズミックレディアンス"
+   ],
+   "passive": "ブラバド"
+  },
+  {
+   "id": "Teemo",
+   "key": "17",
+   "name": "ティーモ",
+   "title": "俊足の斥候",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "目つぶしダーツ",
+    "駆け足！",
+    "毒たっぷり吹き矢",
+    "毒キノコ"
+   ],
+   "passive": "やぶからヨードル"
+  },
+  {
+   "id": "Thresh",
+   "key": "412",
+   "name": "スレッシュ",
+   "title": "縛鎖の看守",
+   "tags": [
+    "Support",
+    "Tank"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "死の宣告",
+    "嘆きの魂灯",
+    "絶望の鎖",
+    "魂の牢獄"
+   ],
+   "passive": "魂の束縛"
+  },
+  {
+   "id": "Tristana",
+   "key": "18",
+   "name": "トリスターナ",
+   "title": "ヨードルの主砲",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ラピッドファイア",
+    "ロケットジャンプ",
+    "ヨードルグレネード",
+    "バスターショット"
+   ],
+   "passive": "ドロー＆グロー"
+  },
+  {
+   "id": "Trundle",
+   "key": "48",
+   "name": "トランドル",
+   "title": "トロールキング",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "咬み付き",
+    "凍てつく大地",
+    "氷冷の柱",
+    "暴虐なる搾取"
+   ],
+   "passive": "王への貢物"
+  },
+  {
+   "id": "Tryndamere",
+   "key": "23",
+   "name": "トリンダメア",
+   "title": "孤高の蛮王",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "血の欲望",
+    "嘲りの叫び",
+    "スピンスラッシュ",
+    "不死の憤激"
+   ],
+   "passive": "戦場の咆哮"
+  },
+  {
+   "id": "TwistedFate",
+   "key": "4",
+   "name": "ツイステッド・フェイト",
+   "title": "不敗のイカサマ師",
+   "tags": [
+    "Mage",
+    "Marksman"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "ワイルドカード",
+    "ドロー",
+    "スタックデッキ",
+    "デスティニー"
+   ],
+   "passive": "イカサマダイス"
+  },
+  {
+   "id": "Twitch",
+   "key": "29",
+   "name": "トゥイッチ",
+   "title": "黒死のドブネズミ",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "オイラだヨ！",
+    "コイツを食らエ！",
+    "ボーン！",
+    "ヒャッハー！"
+   ],
+   "passive": "スゴイ毒ダ！"
+  },
+  {
+   "id": "Udyr",
+   "key": "77",
+   "name": "ウディア",
+   "title": "精霊と歩む者",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "野性の爪",
+    "鉄の外皮",
+    "焔の猛進",
+    "氷翼の嵐"
+   ],
+   "passive": "精霊の繋ぎ手"
+  },
+  {
+   "id": "Urgot",
+   "key": "6",
+   "name": "アーゴット",
+   "title": "ドレッドノート",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "コラプトシェル",
+    "パージ",
+    "ディスデイン",
+    "デスグラインダー"
+   ],
+   "passive": "エコーフレイム"
+  },
+  {
+   "id": "Varus",
+   "key": "110",
+   "name": "ヴァルス",
+   "title": "報復の一矢",
+   "tags": [
+    "Marksman",
+    "Mage"
+   ],
+   "positions": [
+    "TOP",
+    "BOTTOM"
+   ],
+   "spells": [
+    "乾坤一擲",
+    "枯死の矢筒",
+    "滅びの矢雨",
+    "穢れの連鎖"
+   ],
+   "passive": "復讐の化身"
+  },
+  {
+   "id": "Vayne",
+   "key": "67",
+   "name": "ヴェイン",
+   "title": "ナイトハンター",
+   "tags": [
+    "Marksman",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP",
+    "BOTTOM"
+   ],
+   "spells": [
+    "タンブル",
+    "シルバーボルト",
+    "パニッシュメント",
+    "ファイナルアワー"
+   ],
+   "passive": "ナイトハンター"
+  },
+  {
+   "id": "Veigar",
+   "key": "45",
+   "name": "ベイガー",
+   "title": "小さき大魔王",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "イーヴィルストライク",
+    "ダークマター",
+    "イベントホライズン",
+    "メテオバースト"
+   ],
+   "passive": "偉大なる悪の力"
+  },
+  {
+   "id": "Velkoz",
+   "key": "161",
+   "name": "ヴェル＝コズ",
+   "title": "ヴォイドの瞳",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "電離炸裂弾",
+    "ヴォイドの裂谷",
+    "地殻砕裂",
+    "生体破壊光線"
+   ],
+   "passive": "有機分解"
+  },
+  {
+   "id": "Vex",
+   "key": "711",
+   "name": "ヴェックス",
+   "title": "終わりなき憂鬱",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "無気力ショット",
+    "パーソナルスペース",
+    "ヤミとばし",
+    "影法師"
+   ],
+   "passive": "フコウとユーウツ"
+  },
+  {
+   "id": "Vi",
+   "key": "254",
+   "name": "ヴァイ",
+   "title": "ピルトーヴァーの用心棒",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "真っすぐいってぶっとばす",
+    "メッタ打ち",
+    "無慈悲な連撃",
+    "突入捜査"
+   ],
+   "passive": "ケンカの作法"
+  },
+  {
+   "id": "Viego",
+   "key": "234",
+   "name": "ヴィエゴ",
+   "title": "滅びの王",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "滅びの王剣",
+    "亡霊の嘆き",
+    "彷徨える苦悶",
+    "ハートブレイカー"
+   ],
+   "passive": "王の支配"
+  },
+  {
+   "id": "Viktor",
+   "key": "112",
+   "name": "ビクター",
+   "title": "アーケインの先触れ",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "パワーブラスト",
+    "グラビティフィールド",
+    "ヘクステック レイ",
+    "アーケインストーム"
+   ],
+   "passive": "グロリアス・エヴォリューション"
+  },
+  {
+   "id": "Vladimir",
+   "key": "8",
+   "name": "ブラッドミア",
+   "title": "真紅の死神",
+   "tags": [
+    "Mage",
+    "Fighter"
+   ],
+   "positions": [
+    "TOP",
+    "MIDDLE"
+   ],
+   "spells": [
+    "吸血",
+    "紅血の沼",
+    "血液奔流",
+    "呪血の渦"
+   ],
+   "passive": "真紅の盟約"
+  },
+  {
+   "id": "Volibear",
+   "key": "106",
+   "name": "ボリベア",
+   "title": "無慈悲の嵐",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP",
+    "JUNGLE"
+   ],
+   "spells": [
+    "稲妻の猛攻",
+    "激昂の斬撃",
+    "天破の一撃",
+    "嵐を起こす者"
+   ],
+   "passive": "無慈悲の嵐"
+  },
+  {
+   "id": "Warwick",
+   "key": "19",
+   "name": "ワーウィック",
+   "title": "解き放たれたゾウンの激憤",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "野獣の牙",
+    "血の追跡",
+    "怒りの咆哮",
+    "絶狼牙連撃"
+   ],
+   "passive": "永遠の渇き"
+  },
+  {
+   "id": "Xayah",
+   "key": "498",
+   "name": "ザヤ",
+   "title": "反逆の刃",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "ダブルダガー",
+    "デッドリープルーム",
+    "ブレードコーラー",
+    "フェザーストーム"
+   ],
+   "passive": "クリーンカット"
+  },
+  {
+   "id": "Xerath",
+   "key": "101",
+   "name": "ゼラス",
+   "title": "超越魔神",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "MIDDLE",
+    "UTILITY"
+   ],
+   "spells": [
+    "アルカノパルス",
+    "デストラクションアイ",
+    "ショックオーブ",
+    "アーケーンライト"
+   ],
+   "passive": "マナサージ"
+  },
+  {
+   "id": "XinZhao",
+   "key": "5",
+   "name": "シン・ジャオ",
+   "title": "デマーシアの家令長",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "三槍撃",
+    "風成雷鳴",
+    "兵貴神速",
+    "三日月槍守"
+   ],
+   "passive": "不退転"
+  },
+  {
+   "id": "Yasuo",
+   "key": "157",
+   "name": "ヤスオ",
+   "title": "赦されざる者",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP",
+    "MIDDLE"
+   ],
+   "spells": [
+    "抜刀",
+    "風殺の壁",
+    "風薙ぎ",
+    "鬼哭啾々"
+   ],
+   "passive": "浪人道"
+  },
+  {
+   "id": "Yone",
+   "key": "777",
+   "name": "ヨネ",
+   "title": "忘られざる者",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP",
+    "MIDDLE"
+   ],
+   "spells": [
+    "斬命刀",
+    "霊断刀",
+    "縛魂の解放",
+    "冥封一閃"
+   ],
+   "passive": "狩鬼道"
+  },
+  {
+   "id": "Yorick",
+   "key": "83",
+   "name": "ヨリック",
+   "title": "魂の導き手",
+   "tags": [
+    "Fighter",
+    "Tank"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "葬送",
+    "屍の列",
+    "悲嘆の霧",
+    "嘆きの墓標"
+   ],
+   "passive": "魂の導き手"
+  },
+  {
+   "id": "Yunara",
+   "key": "804",
+   "name": "ユナラ",
+   "title": "揺るがぬ誓い",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "精神修養",
+    "裁きの弧/滅びの弧",
+    "カンメイの歩み/触れ得ぬ影",
+    "自己超越"
+   ],
+   "passive": "始まりの地への誓い"
+  },
+  {
+   "id": "Yuumi",
+   "key": "350",
+   "name": "ユーミ",
+   "title": "マジカルキャット",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "きまぐれミサイル",
+    "ユー＆ミー！",
+    "バビューン！",
+    "ファイナルチャプター"
+   ],
+   "passive": "ネコはトモダチ"
+  },
+  {
+   "id": "Zaahen",
+   "key": "904",
+   "name": "ザーヘン",
+   "title": "沈まぬ者",
+   "tags": [
+    "Fighter",
+    "Assassin"
+   ],
+   "positions": [
+    "TOP"
+   ],
+   "spells": [
+    "ダーキングレイヴ",
+    "戦慄の再臨",
+    "絢爛たる進撃",
+    "無慈悲なる裁き"
+   ],
+   "passive": "戦威修養"
+  },
+  {
+   "id": "Zac",
+   "key": "154",
+   "name": "ザック",
+   "title": "親愛なる秘密兵器",
+   "tags": [
+    "Tank",
+    "Fighter"
+   ],
+   "positions": [
+    "JUNGLE"
+   ],
+   "spells": [
+    "スライムパンチ",
+    "スライムクラッシュ",
+    "ブッ飛びスライム",
+    "レッツバウンス！"
+   ],
+   "passive": "はぐれスライム"
+  },
+  {
+   "id": "Zed",
+   "key": "238",
+   "name": "ゼド",
+   "title": "影の頭領",
+   "tags": [
+    "Assassin"
+   ],
+   "positions": [
+    "JUNGLE",
+    "MIDDLE"
+   ],
+   "spells": [
+    "風魔手裏剣",
+    "影分身",
+    "影薙ぎ",
+    "死の刻印"
+   ],
+   "passive": "弱者必衰"
+  },
+  {
+   "id": "Zeri",
+   "key": "221",
+   "name": "ゼリ",
+   "title": "ゾウンの火花",
+   "tags": [
+    "Marksman"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "バーストファイア",
+    "ウルトラショックレーザー",
+    "スパークサージ",
+    "ライトニングクラッシュ"
+   ],
+   "passive": "生体バッテリー"
+  },
+  {
+   "id": "Ziggs",
+   "key": "115",
+   "name": "ジグス",
+   "title": "ヘクス爆薬のエキスパート",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "BOTTOM"
+   ],
+   "spells": [
+    "バウンドボム",
+    "エンジニアボム",
+    "ヘクステックマイン",
+    "メガインフェルノボム"
+   ],
+   "passive": "ショートヒューズ"
+  },
+  {
+   "id": "Zilean",
+   "key": "26",
+   "name": "ジリアン",
+   "title": "時の番人",
+   "tags": [
+    "Support",
+    "Mage"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "タイムボム",
+    "リワインド",
+    "タイムワープ",
+    "クロノシフト"
+   ],
+   "passive": "タイムインボトル"
+  },
+  {
+   "id": "Zoe",
+   "key": "142",
+   "name": "ゾーイ",
+   "title": "超常の遊び",
+   "tags": [
+    "Mage"
+   ],
+   "positions": [
+    "MIDDLE"
+   ],
+   "spells": [
+    "パドルスター",
+    "スペルシーフ",
+    "スリープバブル",
+    "ポータルジャンプ"
+   ],
+   "passive": "スパークル！"
+  },
+  {
+   "id": "Zyra",
+   "key": "143",
+   "name": "ザイラ",
+   "title": "茨の目覚め",
+   "tags": [
+    "Mage",
+    "Support"
+   ],
+   "positions": [
+    "UTILITY"
+   ],
+   "spells": [
+    "死華の棘",
+    "狂い咲き",
+    "捕縛の根",
+    "茨のゆりかご"
+   ],
+   "passive": "茨の楽園"
+  }
+ ],
+ "items": [
+  {
+   "id": "1001",
+   "name": "ブーツ",
+   "plaintext": "移動速度がわずかに上昇",
+   "price": 300,
+   "tags": [
+    "Boots"
+   ]
+  },
+  {
+   "id": "1004",
+   "name": "フェアリー チャーム",
+   "plaintext": "マナ自動回復がわずかに上昇",
+   "price": 200,
+   "tags": [
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "1006",
+   "name": "再生の珠",
+   "plaintext": "体力自動回復がわずかに上昇",
+   "price": 300,
+   "tags": [
+    "HealthRegen"
+   ]
+  },
+  {
+   "id": "1011",
+   "name": "ジャイアント ベルト",
+   "plaintext": "体力が大幅に上昇",
+   "price": 900,
+   "tags": [
+    "Health"
+   ]
+  },
+  {
+   "id": "1018",
+   "name": "アジリティ クローク",
+   "plaintext": "クリティカル率がやや上昇",
+   "price": 600,
+   "tags": [
+    "CriticalStrike"
+   ]
+  },
+  {
+   "id": "1026",
+   "name": "ブラスティング ワンド",
+   "plaintext": "魔力がやや上昇",
+   "price": 850,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "1027",
+   "name": "サファイア クリスタル",
+   "plaintext": "マナが上昇",
+   "price": 300,
+   "tags": [
+    "Mana"
+   ]
+  },
+  {
+   "id": "1028",
+   "name": "ルビー クリスタル",
+   "plaintext": "体力が上昇",
+   "price": 400,
+   "tags": [
+    "Health"
+   ]
+  },
+  {
+   "id": "1029",
+   "name": "クロース アーマー",
+   "plaintext": "物理防御がわずかに上昇",
+   "price": 300,
+   "tags": [
+    "Armor"
+   ]
+  },
+  {
+   "id": "1031",
+   "name": "チェイン ベスト",
+   "plaintext": "物理防御が大幅に上昇",
+   "price": 800,
+   "tags": [
+    "Armor"
+   ]
+  },
+  {
+   "id": "1033",
+   "name": "ヌルマジック マント",
+   "plaintext": "魔法防御がわずかに上昇",
+   "price": 400,
+   "tags": [
+    "SpellBlock"
+   ]
+  },
+  {
+   "id": "1036",
+   "name": "ロング ソード",
+   "plaintext": "攻撃力がわずかに上昇",
+   "price": 350,
+   "tags": [
+    "Damage",
+    "Lane"
+   ]
+  },
+  {
+   "id": "1037",
+   "name": "ピッケル",
+   "plaintext": "攻撃力がやや上昇",
+   "price": 875,
+   "tags": [
+    "Damage"
+   ]
+  },
+  {
+   "id": "1038",
+   "name": "B. F. ソード",
+   "plaintext": "攻撃力が大幅に上昇",
+   "price": 1300,
+   "tags": [
+    "Damage"
+   ]
+  },
+  {
+   "id": "1042",
+   "name": "ダガー",
+   "plaintext": "攻撃速度がわずかに上昇",
+   "price": 250,
+   "tags": [
+    "AttackSpeed"
+   ]
+  },
+  {
+   "id": "1043",
+   "name": "リカーブ ボウ",
+   "plaintext": "攻撃速度が大幅に上昇",
+   "price": 700,
+   "tags": [
+    "AttackSpeed",
+    "OnHit"
+   ]
+  },
+  {
+   "id": "1052",
+   "name": "増魔の書",
+   "plaintext": "魔力がわずかに上昇",
+   "price": 400,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "1053",
+   "name": "ヴァンパイア セプター",
+   "plaintext": "通常攻撃で体力回復",
+   "price": 900,
+   "tags": [
+    "Damage",
+    "LifeSteal"
+   ]
+  },
+  {
+   "id": "1054",
+   "name": "ドラン シールド",
+   "plaintext": "防御強化向けの初期アイテム",
+   "price": 450,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "Lane"
+   ]
+  },
+  {
+   "id": "1055",
+   "name": "ドラン ブレード",
+   "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
+   "price": 450,
+   "tags": [
+    "Health",
+    "Damage",
+    "LifeSteal",
+    "SpellVamp",
+    "Lane"
+   ]
+  },
+  {
+   "id": "1056",
+   "name": "ドラン リング",
+   "plaintext": "魔法攻撃系チャンピオン向けの初期アイテム",
+   "price": 400,
+   "tags": [
+    "Health",
+    "Lane",
+    "ManaRegen",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "1057",
+   "name": "ネガトロン クローク",
+   "plaintext": "魔法防御がやや上昇",
+   "price": 850,
+   "tags": [
+    "SpellBlock"
+   ]
+  },
+  {
+   "id": "1058",
+   "name": "ムダニ デカイ ロッド",
+   "plaintext": "魔力が大幅に上昇",
+   "price": 1200,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "1082",
+   "name": "ダーク シール",
+   "plaintext": "魔力とマナを付与。敵をキルするごとに得られる魔力が上昇する。",
+   "price": 350,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Lane"
+   ]
+  },
+  {
+   "id": "1083",
+   "name": "カル",
+   "plaintext": "命中時にダメージとライフ スティールを付与。ミニオンをキルするとゴールドボーナスを獲得。",
+   "price": 450,
+   "tags": [
+    "Damage",
+    "OnHit",
+    "Lane"
+   ]
+  },
+  {
+   "id": "1086",
+   "name": "ドラン ボウ",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "SpellVamp",
+    "Lane"
+   ]
+  },
+  {
+   "id": "1101",
+   "name": "スコーチクロウの幼体",
+   "plaintext": "",
+   "price": 450,
+   "tags": [
+    "Jungle"
+   ]
+  },
+  {
+   "id": "1102",
+   "name": "ガストウォーカーの幼体",
+   "plaintext": "",
+   "price": 450,
+   "tags": [
+    "Jungle"
+   ]
+  },
+  {
+   "id": "1103",
+   "name": "モスストンパーの幼体",
+   "plaintext": "",
+   "price": 450,
+   "tags": [
+    "Jungle"
+   ]
+  },
+  {
+   "id": "1120",
+   "name": "ドラン ヘルム",
+   "plaintext": "",
+   "price": 450,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "Armor",
+    "Lane"
+   ]
+  },
+  {
+   "id": "2003",
+   "name": "体力ポーション",
+   "plaintext": "消費して一定時間をかけて体力を回復",
+   "price": 50,
+   "tags": [
+    "HealthRegen",
+    "Consumable",
+    "Lane",
+    "Jungle"
+   ]
+  },
+  {
+   "id": "2019",
+   "name": "スチール シジル",
+   "plaintext": "",
+   "price": 1100,
+   "tags": [
+    "Armor",
+    "Damage"
+   ]
+  },
+  {
+   "id": "2020",
+   "name": "ブルータライザー",
+   "plaintext": "",
+   "price": 1337,
+   "tags": [
+    "Damage",
+    "CooldownReduction",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "2021",
+   "name": "トンネル掘り",
+   "plaintext": "",
+   "price": 1150,
+   "tags": [
+    "Health",
+    "Damage"
+   ]
+  },
+  {
+   "id": "2022",
+   "name": "輝きのモート",
+   "plaintext": "",
+   "price": 250,
+   "tags": [
+    "CooldownReduction"
+   ]
+  },
+  {
+   "id": "2031",
+   "name": "詰め替えポーション",
+   "plaintext": "一定時間をかけて体力を回復。ショップで補充できる。",
+   "price": 150,
+   "tags": [
+    "HealthRegen",
+    "Consumable",
+    "Active",
+    "Lane",
+    "Jungle"
+   ]
+  },
+  {
+   "id": "2051",
+   "name": "ガーディアン ホーン",
+   "plaintext": "タンク系チャンピオン向けの初期アイテム",
+   "price": 950,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "Lane"
+   ]
+  },
+  {
+   "id": "2055",
+   "name": "コントロール ワード",
+   "plaintext": "一定範囲内のワードや見えない罠を無効化するのに使用",
+   "price": 75,
+   "tags": [
+    "Consumable",
+    "Lane",
+    "Stealth",
+    "Vision"
+   ]
+  },
+  {
+   "id": "2065",
+   "name": "シュレリアの戦歌",
+   "plaintext": "発動すると周囲の味方の速度が上昇する",
+   "price": 2200,
+   "tags": [
+    "SpellDamage",
+    "ManaRegen",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2138",
+   "name": "アイアン エリクサー",
+   "plaintext": "一時的に防御が上昇する。通過した道に続く味方を強化する。",
+   "price": 500,
+   "tags": [
+    "Health",
+    "Consumable",
+    "NonbootsMovement",
+    "Tenacity"
+   ]
+  },
+  {
+   "id": "2139",
+   "name": "ソーサリー エリクサー",
+   "plaintext": "魔力およびチャンピオンとタワーへの追加ダメージを一時的に上昇させる。",
+   "price": 500,
+   "tags": [
+    "Consumable",
+    "ManaRegen",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "2140",
+   "name": "ラース エリクサー",
+   "plaintext": "一時的に攻撃力が上昇し、チャンピオンに物理ダメージを与えると自身を回復する",
+   "price": 500,
+   "tags": [
+    "Consumable",
+    "Damage",
+    "LifeSteal",
+    "SpellVamp"
+   ]
+  },
+  {
+   "id": "2141",
+   "name": "帽子ジュース",
+   "plaintext": "",
+   "price": 300,
+   "tags": [
+    "Damage",
+    "Consumable"
+   ]
+  },
+  {
+   "id": "2420",
+   "name": "シーカー アームガード",
+   "plaintext": "発動ですべての行動が不可になるが、一定時間無敵になる",
+   "price": 1600,
+   "tags": [
+    "Armor",
+    "SpellDamage",
+    "Active"
+   ]
+  },
+  {
+   "id": "2501",
+   "name": "覇王のブラッドメイル",
+   "plaintext": "",
+   "price": 3300,
+   "tags": [
+    "Health",
+    "Damage"
+   ]
+  },
+  {
+   "id": "2502",
+   "name": "終わりなき絶望",
+   "plaintext": "",
+   "price": 2800,
+   "tags": [
+    "Health",
+    "Armor",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2503",
+   "name": "黒炎のトーチ",
+   "plaintext": "",
+   "price": 2800,
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2504",
+   "name": "ケイニック ルーケルン",
+   "plaintext": "",
+   "price": 2900,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "HealthRegen"
+   ]
+  },
+  {
+   "id": "2508",
+   "name": "運命の灰",
+   "plaintext": "",
+   "price": 900,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "2510",
+   "name": "黄昏と暁",
+   "plaintext": "",
+   "price": 3100,
+   "tags": [
+    "Health",
+    "AttackSpeed",
+    "SpellDamage",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2512",
+   "name": "フィーンドハンターの矢",
+   "plaintext": "",
+   "price": 2650,
+   "tags": [
+    "CriticalStrike",
+    "AttackSpeed",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2517",
+   "name": "終わりなき飢え",
+   "plaintext": "",
+   "price": 3100,
+   "tags": [
+    "Damage",
+    "LifeSteal",
+    "SpellVamp",
+    "Tenacity",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2520",
+   "name": "バスティオンブレイカー",
+   "plaintext": "",
+   "price": 3200,
+   "tags": [
+    "Damage",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2522",
+   "name": "アクチュアライザー",
+   "plaintext": "",
+   "price": 2800,
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2523",
+   "name": "ヘクスオプティックC44",
+   "plaintext": "",
+   "price": 2800,
+   "tags": [
+    "Damage",
+    "CriticalStrike"
+   ]
+  },
+  {
+   "id": "2524",
+   "name": "バンドルパイプ",
+   "plaintext": "",
+   "price": 2300,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "Armor",
+    "AttackSpeed",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2525",
+   "name": "プロトプラズム ハーネス",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "NonbootsMovement",
+    "Tenacity",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "2526",
+   "name": "囁きのサークレット",
+   "plaintext": "",
+   "price": 2250,
+   "tags": [
+    "Health",
+    "Mana",
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "3003",
+   "name": "アークエンジェル スタッフ",
+   "plaintext": "最大マナを基に魔力が上昇",
+   "price": 2900,
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3004",
+   "name": "マナムネ",
+   "plaintext": "最大マナを基に攻撃力が上昇",
+   "price": 2900,
+   "tags": [
+    "Damage",
+    "Mana",
+    "CooldownReduction",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3006",
+   "name": "バーサーカー ブーツ",
+   "plaintext": "移動速度と攻撃速度が上昇",
+   "price": 1100,
+   "tags": [
+    "AttackSpeed",
+    "Boots"
+   ]
+  },
+  {
+   "id": "3008",
+   "name": "グラトナス ブーツ",
+   "plaintext": "最大マナを基に攻撃力が上昇",
+   "price": 1000,
+   "tags": [
+    "LifeSteal",
+    "SpellVamp",
+    "Boots"
+   ]
+  },
+  {
+   "id": "3009",
+   "name": "スイフトネス ブーツ",
+   "plaintext": "移動速度が上昇し、スロウ効果が減少",
+   "price": 1000,
+   "tags": [
+    "Boots"
+   ]
+  },
+  {
+   "id": "3020",
+   "name": "ソーサラー シューズ",
+   "plaintext": "移動速度と魔法ダメージが上昇",
+   "price": 1100,
+   "tags": [
+    "Boots",
+    "MagicPenetration"
+   ]
+  },
+  {
+   "id": "3024",
+   "name": "グレイシャル バックラー",
+   "plaintext": "物理防御が上昇し、クールダウンを短縮",
+   "price": 900,
+   "tags": [
+    "Armor",
+    "Mana",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3026",
+   "name": "ガーディアン エンジェル",
+   "plaintext": "一定時間ごとに、チャンピオンを死亡時に復活させる",
+   "price": 3200,
+   "tags": [
+    "Armor",
+    "Damage"
+   ]
+  },
+  {
+   "id": "3031",
+   "name": "インフィニティ エッジ",
+   "plaintext": "クリティカルが大きく強化",
+   "price": 3500,
+   "tags": [
+    "CriticalStrike",
+    "Damage"
+   ]
+  },
+  {
+   "id": "3032",
+   "name": "ユン・タル ワイルドアロー",
+   "plaintext": "",
+   "price": 3100,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "AttackSpeed"
+   ]
+  },
+  {
+   "id": "3033",
+   "name": "モータル リマインダー",
+   "plaintext": "体力回復と物理防御の高い敵を打倒する",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "3035",
+   "name": "ラスト ウィスパー",
+   "plaintext": "物理防御の高い敵を打倒する",
+   "price": 1450,
+   "tags": [
+    "ArmorPenetration",
+    "Damage"
+   ]
+  },
+  {
+   "id": "3036",
+   "name": "ドミニク リガード",
+   "plaintext": "体力と物理防御の高い敵を打倒する",
+   "price": 3300,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "3041",
+   "name": "メジャイ ソウルスティーラー",
+   "plaintext": "キル、アシストごとに魔力を付与",
+   "price": 1500,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3044",
+   "name": "ファージ",
+   "plaintext": "攻撃およびキルで小規模の移動速度増加を得る",
+   "price": 1100,
+   "tags": [
+    "Health",
+    "Damage",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3046",
+   "name": "ファントム ダンサー",
+   "plaintext": "敵を攻撃すると移動速度が上昇し、体力が低い場合にシールドを発生させる",
+   "price": 2650,
+   "tags": [
+    "CriticalStrike",
+    "AttackSpeed",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3047",
+   "name": "プレート スチールキャップ",
+   "plaintext": "移動速度が上昇し、通常攻撃によって受けるダメージが軽減",
+   "price": 1200,
+   "tags": [
+    "Armor",
+    "Boots"
+   ]
+  },
+  {
+   "id": "3050",
+   "name": "ジーク コンバージェンス",
+   "plaintext": "アルティメットスキル使用時に自身と味方に追加効果を付与",
+   "price": 2200,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "Armor",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3051",
+   "name": "ハースバウンド アックス",
+   "plaintext": "",
+   "price": 1200,
+   "tags": [
+    "Damage",
+    "AttackSpeed"
+   ]
+  },
+  {
+   "id": "3053",
+   "name": "ステラックの篭手",
+   "plaintext": "大ダメージから身を守る",
+   "price": 3200,
+   "tags": [
+    "Health",
+    "Damage",
+    "Tenacity"
+   ]
+  },
+  {
+   "id": "3057",
+   "name": "シーン",
+   "plaintext": "スキル使用後の次の攻撃に追加ダメージ付与",
+   "price": 900,
+   "tags": [
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3065",
+   "name": "スピリット ビサージュ",
+   "plaintext": "体力とすべての回復効果が増加",
+   "price": 2700,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "HealthRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3066",
+   "name": "翼のムーンプレート",
+   "plaintext": "",
+   "price": 800,
+   "tags": [
+    "Health",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3067",
+   "name": "キンドルジェム",
+   "plaintext": "体力が上昇し、クールダウンを短縮",
+   "price": 800,
+   "tags": [
+    "Health",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3068",
+   "name": "サンファイア イージス",
+   "plaintext": "物理防御が大幅に増加。周囲の敵に常にダメージを与える。敵に移動不能効果を与えると、波状の炎を放ってダメージを与える。",
+   "price": 2700,
+   "tags": [
+    "Health",
+    "Armor",
+    "Aura",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3070",
+   "name": "女神の涙",
+   "plaintext": "マナ消費時に最大マナが上昇",
+   "price": 400,
+   "tags": [
+    "Mana",
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "3071",
+   "name": "ブラック クリーバー",
+   "plaintext": "敵チャンピオンに物理ダメージを与えると、その対象の物理防御が低下",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "Damage",
+    "CooldownReduction",
+    "OnHit",
+    "NonbootsMovement",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3072",
+   "name": "ブラッドサースター",
+   "plaintext": "攻撃力、ライフ スティールが上昇。ライフ スティールで最大体力を超えて回復が可能。",
+   "price": 3400,
+   "tags": [
+    "Damage",
+    "LifeSteal"
+   ]
+  },
+  {
+   "id": "3073",
+   "name": "実験的ヘクスプレート",
+   "plaintext": "マナ消費時に最大マナが上昇",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "Damage",
+    "AttackSpeed",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3074",
+   "name": "ラヴァナス ハイドラ",
+   "plaintext": "近接攻撃で周囲の敵にダメージを与え、体力が回復",
+   "price": 3300,
+   "tags": [
+    "Damage",
+    "LifeSteal",
+    "CooldownReduction",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3075",
+   "name": "ソーンメイル",
+   "plaintext": "",
+   "price": 2450,
+   "tags": [
+    "Health",
+    "Armor"
+   ]
+  },
+  {
+   "id": "3076",
+   "name": "ブランブル ベスト",
+   "plaintext": "",
+   "price": 800,
+   "tags": [
+    "Armor"
+   ]
+  },
+  {
+   "id": "3077",
+   "name": "ティアマット",
+   "plaintext": "近接攻撃が周囲の敵にダメージを与える",
+   "price": 1200,
+   "tags": [
+    "Damage",
+    "OnHit"
+   ]
+  },
+  {
+   "id": "3078",
+   "name": "トリニティ フォース",
+   "plaintext": "圧倒的ダメージ",
+   "price": 3333,
+   "tags": [
+    "Health",
+    "Damage",
+    "AttackSpeed",
+    "CooldownReduction",
+    "OnHit",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3082",
+   "name": "ワーデン メイル",
+   "plaintext": "",
+   "price": 1000,
+   "tags": [
+    "Armor"
+   ]
+  },
+  {
+   "id": "3083",
+   "name": "ワーモグ アーマー",
+   "plaintext": "大量の体力と体力自動回復を付与",
+   "price": 3100,
+   "tags": [
+    "Health",
+    "HealthRegen"
+   ]
+  },
+  {
+   "id": "3084",
+   "name": "心の鋼",
+   "plaintext": "キルまたはアシスト時に体力を回復",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "HealthRegen"
+   ]
+  },
+  {
+   "id": "3085",
+   "name": "ルナーン ハリケーン",
+   "plaintext": "遠隔の通常攻撃で周辺の敵に対し2本の矢を射出",
+   "price": 2650,
+   "tags": [
+    "CriticalStrike",
+    "AttackSpeed",
+    "OnHit",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3086",
+   "name": "ジール",
+   "plaintext": "クリティカル率、移動速度、攻撃速度にわずかなボーナス付与",
+   "price": 1200,
+   "tags": [
+    "CriticalStrike",
+    "AttackSpeed",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3087",
+   "name": "スタティック シヴ",
+   "plaintext": "移動によってチャージし、通常攻撃でチャージした雷撃を放つ",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "SpellDamage",
+    "OnHit",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3089",
+   "name": "ラバドン デスキャップ",
+   "plaintext": "魔力が大きく上昇",
+   "price": 3500,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "3091",
+   "name": "ウィッツ エンド",
+   "plaintext": "魔法ダメージから身を守り、死の淵から生還させる",
+   "price": 2800,
+   "tags": [
+    "SpellBlock",
+    "AttackSpeed",
+    "OnHit",
+    "Tenacity"
+   ]
+  },
+  {
+   "id": "3094",
+   "name": "ラピッド ファイアキャノン",
+   "plaintext": "移動によってチャージが溜まり、解放時に砲撃を放つ",
+   "price": 2650,
+   "tags": [
+    "CriticalStrike",
+    "AttackSpeed",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3097",
+   "name": "ストームレイザー",
+   "plaintext": "敵ミニオンをキルした際、一定時間ごとに付近の味方も回復されゴールドを獲得する",
+   "price": 3200,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "AttackSpeed",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3100",
+   "name": "リッチ ベイン",
+   "plaintext": "スキル使用後の次の攻撃に追加ダメージ付与",
+   "price": 2900,
+   "tags": [
+    "SpellDamage",
+    "OnHit",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3102",
+   "name": "バンシー ヴェール",
+   "plaintext": "一定時間ごとに敵のスキルを無効化する",
+   "price": 3000,
+   "tags": [
+    "SpellBlock",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "3107",
+   "name": "リデンプション",
+   "plaintext": "発動で範囲内の味方を回復して敵にダメージを与える",
+   "price": 2300,
+   "tags": [
+    "SpellDamage",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3108",
+   "name": "フィンディッシュの古書",
+   "plaintext": "魔力が上昇し、クールダウンを短縮",
+   "price": 850,
+   "tags": [
+    "SpellDamage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3109",
+   "name": "騎士の誓い",
+   "plaintext": "1人の味方とパートナーになってお互いを守る",
+   "price": 2300,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "Armor",
+    "Aura",
+    "Active",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3110",
+   "name": "フローズン ハート",
+   "plaintext": "物理防御がかなり上昇し、敵の攻撃速度を低下させる",
+   "price": 2500,
+   "tags": [
+    "Armor",
+    "Mana",
+    "Aura",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3111",
+   "name": "マーキュリー ブーツ",
+   "plaintext": "移動速度が上昇し、行動阻害の効果時間を短縮",
+   "price": 1250,
+   "tags": [
+    "Boots",
+    "SpellBlock",
+    "Tenacity"
+   ]
+  },
+  {
+   "id": "3112",
+   "name": "ガーディアン オーブ",
+   "plaintext": "メイジ系チャンピオン向けの初期アイテム",
+   "price": 950,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "ManaRegen",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3113",
+   "name": "エーテル ウィスプ",
+   "plaintext": "魔力と移動速度が上昇",
+   "price": 900,
+   "tags": [
+    "NonbootsMovement",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "3114",
+   "name": "フォビドゥン アイドル",
+   "plaintext": "体力回復量、シールド量、マナ自動回復量が増加し、クールダウンを短縮する",
+   "price": 600,
+   "tags": [
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "3115",
+   "name": "ナッシャー トゥース",
+   "plaintext": "攻撃速度、魔力が上昇し、クールダウンを短縮",
+   "price": 2900,
+   "tags": [
+    "AttackSpeed",
+    "SpellDamage",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3116",
+   "name": "リーライ クリスタル セプター",
+   "plaintext": "スキルによる攻撃で敵にスロウを付与",
+   "price": 2600,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Slow"
+   ]
+  },
+  {
+   "id": "3118",
+   "name": "マリグナンス",
+   "plaintext": "1人の味方とパートナーになってお互いを守る",
+   "price": 2700,
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3119",
+   "name": "冬の訪れ",
+   "plaintext": "",
+   "price": 2400,
+   "tags": [
+    "Health",
+    "Mana",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3123",
+   "name": "エクスキューショナー コーリング",
+   "plaintext": "体力回復効果の高い敵を打倒する",
+   "price": 800,
+   "tags": [
+    "Damage"
+   ]
+  },
+  {
+   "id": "3124",
+   "name": "グインソー レイジブレード",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "SpellDamage",
+    "OnHit"
+   ]
+  },
+  {
+   "id": "3133",
+   "name": "コールフィールド ウォーハンマー",
+   "plaintext": "攻撃力が上昇し、クールダウンを短縮",
+   "price": 1050,
+   "tags": [
+    "Damage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3134",
+   "name": "セレイテッド ダーク",
+   "plaintext": "攻撃力と脅威が上昇",
+   "price": 1000,
+   "tags": [
+    "Damage",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "3135",
+   "name": "ヴォイド スタッフ",
+   "plaintext": "魔法ダメージが上昇",
+   "price": 3000,
+   "tags": [
+    "MagicPenetration",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "3137",
+   "name": "クリプトブルーム",
+   "plaintext": "発動ですべてのデバフを無効化し、移動速度がかなり増加",
+   "price": 3000,
+   "tags": [
+    "SpellDamage",
+    "MagicPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3139",
+   "name": "マーキュリアル シミター",
+   "plaintext": "発動で行動妨害系のデバフを無効化し、移動速度がかなり増加",
+   "price": 3200,
+   "tags": [
+    "SpellBlock",
+    "Damage",
+    "LifeSteal",
+    "Active",
+    "NonbootsMovement",
+    "Tenacity"
+   ]
+  },
+  {
+   "id": "3140",
+   "name": "クイックシルバー サッシュ",
+   "plaintext": "発動で行動妨害系のデバフを無効化",
+   "price": 1300,
+   "tags": [
+    "Active",
+    "SpellBlock"
+   ]
+  },
+  {
+   "id": "3142",
+   "name": "妖夢の霊剣",
+   "plaintext": "発動で移動速度が大幅に上昇",
+   "price": 2800,
+   "tags": [
+    "Damage",
+    "Active",
+    "NonbootsMovement",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "3143",
+   "name": "ランデュイン オーメン",
+   "plaintext": "防御力が大幅に上昇し、発動で周辺の敵にスロウを付与",
+   "price": 2700,
+   "tags": [
+    "Health",
+    "Armor",
+    "Active",
+    "Slow"
+   ]
+  },
+  {
+   "id": "3144",
+   "name": "偵察兵のパチンコ",
+   "plaintext": "発動で魔法ダメージとスロウを対象のチャンピオンに付与",
+   "price": 600,
+   "tags": [
+    "AttackSpeed"
+   ]
+  },
+  {
+   "id": "3145",
+   "name": "ヘクステック オルタネーター",
+   "plaintext": "魔力が上昇。一定期間毎に通常攻撃に魔法ダメージを追加。",
+   "price": 1100,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "3146",
+   "name": "ヘクステック ガンブレード",
+   "plaintext": "攻撃力と魔力が上昇し、発動で対象にスロウを付与",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "LifeSteal",
+    "SpellDamage",
+    "Active",
+    "SpellVamp"
+   ]
+  },
+  {
+   "id": "3147",
+   "name": "悲愴な仮面",
+   "plaintext": "敵を奇襲した時に追加物理ダメージを与える",
+   "price": 1300,
+   "tags": [
+    "Health",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "3152",
+   "name": "ヘクステック ロケットベルト",
+   "plaintext": "発動で前方にダッシュして火の矢を放つ",
+   "price": 2650,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Active",
+    "CooldownReduction",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3153",
+   "name": "ルインドキング ブレード",
+   "plaintext": "対象の体力を元にしたダメージを与え、移動速度を吸収",
+   "price": 3200,
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "LifeSteal",
+    "Slow",
+    "OnHit"
+   ]
+  },
+  {
+   "id": "3155",
+   "name": "ヘクスドリンカー",
+   "plaintext": "攻撃力と魔法防御が上昇",
+   "price": 1300,
+   "tags": [
+    "Damage",
+    "SpellBlock"
+   ]
+  },
+  {
+   "id": "3156",
+   "name": "マルモティウスの胃袋",
+   "plaintext": "体力低下時に追加物理ダメージを付与",
+   "price": 3100,
+   "tags": [
+    "SpellBlock",
+    "Damage",
+    "LifeSteal",
+    "SpellVamp",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3157",
+   "name": "ゾーニャの砂時計",
+   "plaintext": "発動ですべての行動が不可になるが、一定時間無敵になる",
+   "price": 3250,
+   "tags": [
+    "Armor",
+    "SpellDamage",
+    "Active"
+   ]
+  },
+  {
+   "id": "3158",
+   "name": "アイオニア ブーツ",
+   "plaintext": "移動速度が上昇し、クールダウンを短縮",
+   "price": 900,
+   "tags": [
+    "Boots",
+    "CooldownReduction"
+   ]
+  },
+  {
+   "id": "3161",
+   "name": "ショウジンの矛",
+   "plaintext": "敵チャンピオンからの被ダメージを一定量軽減する。周囲に複数の敵チャンピオンがいると短時間だけ効果がさらに増加する。",
+   "price": 3100,
+   "tags": [
+    "Health",
+    "Damage",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3165",
+   "name": "モレロノミコン",
+   "plaintext": "魔法ダメージが増加",
+   "price": 2850,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3168",
+   "name": "不滅の道",
+   "plaintext": "",
+   "price": 1000,
+   "tags": [
+    "LifeSteal",
+    "SpellVamp",
+    "Boots"
+   ]
+  },
+  {
+   "id": "3170",
+   "name": "スイフトマーチ",
+   "plaintext": "防御が強化され、行動阻害の効果時間を短縮",
+   "price": 1000,
+   "tags": [
+    "Boots"
+   ]
+  },
+  {
+   "id": "3171",
+   "name": "真紅のアイオニア ブーツ",
+   "plaintext": "",
+   "price": 900,
+   "tags": [
+    "CooldownReduction",
+    "Boots"
+   ]
+  },
+  {
+   "id": "3172",
+   "name": "ガンメタル ブーツ",
+   "plaintext": "機動性と行動妨害耐性",
+   "price": 1100,
+   "tags": [
+    "AttackSpeed",
+    "LifeSteal",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3173",
+   "name": "チェインレースド クラッシャー",
+   "plaintext": "移動速度が上昇し、クールダウンを短縮",
+   "price": 1250,
+   "tags": [
+    "SpellBlock",
+    "Boots",
+    "Tenacity",
+    "MagicResist"
+   ]
+  },
+  {
+   "id": "3174",
+   "name": "装甲強化の進撃",
+   "plaintext": "攻撃により回復力と防御力を向上させる",
+   "price": 1200,
+   "tags": [
+    "Armor",
+    "Boots"
+   ]
+  },
+  {
+   "id": "3175",
+   "name": "連呪使いのブーツ",
+   "plaintext": "",
+   "price": 1100,
+   "tags": [
+    "Boots",
+    "MagicPenetration"
+   ]
+  },
+  {
+   "id": "3177",
+   "name": "ガーディアン ブレード",
+   "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
+   "price": 950,
+   "tags": [
+    "Health",
+    "Damage",
+    "Lane",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3179",
+   "name": "アンブラル グレイブ",
+   "plaintext": "定期的に罠とワードを見破る",
+   "price": 2800,
+   "tags": [
+    "Damage",
+    "Vision",
+    "CooldownReduction",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3181",
+   "name": "ハルブレイカー",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "Damage",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3184",
+   "name": "ガーディアン ハンマー",
+   "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
+   "price": 950,
+   "tags": [
+    "Health",
+    "Damage",
+    "LifeSteal",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3190",
+   "name": "ソラリのロケット",
+   "plaintext": "発動すると周辺の味方にダメージを軽減するシールドを付与",
+   "price": 2200,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "Armor",
+    "Aura",
+    "Active",
+    "MagicResist",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3211",
+   "name": "スペクター カウル",
+   "plaintext": "防御が強化され、攻撃を受けた際自動回復を付与",
+   "price": 1250,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "SpellBlock"
+   ]
+  },
+  {
+   "id": "3222",
+   "name": "ミカエルの祝福",
+   "plaintext": "発動で味方チャンピオンのすべての行動妨害効果を無効化",
+   "price": 2300,
+   "tags": [
+    "Health",
+    "ManaRegen",
+    "Active",
+    "CooldownReduction",
+    "Tenacity",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3302",
+   "name": "テルミヌス",
+   "plaintext": "一定時間ごとに、ミニオンをキルした時に周辺の仲間を回復し、ゴールドを付与する効果を発生させる",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "OnHit",
+    "MagicPenetration",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "3504",
+   "name": "アーデント センサー",
+   "plaintext": "他のユニットへシールドおよび回復効果を付与すると、その対象と自身の両方に攻撃速度増加と通常攻撃時の追加魔法ダメージが付与される",
+   "price": 2200,
+   "tags": [
+    "AttackSpeed",
+    "SpellDamage",
+    "ManaRegen",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3508",
+   "name": "エッセンス リーバー",
+   "plaintext": "",
+   "price": 3050,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "ManaRegen",
+    "CooldownReduction",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3742",
+   "name": "デッド マン プレート",
+   "plaintext": "移動によって「熾烈」をためて敵を攻撃する",
+   "price": 2900,
+   "tags": [
+    "Health",
+    "Armor",
+    "Slow",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "3748",
+   "name": "タイタン ハイドラ",
+   "plaintext": "所持者の体力に応じた範囲効果ダメージを与える",
+   "price": 3300,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "Damage",
+    "OnHit"
+   ]
+  },
+  {
+   "id": "3801",
+   "name": "クリスタル ブレーサー",
+   "plaintext": "体力と体力自動回復が増える",
+   "price": 800,
+   "tags": [
+    "Health",
+    "HealthRegen"
+   ]
+  },
+  {
+   "id": "3802",
+   "name": "ロスト チャプター",
+   "plaintext": "レベルアップ時にマナを回復する",
+   "price": 1200,
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "3803",
+   "name": "久遠のカタリスト",
+   "plaintext": "",
+   "price": 1300,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "Mana",
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "3814",
+   "name": "ナイト エッジ",
+   "plaintext": "一定時間ごとに敵のスキルを無効化する",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "Damage",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "3865",
+   "name": "ワールド アトラス",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Health",
+    "ManaRegen",
+    "Vision",
+    "GoldPer",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3869",
+   "name": "セレスティアル オポジション",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "ManaRegen",
+    "Vision",
+    "GoldPer",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3870",
+   "name": "ドリーム メーカー",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "ManaRegen",
+    "Vision",
+    "GoldPer",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3871",
+   "name": "ザズ＝ザクのレルムスパイク",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "ManaRegen",
+    "Vision",
+    "GoldPer",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3876",
+   "name": "至点のソリ",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "ManaRegen",
+    "Vision",
+    "GoldPer",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3877",
+   "name": "ブラッドソング",
+   "plaintext": "",
+   "price": 400,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "ManaRegen",
+    "Vision",
+    "GoldPer",
+    "Lane"
+   ]
+  },
+  {
+   "id": "3916",
+   "name": "忘却のオーブ",
+   "plaintext": "魔法ダメージが上昇",
+   "price": 800,
+   "tags": [
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "4005",
+   "name": "帝国の指令",
+   "plaintext": "被ダメージを先送り",
+   "price": 2400,
+   "tags": [
+    "SpellDamage",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "4401",
+   "name": "自然の力",
+   "plaintext": "移動速度、魔法防御、最大体力自動回復",
+   "price": 2800,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "4628",
+   "name": "ホライゾン フォーカス",
+   "plaintext": "チャンピオンを移動不能にした際に雷で攻撃",
+   "price": 2700,
+   "tags": [
+    "SpellDamage",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "4629",
+   "name": "コズミック ドライブ",
+   "plaintext": "大量のクールダウン短縮",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "NonbootsMovement",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "4630",
+   "name": "枯死の宝石",
+   "plaintext": "",
+   "price": 1100,
+   "tags": [
+    "MagicPenetration",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "4632",
+   "name": "ヴァーダント バリア",
+   "plaintext": "",
+   "price": 1600,
+   "tags": [
+    "SpellBlock",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "4633",
+   "name": "リフトメーカー",
+   "plaintext": "",
+   "price": 3100,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "SpellVamp"
+   ]
+  },
+  {
+   "id": "4642",
+   "name": "バンドルグラスの鏡",
+   "plaintext": "",
+   "price": 900,
+   "tags": [
+    "SpellDamage",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "4645",
+   "name": "シャドウフレイム",
+   "plaintext": "",
+   "price": 3200,
+   "tags": [
+    "SpellDamage",
+    "MagicPenetration"
+   ]
+  },
+  {
+   "id": "4646",
+   "name": "ストームサージ",
+   "plaintext": "",
+   "price": 2800,
+   "tags": [
+    "SpellDamage",
+    "GoldPer",
+    "NonbootsMovement",
+    "MagicPenetration"
+   ]
+  },
+  {
+   "id": "6333",
+   "name": "デス ダンス",
+   "plaintext": "",
+   "price": 3300,
+   "tags": [
+    "Armor",
+    "Damage",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6609",
+   "name": "ケミパンク チェーンソード",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "Damage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6610",
+   "name": "サンダード スカイ",
+   "plaintext": "",
+   "price": 3100,
+   "tags": [
+    "Health",
+    "Damage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6616",
+   "name": "フロー ウォーター スタッフ",
+   "plaintext": "自身の回復効果とシールドが行動妨害効果を軽減し、移動速度が増加",
+   "price": 2250,
+   "tags": [
+    "SpellDamage",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6617",
+   "name": "ムーンストーンの再生",
+   "plaintext": "自身の回復効果とシールドのクールダウンが短縮されて、体力の低下した味方への効果が増加",
+   "price": 2200,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6620",
+   "name": "ヘリアの残響",
+   "plaintext": "体力が低下した敵にダメージを与えると呪いの爆発が発生して、周囲の敵にダメージとスロウ効果を付与",
+   "price": 2200,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "ManaRegen",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6621",
+   "name": "ドーンコア",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "SpellDamage",
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "6631",
+   "name": "ストライドブレイカー",
+   "plaintext": "",
+   "price": 3300,
+   "tags": [
+    "Health",
+    "Damage",
+    "AttackSpeed",
+    "Slow"
+   ]
+  },
+  {
+   "id": "6653",
+   "name": "ライアンドリーの仮面",
+   "plaintext": "戦闘でチャージされ、特に耐久力の高い敵に対して高い継続ダメージを与える",
+   "price": 3000,
+   "tags": [
+    "Health",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "6655",
+   "name": "ルーデン エコー",
+   "plaintext": "バーストダメージが大幅に増加、耐久力の低い敵に効果的",
+   "price": 2750,
+   "tags": [
+    "SpellDamage",
+    "Mana",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6657",
+   "name": "ロッド オブ エイジス",
+   "plaintext": "",
+   "price": 2600,
+   "tags": [
+    "Health",
+    "HealthRegen",
+    "SpellDamage",
+    "Mana",
+    "ManaRegen"
+   ]
+  },
+  {
+   "id": "6660",
+   "name": "バミ シンダー",
+   "plaintext": "",
+   "price": 900,
+   "tags": [
+    "Health",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6662",
+   "name": "アイスボーン ガントレット",
+   "plaintext": "魔法防御が大幅に増加。自動効果で周囲の敵にスロウ効果を付与。周囲でスキルが使用されると、エネルギー波を放ってダメージとスロウ効果を付与。",
+   "price": 2900,
+   "tags": [
+    "Health",
+    "Armor",
+    "CooldownReduction",
+    "Slow",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6664",
+   "name": "ホロウ レディアンス",
+   "plaintext": "敵に移動不能効果を与えるとシールドを獲得。発動すると相手に向かう際の移動速度が増加。",
+   "price": 2800,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "HealthRegen",
+    "Aura",
+    "MagicResist",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6665",
+   "name": "変幻自在のジャック＝ショー",
+   "plaintext": "",
+   "price": 3200,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "Armor",
+    "MagicResist"
+   ]
+  },
+  {
+   "id": "6670",
+   "name": "ヌーンクィヴァー",
+   "plaintext": "",
+   "price": 1300,
+   "tags": [
+    "Damage",
+    "CriticalStrike"
+   ]
+  },
+  {
+   "id": "6672",
+   "name": "クラーケン スレイヤー",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "AttackSpeed",
+    "OnHit",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "6673",
+   "name": "イモータル シールドボウ",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "CriticalStrike"
+   ]
+  },
+  {
+   "id": "6675",
+   "name": "ナヴォリ フリッカーブレード",
+   "plaintext": "",
+   "price": 2650,
+   "tags": [
+    "CriticalStrike",
+    "AttackSpeed",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "6676",
+   "name": "コレクター",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "6690",
+   "name": "レクトリクス",
+   "plaintext": "",
+   "price": 775,
+   "tags": [
+    "Damage",
+    "NonbootsMovement"
+   ]
+  },
+  {
+   "id": "6692",
+   "name": "赤月の刃",
+   "plaintext": "",
+   "price": 2900,
+   "tags": [
+    "Damage",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6694",
+   "name": "セリルダの怨恨",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "CooldownReduction",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6695",
+   "name": "毒蛇の牙",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Damage",
+    "ArmorPenetration"
+   ]
+  },
+  {
+   "id": "6696",
+   "name": "アクシオム アーク",
+   "plaintext": "",
+   "price": 2750,
+   "tags": [
+    "Damage",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6697",
+   "name": "ヒュブリス",
+   "plaintext": "",
+   "price": 2800,
+   "tags": [
+    "Damage",
+    "Active",
+    "CooldownReduction",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6698",
+   "name": "プロフェイン ハイドラ",
+   "plaintext": "",
+   "price": 2850,
+   "tags": [
+    "Damage",
+    "Active",
+    "CooldownReduction",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "6699",
+   "name": "ボルテイク サイクロソード",
+   "plaintext": "",
+   "price": 3000,
+   "tags": [
+    "Damage",
+    "Active",
+    "CooldownReduction",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "8010",
+   "name": "ブラッドレターの呪い",
+   "plaintext": "",
+   "price": 2900,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "MagicPenetration"
+   ]
+  },
+  {
+   "id": "8020",
+   "name": "アビサル マスク",
+   "plaintext": "",
+   "price": 2650,
+   "tags": [
+    "Health",
+    "SpellBlock",
+    "CooldownReduction",
+    "MagicResist",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "663039",
+   "name": "アトマの報い",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "CriticalStrike",
+    "Lane"
+   ]
+  },
+  {
+   "id": "663056",
+   "name": "不死身の大王の王冠",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "Armor",
+    "Damage",
+    "AttackSpeed",
+    "SpellDamage",
+    "MagicResist",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "663058",
+   "name": "モルテンストーン シールド",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "Armor"
+   ]
+  },
+  {
+   "id": "663059",
+   "name": "星空のマント",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "SpellBlock"
+   ]
+  },
+  {
+   "id": "663060",
+   "name": "天帝の剣",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Damage",
+    "CriticalStrike",
+    "SpellDamage"
+   ]
+  },
+  {
+   "id": "663064",
+   "name": "ベイガーの超越のタリスマン",
+   "plaintext": "",
+   "price": 900,
+   "tags": []
+  },
+  {
+   "id": "663172",
+   "name": "ゼファー",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "AttackSpeed",
+    "CooldownReduction",
+    "OnHit",
+    "NonbootsMovement",
+    "Tenacity"
+   ]
+  },
+  {
+   "id": "663193",
+   "name": "ガーゴイル ストーンプレート",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "SpellBlock",
+    "Armor",
+    "Active",
+    "CooldownReduction",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "664011",
+   "name": "花咲く夜明けの剣",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "CooldownReduction",
+    "OnHit",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "664644",
+   "name": "シャッタードクイーン クラウン",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Health",
+    "SpellDamage",
+    "Mana",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "667101",
+   "name": "ギャンブラーの剣",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Damage",
+    "NonbootsMovement",
+    "MagicPenetration",
+    "ArmorPenetration",
+    "AbilityHaste"
+   ]
+  },
+  {
+   "id": "667109",
+   "name": "冷酷な一撃",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Armor",
+    "SpellDamage",
+    "MagicResist"
+   ]
+  },
+  {
+   "id": "667112",
+   "name": "肉喰らう者",
+   "plaintext": "",
+   "price": 2500,
+   "tags": [
+    "Damage",
+    "SpellDamage",
+    "MagicPenetration",
+    "ArmorPenetration"
+   ]
+  }
+ ],
+ "runeStyles": [
+  {
+   "name": "覇道",
+   "runes": [
+    "電撃",
+    "魂の収穫",
+    "ヘイルブレード",
+    "追い打ち",
+    "血の味わい",
+    "サドンインパクト",
+    "第六感",
+    "グリスリー メメント",
+    "ディープワード",
+    "貪欲な賞金首狩り",
+    "執拗な賞金首狩り",
+    "至極の賞金首狩り"
+   ]
+  },
+  {
+   "name": "天啓",
+   "runes": [
+    "グレイシャルオーグメント",
+    "解放の魔導書",
+    "ファーストストライク",
+    "ヘクステックフラッシュネイター",
+    "魔法の靴",
+    "キャッシュバック",
+    "トリプル トニック",
+    "タイムワープトニック",
+    "ビスケットデリバリー",
+    "宇宙の英知",
+    "疾駆",
+    "なんでも屋"
+   ]
+  },
+  {
+   "name": "栄華",
+   "runes": [
+    "プレスアタック",
+    "リーサルテンポ",
+    "フリートフットワーク",
+    "征服者",
+    "体力吸収",
+    "凱旋",
+    "冷静沈着",
+    "レジェンド: 迅速",
+    "レジェンド: ヘイスト",
+    "レジェンド: 血脈",
+    "最期の慈悲",
+    "切り崩し",
+    "背水の陣"
+   ]
+  },
+  {
+   "name": "不滅",
+   "runes": [
+    "不死者の握撃",
+    "アフターショック",
+    "ガーディアン",
+    "打ちこわし",
+    "生命の泉",
+    "シールドバッシュ",
+    "心身調整",
+    "息継ぎ",
+    "ボーンアーマー",
+    "超成長",
+    "生気付与",
+    "気迫"
+   ]
+  },
+  {
+   "name": "魔道",
+   "runes": [
+    "エアリー召喚",
+    "秘儀の彗星",
+    "嵐乗りの勇躍",
+    "死神の残り火",
+    "アクシオム アルカニスト",
+    "マナフローバンド",
+    "ニンバスクローク",
+    "至高",
+    "追い風",
+    "英気集中",
+    "追火",
+    "水走り",
+    "強まる嵐"
+   ]
+  }
+ ],
+ "summonerSpells": [
+  {
+   "id": "SummonerBarrier",
+   "name": "バリア",
+   "description": "一時的にシールドを獲得する。",
+   "cooldown": 180
+  },
+  {
+   "id": "SummonerBoost",
+   "name": "クレンズ",
+   "description": "行動妨害(サプレッションとノックアップを除く)やサモナースペルによるデバフをすべて解除し、行動妨害耐性が増加する。",
+   "cooldown": 240
+  },
+  {
+   "id": "SummonerDot",
+   "name": "イグナイト",
+   "description": "対象の敵チャンピオンに継続確定ダメージを与え、効果時間中は対象の回復効果を減少させる。",
+   "cooldown": 180
+  },
+  {
+   "id": "SummonerExhaust",
+   "name": "イグゾースト",
+   "description": "敵チャンピオンにスロウ効果を付与し、与ダメージを低下させる。",
+   "cooldown": 240
+  },
+  {
+   "id": "SummonerFlash",
+   "name": "フラッシュ",
+   "description": "自身のチャンピオンを短い距離、指定した方向に瞬間移動させる。",
+   "cooldown": 300
+  },
+  {
+   "id": "SummonerHaste",
+   "name": "ゴースト",
+   "description": "移動速度が増加し、効果時間中はユニットの衝突判定が無視できるようになる。",
+   "cooldown": 240
+  },
+  {
+   "id": "SummonerHeal",
+   "name": "ヒール",
+   "description": "自身および対象の味方チャンピオンの体力を回復し、移動速度を増加させる。",
+   "cooldown": 240
+  },
+  {
+   "id": "SummonerSmite",
+   "name": "スマイト",
+   "description": "モンスターまたはミニオンに確定ダメージを与える。",
+   "cooldown": 15
+  },
+  {
+   "id": "SummonerTeleport",
+   "name": "テレポート",
+   "description": "短い詠唱後、対象指定不可になって味方ユニットの位置まで移動する。「真テレポート」にアップグレードされると移動速度が大幅に増加する。 ",
+   "cooldown": 300
+  }
+ ]
+}
