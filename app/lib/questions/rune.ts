@@ -80,6 +80,7 @@ export const summonerCooldown: QuestionGenerator = ({ data, rng }) => {
   if (!built) return undefined;
   return {
     text: `サモナースペル「${spell.name}」のクールダウンは？`,
+    imageUrl: summonerSpellImageUrl(data, spell),
     ...built,
     category: "rune",
   };
