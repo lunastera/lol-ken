@@ -2,6 +2,7 @@ import { Link, Navigate, useLocation } from "react-router";
 import { RankBadge } from "~/components/RankBadge";
 import { isPosition, type Position } from "~/lib/data";
 import {
+  isQuestionCount,
   isQuestionTypeId,
   type QuestionTypeId,
   type QuizSelection,
@@ -23,6 +24,7 @@ function isResultState(state: unknown): state is ResultState {
     s.lanes.every(isPosition) &&
     Array.isArray(s.types) &&
     s.types.every(isQuestionTypeId) &&
+    (s.count === undefined || isQuestionCount(s.count)) &&
     typeof s.correct === "number" &&
     typeof s.total === "number" &&
     s.total > 0
@@ -33,7 +35,7 @@ export default function Result() {
   const { state } = useLocation();
   if (!isResultState(state)) return <Navigate to="/" replace />;
 
-  const { lanes, types, correct, total } = state;
+  const { lanes, types, count, correct, total } = state;
   const rank = judgeRank(correct, total);
   const pageUrl = `${window.location.origin}${import.meta.env.BASE_URL}`;
   const shareUrl = buildShareUrl(
@@ -43,6 +45,7 @@ export default function Result() {
   const retrySearch = selectionToSearch({
     lanes: lanes as Position[],
     types: types as QuestionTypeId[],
+    count,
   });
 
   return (

@@ -76,6 +76,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
         state: {
           lanes: selection.lanes,
           types: selection.types,
+          count: selection.count,
           correct: correctCount,
           total: questions.length,
         },

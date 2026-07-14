@@ -47,6 +47,17 @@ describe("buildQuizSet", () => {
     }
   });
 
+  it("respects the count in the selection", () => {
+    for (const count of [10, 30, 50] as const) {
+      const questions = buildQuizSet(
+        data,
+        { ...DEFAULT_SELECTION, count },
+        createRng(42),
+      );
+      expect(questions).toHaveLength(count);
+    }
+  });
+
   it("is deterministic for a given seed", () => {
     const a = buildQuizSet(data, DEFAULT_SELECTION, createRng(7));
     const b = buildQuizSet(data, DEFAULT_SELECTION, createRng(7));

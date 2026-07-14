@@ -126,10 +126,20 @@ export function isQuestionTypeId(value: unknown): value is QuestionTypeId {
   return QUESTION_TYPE_IDS.includes(value as QuestionTypeId);
 }
 
+export const QUESTION_COUNT_OPTIONS = [10, 20, 30, 50] as const;
+
+export type QuestionCount = (typeof QUESTION_COUNT_OPTIONS)[number];
+
+export function isQuestionCount(value: unknown): value is QuestionCount {
+  return QUESTION_COUNT_OPTIONS.includes(value as QuestionCount);
+}
+
 /** What the user picked on the home screen. */
 export interface QuizSelection {
   lanes: Position[];
   types: QuestionTypeId[];
+  /** defaults to QUESTION_COUNT when omitted */
+  count?: QuestionCount;
 }
 
 /** "Everything" — the fallback for URLs without lanes/types params. */
@@ -184,7 +194,7 @@ export function buildQuizSet(
   data: QuizData,
   selection: QuizSelection,
   rng: Rng,
-  count = QUESTION_COUNT,
+  count: number = selection.count ?? QUESTION_COUNT,
 ): Question[] {
   const lanes = selection.lanes.length > 0 ? selection.lanes : [...POSITIONS];
   const pool = championPool(data, lanes);

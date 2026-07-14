@@ -1,20 +1,25 @@
 import { isPosition, LANE_LABELS, POSITIONS } from "./data";
 import {
   DEFAULT_SELECTION,
+  isQuestionCount,
   isQuestionTypeId,
+  QUESTION_COUNT,
   type QuizSelection,
 } from "./questions";
 
 /**
- * Parse ?lanes=TOP,MIDDLE&types=title,skill into a selection.
- * A missing / entirely-invalid param falls back to "everything selected".
+ * Parse ?lanes=TOP,MIDDLE&types=title,skill&count=10 into a selection.
+ * A missing / entirely-invalid param falls back to "everything selected"
+ * (and the default question count).
  */
 export function parseSelection(params: URLSearchParams): QuizSelection {
   const lanes = (params.get("lanes") ?? "").split(",").filter(isPosition);
   const types = (params.get("types") ?? "").split(",").filter(isQuestionTypeId);
+  const count = Number(params.get("count"));
   return {
     lanes: lanes.length > 0 ? lanes : [...DEFAULT_SELECTION.lanes],
     types: types.length > 0 ? types : [...DEFAULT_SELECTION.types],
+    count: isQuestionCount(count) ? count : QUESTION_COUNT,
   };
 }
 
@@ -41,6 +46,9 @@ export function selectionToSearch(selection: QuizSelection): string {
         .filter((t) => selection.types.includes(t))
         .join(","),
     );
+  }
+  if (selection.count !== undefined && selection.count !== QUESTION_COUNT) {
+    params.set("count", String(selection.count));
   }
   const qs = params.toString();
   return qs ? `?${qs}` : "";

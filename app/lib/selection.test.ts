@@ -14,7 +14,10 @@ describe("DEFAULT_CHECKED_TYPES", () => {
 
 describe("parseSelection", () => {
   it("falls back to everything when params are missing", () => {
-    expect(parseSelection(new URLSearchParams())).toEqual(DEFAULT_SELECTION);
+    expect(parseSelection(new URLSearchParams())).toEqual({
+      ...DEFAULT_SELECTION,
+      count: 20,
+    });
   });
 
   it("parses lanes and types, dropping invalid entries", () => {
@@ -27,7 +30,13 @@ describe("parseSelection", () => {
 
   it("falls back to everything when params are entirely invalid", () => {
     const sel = parseSelection(new URLSearchParams("lanes=BOGUS&types=nope"));
-    expect(sel).toEqual(DEFAULT_SELECTION);
+    expect(sel).toEqual({ ...DEFAULT_SELECTION, count: 20 });
+  });
+
+  it("parses count, rejecting values outside the options", () => {
+    expect(parseSelection(new URLSearchParams("count=10")).count).toBe(10);
+    expect(parseSelection(new URLSearchParams("count=15")).count).toBe(20);
+    expect(parseSelection(new URLSearchParams()).count).toBe(20);
   });
 });
 
@@ -42,6 +51,24 @@ describe("selectionToSearch", () => {
       types: ["item-price", "title"],
     });
     expect(search).toBe("?lanes=TOP%2CMIDDLE&types=title%2Citem-price");
+  });
+
+  it("encodes count only when it differs from the default", () => {
+    const full = { lanes: [...DEFAULT_SELECTION.lanes] };
+    expect(
+      selectionToSearch({
+        ...full,
+        types: [...DEFAULT_SELECTION.types],
+        count: 20,
+      }),
+    ).toBe("");
+    expect(
+      selectionToSearch({
+        ...full,
+        types: [...DEFAULT_SELECTION.types],
+        count: 50,
+      }),
+    ).toBe("?count=50");
   });
 
   it("round-trips through parseSelection", () => {

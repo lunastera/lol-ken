@@ -18,7 +18,9 @@ import {
   DEFAULT_CHECKED_TYPES,
   DEFAULT_SELECTION,
   QUESTION_COUNT,
+  QUESTION_COUNT_OPTIONS,
   QUESTION_TYPES,
+  type QuestionCount,
   type QuestionTypeId,
 } from "~/lib/questions";
 import { selectionToSearch } from "~/lib/selection";
@@ -133,6 +135,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
   const [types, setTypes] = useState<QuestionTypeId[]>([
     ...DEFAULT_CHECKED_TYPES,
   ]);
+  const [count, setCount] = useState<QuestionCount>(QUESTION_COUNT);
 
   const toggleLane = (lane: Position, on: boolean) =>
     setLanes((prev) => (on ? [...prev, lane] : prev.filter((l) => l !== lane)));
@@ -154,7 +157,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
 
   const start = () => {
     if (blocker) return;
-    navigate(`/quiz${selectionToSearch({ lanes, types })}`);
+    navigate(`/quiz${selectionToSearch({ lanes, types, count })}`);
   };
 
   return (
@@ -165,7 +168,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
           — League of Legends 知識クイズ —
         </p>
         <p className="mt-3 text-sm leading-relaxed text-gold-light/80">
-          出題範囲を選んで全{QUESTION_COUNT}問に挑戦。
+          出題範囲と問題数を選んで挑戦。
           <br />
           正解数に応じてあなたのランクを判定します。
         </p>
@@ -240,6 +243,31 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
                 )}
               </div>
             </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="mb-2 text-sm font-bold text-gold/80">出題数</h2>
+        <div className="flex flex-wrap gap-2">
+          {QUESTION_COUNT_OPTIONS.map((option) => (
+            <label
+              key={option}
+              className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors ${
+                count === option
+                  ? "border-gold bg-gold/10 text-gold-light"
+                  : "border-gold-dark/50 bg-hextech-black/40 text-gold-light/50"
+              }`}
+            >
+              <input
+                type="radio"
+                name="question-count"
+                checked={count === option}
+                onChange={() => setCount(option)}
+                className="accent-[#c89b3c]"
+              />
+              {option}問
+            </label>
           ))}
         </div>
       </section>
