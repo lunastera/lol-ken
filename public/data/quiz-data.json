@@ -1,11 +1,12 @@
 {
  "version": "16.13.1",
- "generatedAt": "2026-07-14T01:18:11.005Z",
+ "generatedAt": "2026-07-14T01:56:41.955Z",
  "champions": [
   {
    "id": "Aatrox",
    "key": "266",
    "name": "エイトロックス",
+   "nameEn": "Aatrox",
    "title": "ダーキンの暴剣",
    "tags": [
     "Fighter"
@@ -49,6 +50,7 @@
    "id": "Ahri",
    "key": "103",
    "name": "アーリ",
+   "nameEn": "Ahri",
    "title": "九尾の狐",
    "tags": [
     "Mage",
@@ -93,6 +95,7 @@
    "id": "Akali",
    "key": "84",
    "name": "アカリ",
+   "nameEn": "Akali",
    "title": "主なき暗殺者",
    "tags": [
     "Assassin"
@@ -137,6 +140,7 @@
    "id": "Akshan",
    "key": "166",
    "name": "アクシャン",
+   "nameEn": "Akshan",
    "title": "流浪の番人",
    "tags": [
     "Marksman",
@@ -181,6 +185,7 @@
    "id": "Alistar",
    "key": "12",
    "name": "アリスター",
+   "nameEn": "Alistar",
    "title": "ミノタウロスの戦士",
    "tags": [
     "Tank",
@@ -225,6 +230,7 @@
    "id": "Ambessa",
    "key": "799",
    "name": "アンベッサ",
+   "nameEn": "Ambessa",
    "title": "戦乱の母",
    "tags": [
     "Fighter",
@@ -270,6 +276,7 @@
    "id": "Amumu",
    "key": "32",
    "name": "アムム",
+   "nameEn": "Amumu",
    "title": "めそめそミイラ",
    "tags": [
     "Tank",
@@ -314,6 +321,7 @@
    "id": "Anivia",
    "key": "34",
    "name": "アニビア",
+   "nameEn": "Anivia",
    "title": "氷の不死鳥",
    "tags": [
     "Mage"
@@ -357,6 +365,7 @@
    "id": "Annie",
    "key": "1",
    "name": "アニー",
+   "nameEn": "Annie",
    "title": "闇の申し子",
    "tags": [
     "Mage",
@@ -401,6 +410,7 @@
    "id": "Aphelios",
    "key": "523",
    "name": "アフェリオス",
+   "nameEn": "Aphelios",
    "title": "信ずる者の武器",
    "tags": [
     "Marksman"
@@ -444,6 +454,7 @@
    "id": "Ashe",
    "key": "22",
    "name": "アッシュ",
+   "nameEn": "Ashe",
    "title": "氷の射手",
    "tags": [
     "Marksman",
@@ -488,6 +499,7 @@
    "id": "AurelionSol",
    "key": "136",
    "name": "オレリオン・ソル",
+   "nameEn": "Aurelion Sol",
    "title": "星を創りし者",
    "tags": [
     "Mage"
@@ -531,6 +543,7 @@
    "id": "Aurora",
    "key": "893",
    "name": "オーロラ",
+   "nameEn": "Aurora",
    "title": "世界の狭間の魔女",
    "tags": [
     "Mage",
@@ -575,6 +588,7 @@
    "id": "Azir",
    "key": "268",
    "name": "アジール",
+   "nameEn": "Azir",
    "title": "砂塵の皇帝",
    "tags": [
     "Mage",
@@ -619,6 +633,7 @@
    "id": "Bard",
    "key": "432",
    "name": "バード",
+   "nameEn": "Bard",
    "title": "流離いの庇護者",
    "tags": [
     "Support",
@@ -663,6 +678,7 @@
    "id": "Belveth",
    "key": "200",
    "name": "ベル＝ヴェス",
+   "nameEn": "Bel'Veth",
    "title": "ヴォイドの女帝",
    "tags": [
     "Fighter"
@@ -706,6 +722,7 @@
    "id": "Blitzcrank",
    "key": "53",
    "name": "ブリッツクランク",
+   "nameEn": "Blitzcrank",
    "title": "偉大なるスチームゴーレム",
    "tags": [
     "Tank",
@@ -750,6 +767,7 @@
    "id": "Brand",
    "key": "63",
    "name": "ブランド",
+   "nameEn": "Brand",
    "title": "復讐の炎",
    "tags": [
     "Mage",
@@ -794,6 +812,7 @@
    "id": "Braum",
    "key": "201",
    "name": "ブラウム",
+   "nameEn": "Braum",
    "title": "フレヨルドの漢気",
    "tags": [
     "Tank",
@@ -838,6 +857,7 @@
    "id": "Briar",
    "key": "233",
    "name": "ブライアー",
+   "nameEn": "Briar",
    "title": "枷と飢え",
    "tags": [
     "Fighter",
@@ -882,6 +902,7 @@
    "id": "Caitlyn",
    "key": "51",
    "name": "ケイトリン",
+   "nameEn": "Caitlyn",
    "title": "ピルトーヴァーの保安官",
    "tags": [
     "Marksman"
@@ -925,6 +946,7 @@
    "id": "Camille",
    "key": "164",
    "name": "カミール",
+   "nameEn": "Camille",
    "title": "スチールシャドウ",
    "tags": [
     "Fighter",
@@ -969,6 +991,7 @@
    "id": "Cassiopeia",
    "key": "69",
    "name": "カシオペア",
+   "nameEn": "Cassiopeia",
    "title": "毒蛇の抱擁",
    "tags": [
     "Mage"
@@ -1012,6 +1035,7 @@
    "id": "Chogath",
    "key": "31",
    "name": "チョ＝ガス",
+   "nameEn": "Cho'Gath",
    "title": "未知なる恐怖",
    "tags": [
     "Tank",
@@ -1056,6 +1080,7 @@
    "id": "Corki",
    "key": "42",
    "name": "コーキ",
+   "nameEn": "Corki",
    "title": "豪気の爆撃手",
    "tags": [
     "Marksman",
@@ -1100,6 +1125,7 @@
    "id": "Darius",
    "key": "122",
    "name": "ダリウス",
+   "nameEn": "Darius",
    "title": "ノクサスの戦斧",
    "tags": [
     "Fighter",
@@ -1144,6 +1170,7 @@
    "id": "Diana",
    "key": "131",
    "name": "ダイアナ",
+   "nameEn": "Diana",
    "title": "嘲りの月",
    "tags": [
     "Fighter",
@@ -1189,6 +1216,7 @@
    "id": "Draven",
    "key": "119",
    "name": "ドレイヴン",
+   "nameEn": "Draven",
    "title": "栄光ある処刑人",
    "tags": [
     "Marksman"
@@ -1232,6 +1260,7 @@
    "id": "DrMundo",
    "key": "36",
    "name": "ドクター・ムンド",
+   "nameEn": "Dr. Mundo",
    "title": "ゾウンの狂人",
    "tags": [
     "Tank",
@@ -1277,6 +1306,7 @@
    "id": "Ekko",
    "key": "245",
    "name": "エコー",
+   "nameEn": "Ekko",
    "title": "砕けた時を渡る少年",
    "tags": [
     "Assassin",
@@ -1322,6 +1352,7 @@
    "id": "Elise",
    "key": "60",
    "name": "エリス",
+   "nameEn": "Elise",
    "title": "蜘蛛の女帝",
    "tags": [
     "Assassin",
@@ -1366,6 +1397,7 @@
    "id": "Evelynn",
    "key": "28",
    "name": "イブリン",
+   "nameEn": "Evelynn",
    "title": "苦悶の抱擁",
    "tags": [
     "Assassin",
@@ -1410,6 +1442,7 @@
    "id": "Ezreal",
    "key": "81",
    "name": "エズリアル",
+   "nameEn": "Ezreal",
    "title": "光の冒険心",
    "tags": [
     "Marksman",
@@ -1454,6 +1487,7 @@
    "id": "Fiddlesticks",
    "key": "9",
    "name": "フィドルスティックス",
+   "nameEn": "Fiddlesticks",
    "title": "古の恐怖",
    "tags": [
     "Mage",
@@ -1498,6 +1532,7 @@
    "id": "Fiora",
    "key": "114",
    "name": "フィオラ",
+   "nameEn": "Fiora",
    "title": "高潔なるデュエリスト",
    "tags": [
     "Fighter",
@@ -1542,6 +1577,7 @@
    "id": "Fizz",
    "key": "105",
    "name": "フィズ",
+   "nameEn": "Fizz",
    "title": "波間のトリックスター",
    "tags": [
     "Assassin",
@@ -1586,6 +1622,7 @@
    "id": "Galio",
    "key": "3",
    "name": "ガリオ",
+   "nameEn": "Galio",
    "title": "伝説の巨像",
    "tags": [
     "Tank",
@@ -1630,6 +1667,7 @@
    "id": "Gangplank",
    "key": "41",
    "name": "ガングプランク",
+   "nameEn": "Gangplank",
    "title": "大海原の大災厄",
    "tags": [
     "Fighter"
@@ -1673,6 +1711,7 @@
    "id": "Garen",
    "key": "86",
    "name": "ガレン",
+   "nameEn": "Garen",
    "title": "デマーシアの勇士",
    "tags": [
     "Fighter",
@@ -1717,6 +1756,7 @@
    "id": "Gnar",
    "key": "150",
    "name": "ナー",
+   "nameEn": "Gnar",
    "title": "ミッシングリンク",
    "tags": [
     "Fighter",
@@ -1761,6 +1801,7 @@
    "id": "Gragas",
    "key": "79",
    "name": "グラガス",
+   "nameEn": "Gragas",
    "title": "騒乱の飲んだくれ",
    "tags": [
     "Fighter",
@@ -1805,6 +1846,7 @@
    "id": "Graves",
    "key": "104",
    "name": "グレイブス",
+   "nameEn": "Graves",
    "title": "無法者",
    "tags": [
     "Marksman"
@@ -1848,6 +1890,7 @@
    "id": "Gwen",
    "key": "887",
    "name": "グウェン",
+   "nameEn": "Gwen",
    "title": "聖なるお針子",
    "tags": [
     "Fighter"
@@ -1892,6 +1935,7 @@
    "id": "Hecarim",
    "key": "120",
    "name": "ヘカリム",
+   "nameEn": "Hecarim",
    "title": "戦場の幻影",
    "tags": [
     "Fighter",
@@ -1936,6 +1980,7 @@
    "id": "Heimerdinger",
    "key": "74",
    "name": "ハイマーディンガー",
+   "nameEn": "Heimerdinger",
    "title": "誉れ高き発明王",
    "tags": [
     "Mage",
@@ -1980,6 +2025,7 @@
    "id": "Hwei",
    "key": "910",
    "name": "フェイ",
+   "nameEn": "Hwei",
    "title": "夢想家",
    "tags": [
     "Mage",
@@ -2024,6 +2070,7 @@
    "id": "Illaoi",
    "key": "420",
    "name": "イラオイ",
+   "nameEn": "Illaoi",
    "title": "海の女司祭",
    "tags": [
     "Fighter",
@@ -2068,6 +2115,7 @@
    "id": "Irelia",
    "key": "39",
    "name": "イレリア",
+   "nameEn": "Irelia",
    "title": "飛刃の舞い手",
    "tags": [
     "Fighter",
@@ -2113,6 +2161,7 @@
    "id": "Ivern",
    "key": "427",
    "name": "アイバーン",
+   "nameEn": "Ivern",
    "title": "豊緑の神秘",
    "tags": [
     "Support",
@@ -2157,6 +2206,7 @@
    "id": "Janna",
    "key": "40",
    "name": "ジャンナ",
+   "nameEn": "Janna",
    "title": "嵐の怒り",
    "tags": [
     "Support",
@@ -2201,6 +2251,7 @@
    "id": "JarvanIV",
    "key": "59",
    "name": "ジャーヴァンⅣ",
+   "nameEn": "Jarvan IV",
    "title": "デマーシアの儀範",
    "tags": [
     "Fighter",
@@ -2245,6 +2296,7 @@
    "id": "Jax",
    "key": "24",
    "name": "ジャックス",
+   "nameEn": "Jax",
    "title": "最強の武器使い",
    "tags": [
     "Fighter"
@@ -2289,6 +2341,7 @@
    "id": "Jayce",
    "key": "126",
    "name": "ジェイス",
+   "nameEn": "Jayce",
    "title": "未来への希望",
    "tags": [
     "Fighter",
@@ -2334,6 +2387,7 @@
    "id": "Jhin",
    "key": "202",
    "name": "ジン",
+   "nameEn": "Jhin",
    "title": "孤高の芸術家",
    "tags": [
     "Marksman",
@@ -2378,6 +2432,7 @@
    "id": "Jinx",
    "key": "222",
    "name": "ジンクス",
+   "nameEn": "Jinx",
    "title": "暴走パンクガール",
    "tags": [
     "Marksman"
@@ -2421,6 +2476,7 @@
    "id": "Kaisa",
    "key": "145",
    "name": "カイ＝サ",
+   "nameEn": "Kai'Sa",
    "title": "虚無を知る娘",
    "tags": [
     "Marksman",
@@ -2465,6 +2521,7 @@
    "id": "Kalista",
    "key": "429",
    "name": "カリスタ",
+   "nameEn": "Kalista",
    "title": "復讐の槍",
    "tags": [
     "Marksman"
@@ -2508,6 +2565,7 @@
    "id": "Karma",
    "key": "43",
    "name": "カルマ",
+   "nameEn": "Karma",
    "title": "目覚めし者",
    "tags": [
     "Mage",
@@ -2552,6 +2610,7 @@
    "id": "Karthus",
    "key": "30",
    "name": "カーサス",
+   "nameEn": "Karthus",
    "title": "死を歌う者",
    "tags": [
     "Mage"
@@ -2595,6 +2654,7 @@
    "id": "Kassadin",
    "key": "38",
    "name": "カサディン",
+   "nameEn": "Kassadin",
    "title": "ヴォイドを歩む者",
    "tags": [
     "Assassin",
@@ -2639,6 +2699,7 @@
    "id": "Katarina",
    "key": "55",
    "name": "カタリナ",
+   "nameEn": "Katarina",
    "title": "凶兆の刃",
    "tags": [
     "Assassin",
@@ -2683,6 +2744,7 @@
    "id": "Kayle",
    "key": "10",
    "name": "ケイル",
+   "nameEn": "Kayle",
    "title": "天空の正義",
    "tags": [
     "Mage",
@@ -2727,6 +2789,7 @@
    "id": "Kayn",
    "key": "141",
    "name": "ケイン",
+   "nameEn": "Kayn",
    "title": "無情の影",
    "tags": [
     "Fighter",
@@ -2771,6 +2834,7 @@
    "id": "Kennen",
    "key": "85",
    "name": "ケネン",
+   "nameEn": "Kennen",
    "title": "雷雲の担い手",
    "tags": [
     "Mage"
@@ -2814,6 +2878,7 @@
    "id": "Khazix",
    "key": "121",
    "name": "カ＝ジックス",
+   "nameEn": "Kha'Zix",
    "title": "ヴォイドの捕食者",
    "tags": [
     "Assassin"
@@ -2857,6 +2922,7 @@
    "id": "Kindred",
    "key": "203",
    "name": "キンドレッド",
+   "nameEn": "Kindred",
    "title": "永遠なる狩人",
    "tags": [
     "Marksman"
@@ -2900,6 +2966,7 @@
    "id": "Kled",
    "key": "240",
    "name": "クレッド",
+   "nameEn": "Kled",
    "title": "狂乱の騎兵",
    "tags": [
     "Fighter"
@@ -2943,6 +3010,7 @@
    "id": "KogMaw",
    "key": "96",
    "name": "コグ＝マウ",
+   "nameEn": "Kog'Maw",
    "title": "深淵のアギト",
    "tags": [
     "Marksman",
@@ -2987,6 +3055,7 @@
    "id": "KSante",
    "key": "897",
    "name": "カ・サンテ",
+   "nameEn": "K'Sante",
    "title": "ナズーマの誇り",
    "tags": [
     "Tank",
@@ -3031,6 +3100,7 @@
    "id": "Leblanc",
    "key": "7",
    "name": "ルブラン",
+   "nameEn": "LeBlanc",
    "title": "幻惑の奇術師",
    "tags": [
     "Assassin",
@@ -3075,6 +3145,7 @@
    "id": "LeeSin",
    "key": "64",
    "name": "リー・シン",
+   "nameEn": "Lee Sin",
    "title": "盲目の修行僧",
    "tags": [
     "Fighter",
@@ -3119,6 +3190,7 @@
    "id": "Leona",
    "key": "89",
    "name": "レオナ",
+   "nameEn": "Leona",
    "title": "暁光の戦士",
    "tags": [
     "Tank",
@@ -3163,6 +3235,7 @@
    "id": "Lillia",
    "key": "876",
    "name": "リリア",
+   "nameEn": "Lillia",
    "title": "はにかみ屋の花",
    "tags": [
     "Fighter",
@@ -3207,6 +3280,7 @@
    "id": "Lissandra",
    "key": "127",
    "name": "リサンドラ",
+   "nameEn": "Lissandra",
    "title": "氷の魔女",
    "tags": [
     "Mage"
@@ -3250,6 +3324,7 @@
    "id": "Locke",
    "key": "805",
    "name": "ロック",
+   "nameEn": "Locke",
    "title": "灰の祓魔師",
    "tags": [
     "Assassin",
@@ -3292,6 +3367,7 @@
    "id": "Lucian",
    "key": "236",
    "name": "ルシアン",
+   "nameEn": "Lucian",
    "title": "不浄殲滅者",
    "tags": [
     "Marksman",
@@ -3336,6 +3412,7 @@
    "id": "Lulu",
    "key": "117",
    "name": "ルル",
+   "nameEn": "Lulu",
    "title": "森の妖精使い",
    "tags": [
     "Support",
@@ -3380,6 +3457,7 @@
    "id": "Lux",
    "key": "99",
    "name": "ラックス",
+   "nameEn": "Lux",
    "title": "光の才女",
    "tags": [
     "Mage",
@@ -3425,6 +3503,7 @@
    "id": "Malphite",
    "key": "54",
    "name": "マルファイト",
+   "nameEn": "Malphite",
    "title": "モノリスの欠片",
    "tags": [
     "Tank",
@@ -3470,6 +3549,7 @@
    "id": "Malzahar",
    "key": "90",
    "name": "マルザハール",
+   "nameEn": "Malzahar",
    "title": "ヴォイドの予言者",
    "tags": [
     "Mage"
@@ -3513,6 +3593,7 @@
    "id": "Maokai",
    "key": "57",
    "name": "マオカイ",
+   "nameEn": "Maokai",
    "title": "歪みし樹人",
    "tags": [
     "Tank",
@@ -3557,6 +3638,7 @@
    "id": "MasterYi",
    "key": "11",
    "name": "マスター・イー",
+   "nameEn": "Master Yi",
    "title": "ウージューの剣客",
    "tags": [
     "Fighter",
@@ -3601,6 +3683,7 @@
    "id": "Mel",
    "key": "800",
    "name": "メル",
+   "nameEn": "Mel",
    "title": "魂の反照",
    "tags": [
     "Mage",
@@ -3646,6 +3729,7 @@
    "id": "Milio",
    "key": "902",
    "name": "ミリオ",
+   "nameEn": "Milio",
    "title": "やさしき炎",
    "tags": [
     "Support",
@@ -3690,6 +3774,7 @@
    "id": "MissFortune",
    "key": "21",
    "name": "ミス・フォーチュン",
+   "nameEn": "Miss Fortune",
    "title": "美貌の賞金稼ぎ",
    "tags": [
     "Marksman",
@@ -3734,6 +3819,7 @@
    "id": "MonkeyKing",
    "key": "62",
    "name": "ウーコン",
+   "nameEn": "Wukong",
    "title": "美猴王",
    "tags": [
     "Fighter",
@@ -3778,6 +3864,7 @@
    "id": "Mordekaiser",
    "key": "82",
    "name": "モルデカイザー",
+   "nameEn": "Mordekaiser",
    "title": "鋼の魂奪者",
    "tags": [
     "Fighter",
@@ -3822,6 +3909,7 @@
    "id": "Morgana",
    "key": "25",
    "name": "モルガナ",
+   "nameEn": "Morgana",
    "title": "堕天の高潔",
    "tags": [
     "Support",
@@ -3866,6 +3954,7 @@
    "id": "Naafiri",
    "key": "950",
    "name": "ナフィーリ",
+   "nameEn": "Naafiri",
    "title": "百刃の猟犬",
    "tags": [
     "Assassin",
@@ -3910,6 +3999,7 @@
    "id": "Nami",
    "key": "267",
    "name": "ナミ",
+   "nameEn": "Nami",
    "title": "潮呼びの巫女",
    "tags": [
     "Support",
@@ -3954,6 +4044,7 @@
    "id": "Nasus",
    "key": "75",
    "name": "ナサス",
+   "nameEn": "Nasus",
    "title": "砂漠の司書",
    "tags": [
     "Fighter",
@@ -3998,6 +4089,7 @@
    "id": "Nautilus",
    "key": "111",
    "name": "ノーチラス",
+   "nameEn": "Nautilus",
    "title": "深海の巨人",
    "tags": [
     "Tank",
@@ -4042,6 +4134,7 @@
    "id": "Neeko",
    "key": "518",
    "name": "ニーコ",
+   "nameEn": "Neeko",
    "title": "不思議のカメレオン",
    "tags": [
     "Mage",
@@ -4086,6 +4179,7 @@
    "id": "Nidalee",
    "key": "76",
    "name": "ニダリー",
+   "nameEn": "Nidalee",
    "title": "半獣の狩人",
    "tags": [
     "Assassin",
@@ -4130,6 +4224,7 @@
    "id": "Nilah",
    "key": "895",
    "name": "ニーラ",
+   "nameEn": "Nilah",
    "title": "放たれし喜び",
    "tags": [
     "Fighter",
@@ -4174,6 +4269,7 @@
    "id": "Nocturne",
    "key": "56",
    "name": "ノクターン",
+   "nameEn": "Nocturne",
    "title": "終わりなき悪夢",
    "tags": [
     "Fighter",
@@ -4218,6 +4314,7 @@
    "id": "Nunu",
    "key": "20",
    "name": "ヌヌ＆ウィルンプ",
+   "nameEn": "Nunu & Willump",
    "title": "少年とイエティ",
    "tags": [
     "Tank",
@@ -4262,6 +4359,7 @@
    "id": "Olaf",
    "key": "2",
    "name": "オラフ",
+   "nameEn": "Olaf",
    "title": "狂戦士",
    "tags": [
     "Fighter",
@@ -4306,6 +4404,7 @@
    "id": "Orianna",
    "key": "61",
    "name": "オリアナ",
+   "nameEn": "Orianna",
    "title": "時計仕掛けの舞姫",
    "tags": [
     "Mage",
@@ -4350,6 +4449,7 @@
    "id": "Ornn",
    "key": "516",
    "name": "オーン",
+   "nameEn": "Ornn",
    "title": "山の下の焔",
    "tags": [
     "Tank"
@@ -4393,6 +4493,7 @@
    "id": "Pantheon",
    "key": "80",
    "name": "パンテオン",
+   "nameEn": "Pantheon",
    "title": "砕けぬ槍",
    "tags": [
     "Fighter",
@@ -4437,6 +4538,7 @@
    "id": "Poppy",
    "key": "78",
    "name": "ポッピー",
+   "nameEn": "Poppy",
    "title": "大鎚の守護者",
    "tags": [
     "Tank",
@@ -4481,6 +4583,7 @@
    "id": "Pyke",
    "key": "555",
    "name": "パイク",
+   "nameEn": "Pyke",
    "title": "ブラッドハーバーの殺戮鬼",
    "tags": [
     "Support",
@@ -4525,6 +4628,7 @@
    "id": "Qiyana",
    "key": "246",
    "name": "キヤナ",
+   "nameEn": "Qiyana",
    "title": "エレメントの女帝",
    "tags": [
     "Assassin"
@@ -4569,6 +4673,7 @@
    "id": "Quinn",
    "key": "133",
    "name": "クイン",
+   "nameEn": "Quinn",
    "title": "デマーシアの両翼",
    "tags": [
     "Marksman",
@@ -4613,6 +4718,7 @@
    "id": "Rakan",
    "key": "497",
    "name": "ラカン",
+   "nameEn": "Rakan",
    "title": "魅惑の翼",
    "tags": [
     "Support"
@@ -4656,6 +4762,7 @@
    "id": "Rammus",
    "key": "33",
    "name": "ラムス",
+   "nameEn": "Rammus",
    "title": "アーマージロ",
    "tags": [
     "Tank"
@@ -4699,6 +4806,7 @@
    "id": "RekSai",
    "key": "421",
    "name": "レク＝サイ",
+   "nameEn": "Rek'Sai",
    "title": "地底の恐怖",
    "tags": [
     "Fighter",
@@ -4743,6 +4851,7 @@
    "id": "Rell",
    "key": "526",
    "name": "レル",
+   "nameEn": "Rell",
    "title": "鋼鉄の乙女",
    "tags": [
     "Tank",
@@ -4787,6 +4896,7 @@
    "id": "Renata",
    "key": "888",
    "name": "レナータ・グラスク",
+   "nameEn": "Renata Glasc",
    "title": "ケミテック長者",
    "tags": [
     "Support",
@@ -4831,6 +4941,7 @@
    "id": "Renekton",
    "key": "58",
    "name": "レネクトン",
+   "nameEn": "Renekton",
    "title": "砂漠の解体屋",
    "tags": [
     "Fighter",
@@ -4875,6 +4986,7 @@
    "id": "Rengar",
    "key": "107",
    "name": "レンガー",
+   "nameEn": "Rengar",
    "title": "孤高のハンター",
    "tags": [
     "Assassin",
@@ -4919,6 +5031,7 @@
    "id": "Riven",
    "key": "92",
    "name": "リヴェン",
+   "nameEn": "Riven",
    "title": "贖罪の追放者",
    "tags": [
     "Fighter",
@@ -4963,6 +5076,7 @@
    "id": "Rumble",
    "key": "68",
    "name": "ランブル",
+   "nameEn": "Rumble",
    "title": "戦慄の機甲兵",
    "tags": [
     "Fighter",
@@ -5007,6 +5121,7 @@
    "id": "Ryze",
    "key": "13",
    "name": "ライズ",
+   "nameEn": "Ryze",
    "title": "ルーンの魔導師",
    "tags": [
     "Mage"
@@ -5050,6 +5165,7 @@
    "id": "Samira",
    "key": "360",
    "name": "サミーラ",
+   "nameEn": "Samira",
    "title": "砂漠の薔薇",
    "tags": [
     "Marksman",
@@ -5094,6 +5210,7 @@
    "id": "Sejuani",
    "key": "113",
    "name": "セジュアニ",
+   "nameEn": "Sejuani",
    "title": "極北の激憤",
    "tags": [
     "Tank"
@@ -5137,6 +5254,7 @@
    "id": "Senna",
    "key": "235",
    "name": "セナ",
+   "nameEn": "Senna",
    "title": "救済者",
    "tags": [
     "Support",
@@ -5181,6 +5299,7 @@
    "id": "Seraphine",
    "key": "147",
    "name": "セラフィーン",
+   "nameEn": "Seraphine",
    "title": "希望のメロディー",
    "tags": [
     "Support",
@@ -5225,6 +5344,7 @@
    "id": "Sett",
    "key": "875",
    "name": "セト",
+   "nameEn": "Sett",
    "title": "ザ・ボス",
    "tags": [
     "Fighter",
@@ -5269,6 +5389,7 @@
    "id": "Shaco",
    "key": "35",
    "name": "シャコ",
+   "nameEn": "Shaco",
    "title": "悪魔の道化師",
    "tags": [
     "Assassin"
@@ -5312,6 +5433,7 @@
    "id": "Shen",
    "key": "98",
    "name": "シェン",
+   "nameEn": "Shen",
    "title": "黄昏の瞳",
    "tags": [
     "Tank"
@@ -5355,6 +5477,7 @@
    "id": "Shyvana",
    "key": "102",
    "name": "シヴァーナ",
+   "nameEn": "Shyvana",
    "title": "半龍人",
    "tags": [
     "Fighter",
@@ -5399,6 +5522,7 @@
    "id": "Singed",
    "key": "27",
    "name": "シンジド",
+   "nameEn": "Singed",
    "title": "マッドケミスト",
    "tags": [
     "Tank",
@@ -5443,6 +5567,7 @@
    "id": "Sion",
    "key": "14",
    "name": "サイオン",
+   "nameEn": "Sion",
    "title": "不死身の重戦車",
    "tags": [
     "Tank",
@@ -5487,6 +5612,7 @@
    "id": "Sivir",
    "key": "15",
    "name": "シヴィア",
+   "nameEn": "Sivir",
    "title": "戦場の女王",
    "tags": [
     "Marksman"
@@ -5530,6 +5656,7 @@
    "id": "Skarner",
    "key": "72",
    "name": "スカーナー",
+   "nameEn": "Skarner",
    "title": "原始の守護者",
    "tags": [
     "Tank",
@@ -5574,6 +5701,7 @@
    "id": "Smolder",
    "key": "901",
    "name": "スモルダー",
+   "nameEn": "Smolder",
    "title": "炎の幼龍",
    "tags": [
     "Marksman",
@@ -5618,6 +5746,7 @@
    "id": "Sona",
    "key": "37",
    "name": "ソナ",
+   "nameEn": "Sona",
    "title": "沈黙の弦奏師",
    "tags": [
     "Support",
@@ -5662,6 +5791,7 @@
    "id": "Soraka",
    "key": "16",
    "name": "ソラカ",
+   "nameEn": "Soraka",
    "title": "星の子",
    "tags": [
     "Support",
@@ -5706,6 +5836,7 @@
    "id": "Swain",
    "key": "50",
    "name": "スウェイン",
+   "nameEn": "Swain",
    "title": "ノクサス帝国元帥",
    "tags": [
     "Mage",
@@ -5750,6 +5881,7 @@
    "id": "Sylas",
    "key": "517",
    "name": "サイラス",
+   "nameEn": "Sylas",
    "title": "解き放たれし者",
    "tags": [
     "Mage",
@@ -5795,6 +5927,7 @@
    "id": "Syndra",
    "key": "134",
    "name": "シンドラ",
+   "nameEn": "Syndra",
    "title": "暗黒の女王",
    "tags": [
     "Mage"
@@ -5838,6 +5971,7 @@
    "id": "TahmKench",
    "key": "223",
    "name": "タム・ケンチ",
+   "nameEn": "Tahm Kench",
    "title": "川の王様",
    "tags": [
     "Tank",
@@ -5883,6 +6017,7 @@
    "id": "Taliyah",
    "key": "163",
    "name": "タリヤ",
+   "nameEn": "Taliyah",
    "title": "ストーンウィーバー",
    "tags": [
     "Mage",
@@ -5927,6 +6062,7 @@
    "id": "Talon",
    "key": "91",
    "name": "タロン",
+   "nameEn": "Talon",
    "title": "将軍の懐刀",
    "tags": [
     "Assassin"
@@ -5970,6 +6106,7 @@
    "id": "Taric",
    "key": "44",
    "name": "タリック",
+   "nameEn": "Taric",
    "title": "ヴァロランの守護者",
    "tags": [
     "Support",
@@ -6014,6 +6151,7 @@
    "id": "Teemo",
    "key": "17",
    "name": "ティーモ",
+   "nameEn": "Teemo",
    "title": "俊足の斥候",
    "tags": [
     "Marksman",
@@ -6058,6 +6196,7 @@
    "id": "Thresh",
    "key": "412",
    "name": "スレッシュ",
+   "nameEn": "Thresh",
    "title": "縛鎖の看守",
    "tags": [
     "Support",
@@ -6102,6 +6241,7 @@
    "id": "Tristana",
    "key": "18",
    "name": "トリスターナ",
+   "nameEn": "Tristana",
    "title": "ヨードルの主砲",
    "tags": [
     "Marksman",
@@ -6146,6 +6286,7 @@
    "id": "Trundle",
    "key": "48",
    "name": "トランドル",
+   "nameEn": "Trundle",
    "title": "トロールキング",
    "tags": [
     "Fighter",
@@ -6190,6 +6331,7 @@
    "id": "Tryndamere",
    "key": "23",
    "name": "トリンダメア",
+   "nameEn": "Tryndamere",
    "title": "孤高の蛮王",
    "tags": [
     "Fighter",
@@ -6234,6 +6376,7 @@
    "id": "TwistedFate",
    "key": "4",
    "name": "ツイステッド・フェイト",
+   "nameEn": "Twisted Fate",
    "title": "不敗のイカサマ師",
    "tags": [
     "Mage",
@@ -6278,6 +6421,7 @@
    "id": "Twitch",
    "key": "29",
    "name": "トゥイッチ",
+   "nameEn": "Twitch",
    "title": "黒死のドブネズミ",
    "tags": [
     "Marksman",
@@ -6322,6 +6466,7 @@
    "id": "Udyr",
    "key": "77",
    "name": "ウディア",
+   "nameEn": "Udyr",
    "title": "精霊と歩む者",
    "tags": [
     "Fighter",
@@ -6366,6 +6511,7 @@
    "id": "Urgot",
    "key": "6",
    "name": "アーゴット",
+   "nameEn": "Urgot",
    "title": "ドレッドノート",
    "tags": [
     "Fighter",
@@ -6410,6 +6556,7 @@
    "id": "Varus",
    "key": "110",
    "name": "ヴァルス",
+   "nameEn": "Varus",
    "title": "報復の一矢",
    "tags": [
     "Marksman",
@@ -6455,6 +6602,7 @@
    "id": "Vayne",
    "key": "67",
    "name": "ヴェイン",
+   "nameEn": "Vayne",
    "title": "ナイトハンター",
    "tags": [
     "Marksman",
@@ -6500,6 +6648,7 @@
    "id": "Veigar",
    "key": "45",
    "name": "ベイガー",
+   "nameEn": "Veigar",
    "title": "小さき大魔王",
    "tags": [
     "Mage"
@@ -6543,6 +6692,7 @@
    "id": "Velkoz",
    "key": "161",
    "name": "ヴェル＝コズ",
+   "nameEn": "Vel'Koz",
    "title": "ヴォイドの瞳",
    "tags": [
     "Mage",
@@ -6587,6 +6737,7 @@
    "id": "Vex",
    "key": "711",
    "name": "ヴェックス",
+   "nameEn": "Vex",
    "title": "終わりなき憂鬱",
    "tags": [
     "Mage"
@@ -6630,6 +6781,7 @@
    "id": "Vi",
    "key": "254",
    "name": "ヴァイ",
+   "nameEn": "Vi",
    "title": "ピルトーヴァーの用心棒",
    "tags": [
     "Fighter",
@@ -6674,6 +6826,7 @@
    "id": "Viego",
    "key": "234",
    "name": "ヴィエゴ",
+   "nameEn": "Viego",
    "title": "滅びの王",
    "tags": [
     "Fighter",
@@ -6718,6 +6871,7 @@
    "id": "Viktor",
    "key": "112",
    "name": "ビクター",
+   "nameEn": "Viktor",
    "title": "アーケインの先触れ",
    "tags": [
     "Mage"
@@ -6761,6 +6915,7 @@
    "id": "Vladimir",
    "key": "8",
    "name": "ブラッドミア",
+   "nameEn": "Vladimir",
    "title": "真紅の死神",
    "tags": [
     "Mage",
@@ -6806,6 +6961,7 @@
    "id": "Volibear",
    "key": "106",
    "name": "ボリベア",
+   "nameEn": "Volibear",
    "title": "無慈悲の嵐",
    "tags": [
     "Fighter",
@@ -6851,6 +7007,7 @@
    "id": "Warwick",
    "key": "19",
    "name": "ワーウィック",
+   "nameEn": "Warwick",
    "title": "解き放たれたゾウンの激憤",
    "tags": [
     "Fighter",
@@ -6895,6 +7052,7 @@
    "id": "Xayah",
    "key": "498",
    "name": "ザヤ",
+   "nameEn": "Xayah",
    "title": "反逆の刃",
    "tags": [
     "Marksman"
@@ -6938,6 +7096,7 @@
    "id": "Xerath",
    "key": "101",
    "name": "ゼラス",
+   "nameEn": "Xerath",
    "title": "超越魔神",
    "tags": [
     "Mage",
@@ -6983,6 +7142,7 @@
    "id": "XinZhao",
    "key": "5",
    "name": "シン・ジャオ",
+   "nameEn": "Xin Zhao",
    "title": "デマーシアの家令長",
    "tags": [
     "Fighter",
@@ -7027,6 +7187,7 @@
    "id": "Yasuo",
    "key": "157",
    "name": "ヤスオ",
+   "nameEn": "Yasuo",
    "title": "赦されざる者",
    "tags": [
     "Fighter",
@@ -7072,6 +7233,7 @@
    "id": "Yone",
    "key": "777",
    "name": "ヨネ",
+   "nameEn": "Yone",
    "title": "忘られざる者",
    "tags": [
     "Fighter",
@@ -7117,6 +7279,7 @@
    "id": "Yorick",
    "key": "83",
    "name": "ヨリック",
+   "nameEn": "Yorick",
    "title": "魂の導き手",
    "tags": [
     "Fighter",
@@ -7161,6 +7324,7 @@
    "id": "Yunara",
    "key": "804",
    "name": "ユナラ",
+   "nameEn": "Yunara",
    "title": "揺るがぬ誓い",
    "tags": [
     "Marksman"
@@ -7204,6 +7368,7 @@
    "id": "Yuumi",
    "key": "350",
    "name": "ユーミ",
+   "nameEn": "Yuumi",
    "title": "マジカルキャット",
    "tags": [
     "Support",
@@ -7248,6 +7413,7 @@
    "id": "Zaahen",
    "key": "904",
    "name": "ザーヘン",
+   "nameEn": "Zaahen",
    "title": "沈まぬ者",
    "tags": [
     "Fighter",
@@ -7292,6 +7458,7 @@
    "id": "Zac",
    "key": "154",
    "name": "ザック",
+   "nameEn": "Zac",
    "title": "親愛なる秘密兵器",
    "tags": [
     "Tank",
@@ -7336,6 +7503,7 @@
    "id": "Zed",
    "key": "238",
    "name": "ゼド",
+   "nameEn": "Zed",
    "title": "影の頭領",
    "tags": [
     "Assassin"
@@ -7380,6 +7548,7 @@
    "id": "Zeri",
    "key": "221",
    "name": "ゼリ",
+   "nameEn": "Zeri",
    "title": "ゾウンの火花",
    "tags": [
     "Marksman"
@@ -7423,6 +7592,7 @@
    "id": "Ziggs",
    "key": "115",
    "name": "ジグス",
+   "nameEn": "Ziggs",
    "title": "ヘクス爆薬のエキスパート",
    "tags": [
     "Mage"
@@ -7466,6 +7636,7 @@
    "id": "Zilean",
    "key": "26",
    "name": "ジリアン",
+   "nameEn": "Zilean",
    "title": "時の番人",
    "tags": [
     "Support",
@@ -7510,6 +7681,7 @@
    "id": "Zoe",
    "key": "142",
    "name": "ゾーイ",
+   "nameEn": "Zoe",
    "title": "超常の遊び",
    "tags": [
     "Mage"
@@ -7553,6 +7725,7 @@
    "id": "Zyra",
    "key": "143",
    "name": "ザイラ",
+   "nameEn": "Zyra",
    "title": "茨の目覚め",
    "tags": [
     "Mage",
@@ -7598,6 +7771,7 @@
   {
    "id": "1001",
    "name": "ブーツ",
+   "nameEn": "Boots",
    "plaintext": "移動速度がわずかに上昇",
    "price": 300,
    "tags": [
@@ -7607,6 +7781,7 @@
   {
    "id": "1004",
    "name": "フェアリー チャーム",
+   "nameEn": "Faerie Charm",
    "plaintext": "マナ自動回復がわずかに上昇",
    "price": 200,
    "tags": [
@@ -7616,6 +7791,7 @@
   {
    "id": "1006",
    "name": "再生の珠",
+   "nameEn": "Rejuvenation Bead",
    "plaintext": "体力自動回復がわずかに上昇",
    "price": 300,
    "tags": [
@@ -7625,6 +7801,7 @@
   {
    "id": "1011",
    "name": "ジャイアント ベルト",
+   "nameEn": "Giant's Belt",
    "plaintext": "体力が大幅に上昇",
    "price": 900,
    "tags": [
@@ -7634,6 +7811,7 @@
   {
    "id": "1018",
    "name": "アジリティ クローク",
+   "nameEn": "Cloak of Agility",
    "plaintext": "クリティカル率がやや上昇",
    "price": 600,
    "tags": [
@@ -7643,6 +7821,7 @@
   {
    "id": "1026",
    "name": "ブラスティング ワンド",
+   "nameEn": "Blasting Wand",
    "plaintext": "魔力がやや上昇",
    "price": 850,
    "tags": [
@@ -7652,6 +7831,7 @@
   {
    "id": "1027",
    "name": "サファイア クリスタル",
+   "nameEn": "Sapphire Crystal",
    "plaintext": "マナが上昇",
    "price": 300,
    "tags": [
@@ -7661,6 +7841,7 @@
   {
    "id": "1028",
    "name": "ルビー クリスタル",
+   "nameEn": "Ruby Crystal",
    "plaintext": "体力が上昇",
    "price": 400,
    "tags": [
@@ -7670,6 +7851,7 @@
   {
    "id": "1029",
    "name": "クロース アーマー",
+   "nameEn": "Cloth Armor",
    "plaintext": "物理防御がわずかに上昇",
    "price": 300,
    "tags": [
@@ -7679,6 +7861,7 @@
   {
    "id": "1031",
    "name": "チェイン ベスト",
+   "nameEn": "Chain Vest",
    "plaintext": "物理防御が大幅に上昇",
    "price": 800,
    "tags": [
@@ -7688,6 +7871,7 @@
   {
    "id": "1033",
    "name": "ヌルマジック マント",
+   "nameEn": "Null-Magic Mantle",
    "plaintext": "魔法防御がわずかに上昇",
    "price": 400,
    "tags": [
@@ -7697,6 +7881,7 @@
   {
    "id": "1036",
    "name": "ロング ソード",
+   "nameEn": "Long Sword",
    "plaintext": "攻撃力がわずかに上昇",
    "price": 350,
    "tags": [
@@ -7707,6 +7892,7 @@
   {
    "id": "1037",
    "name": "ピッケル",
+   "nameEn": "Pickaxe",
    "plaintext": "攻撃力がやや上昇",
    "price": 875,
    "tags": [
@@ -7716,6 +7902,7 @@
   {
    "id": "1038",
    "name": "B. F. ソード",
+   "nameEn": "B. F. Sword",
    "plaintext": "攻撃力が大幅に上昇",
    "price": 1300,
    "tags": [
@@ -7725,6 +7912,7 @@
   {
    "id": "1042",
    "name": "ダガー",
+   "nameEn": "Dagger",
    "plaintext": "攻撃速度がわずかに上昇",
    "price": 250,
    "tags": [
@@ -7734,6 +7922,7 @@
   {
    "id": "1043",
    "name": "リカーブ ボウ",
+   "nameEn": "Recurve Bow",
    "plaintext": "攻撃速度が大幅に上昇",
    "price": 700,
    "tags": [
@@ -7744,6 +7933,7 @@
   {
    "id": "1052",
    "name": "増魔の書",
+   "nameEn": "Amplifying Tome",
    "plaintext": "魔力がわずかに上昇",
    "price": 400,
    "tags": [
@@ -7753,6 +7943,7 @@
   {
    "id": "1053",
    "name": "ヴァンパイア セプター",
+   "nameEn": "Vampiric Scepter",
    "plaintext": "通常攻撃で体力回復",
    "price": 900,
    "tags": [
@@ -7763,6 +7954,7 @@
   {
    "id": "1054",
    "name": "ドラン シールド",
+   "nameEn": "Doran's Shield",
    "plaintext": "防御強化向けの初期アイテム",
    "price": 450,
    "tags": [
@@ -7774,6 +7966,7 @@
   {
    "id": "1055",
    "name": "ドラン ブレード",
+   "nameEn": "Doran's Blade",
    "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
    "price": 450,
    "tags": [
@@ -7787,6 +7980,7 @@
   {
    "id": "1056",
    "name": "ドラン リング",
+   "nameEn": "Doran's Ring",
    "plaintext": "魔法攻撃系チャンピオン向けの初期アイテム",
    "price": 400,
    "tags": [
@@ -7799,6 +7993,7 @@
   {
    "id": "1057",
    "name": "ネガトロン クローク",
+   "nameEn": "Negatron Cloak",
    "plaintext": "魔法防御がやや上昇",
    "price": 850,
    "tags": [
@@ -7808,6 +8003,7 @@
   {
    "id": "1058",
    "name": "ムダニ デカイ ロッド",
+   "nameEn": "Needlessly Large Rod",
    "plaintext": "魔力が大幅に上昇",
    "price": 1200,
    "tags": [
@@ -7817,6 +8013,7 @@
   {
    "id": "1082",
    "name": "ダーク シール",
+   "nameEn": "Dark Seal",
    "plaintext": "魔力とマナを付与。敵をキルするごとに得られる魔力が上昇する。",
    "price": 350,
    "tags": [
@@ -7828,6 +8025,7 @@
   {
    "id": "1083",
    "name": "カル",
+   "nameEn": "Cull",
    "plaintext": "命中時にダメージとライフ スティールを付与。ミニオンをキルするとゴールドボーナスを獲得。",
    "price": 450,
    "tags": [
@@ -7839,6 +8037,7 @@
   {
    "id": "1086",
    "name": "ドラン ボウ",
+   "nameEn": "Doran's Bow",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -7851,6 +8050,7 @@
   {
    "id": "1101",
    "name": "スコーチクロウの幼体",
+   "nameEn": "Scorchclaw Pup",
    "plaintext": "",
    "price": 450,
    "tags": [
@@ -7860,6 +8060,7 @@
   {
    "id": "1102",
    "name": "ガストウォーカーの幼体",
+   "nameEn": "Gustwalker Hatchling",
    "plaintext": "",
    "price": 450,
    "tags": [
@@ -7869,6 +8070,7 @@
   {
    "id": "1103",
    "name": "モスストンパーの幼体",
+   "nameEn": "Mosstomper Seedling",
    "plaintext": "",
    "price": 450,
    "tags": [
@@ -7878,6 +8080,7 @@
   {
    "id": "1120",
    "name": "ドラン ヘルム",
+   "nameEn": "Doran's Helm",
    "plaintext": "",
    "price": 450,
    "tags": [
@@ -7890,6 +8093,7 @@
   {
    "id": "2003",
    "name": "体力ポーション",
+   "nameEn": "Health Potion",
    "plaintext": "消費して一定時間をかけて体力を回復",
    "price": 50,
    "tags": [
@@ -7902,6 +8106,7 @@
   {
    "id": "2019",
    "name": "スチール シジル",
+   "nameEn": "Steel Sigil",
    "plaintext": "",
    "price": 1100,
    "tags": [
@@ -7912,6 +8117,7 @@
   {
    "id": "2020",
    "name": "ブルータライザー",
+   "nameEn": "The Brutalizer",
    "plaintext": "",
    "price": 1337,
    "tags": [
@@ -7923,6 +8129,7 @@
   {
    "id": "2021",
    "name": "トンネル掘り",
+   "nameEn": "Tunneler",
    "plaintext": "",
    "price": 1150,
    "tags": [
@@ -7933,6 +8140,7 @@
   {
    "id": "2022",
    "name": "輝きのモート",
+   "nameEn": "Glowing Mote",
    "plaintext": "",
    "price": 250,
    "tags": [
@@ -7942,6 +8150,7 @@
   {
    "id": "2031",
    "name": "詰め替えポーション",
+   "nameEn": "Refillable Potion",
    "plaintext": "一定時間をかけて体力を回復。ショップで補充できる。",
    "price": 150,
    "tags": [
@@ -7955,6 +8164,7 @@
   {
    "id": "2051",
    "name": "ガーディアン ホーン",
+   "nameEn": "Guardian's Horn",
    "plaintext": "タンク系チャンピオン向けの初期アイテム",
    "price": 950,
    "tags": [
@@ -7966,6 +8176,7 @@
   {
    "id": "2055",
    "name": "コントロール ワード",
+   "nameEn": "Control Ward",
    "plaintext": "一定範囲内のワードや見えない罠を無効化するのに使用",
    "price": 75,
    "tags": [
@@ -7978,6 +8189,7 @@
   {
    "id": "2065",
    "name": "シュレリアの戦歌",
+   "nameEn": "Shurelya's Battlesong",
    "plaintext": "発動すると周囲の味方の速度が上昇する",
    "price": 2200,
    "tags": [
@@ -7992,6 +8204,7 @@
   {
    "id": "2138",
    "name": "アイアン エリクサー",
+   "nameEn": "Elixir of Iron",
    "plaintext": "一時的に防御が上昇する。通過した道に続く味方を強化する。",
    "price": 500,
    "tags": [
@@ -8004,6 +8217,7 @@
   {
    "id": "2139",
    "name": "ソーサリー エリクサー",
+   "nameEn": "Elixir of Sorcery",
    "plaintext": "魔力およびチャンピオンとタワーへの追加ダメージを一時的に上昇させる。",
    "price": 500,
    "tags": [
@@ -8015,6 +8229,7 @@
   {
    "id": "2140",
    "name": "ラース エリクサー",
+   "nameEn": "Elixir of Wrath",
    "plaintext": "一時的に攻撃力が上昇し、チャンピオンに物理ダメージを与えると自身を回復する",
    "price": 500,
    "tags": [
@@ -8027,6 +8242,7 @@
   {
    "id": "2141",
    "name": "帽子ジュース",
+   "nameEn": "Cappa Juice",
    "plaintext": "",
    "price": 300,
    "tags": [
@@ -8037,6 +8253,7 @@
   {
    "id": "2420",
    "name": "シーカー アームガード",
+   "nameEn": "Seeker's Armguard",
    "plaintext": "発動ですべての行動が不可になるが、一定時間無敵になる",
    "price": 1600,
    "tags": [
@@ -8048,6 +8265,7 @@
   {
    "id": "2501",
    "name": "覇王のブラッドメイル",
+   "nameEn": "Overlord's Bloodmail",
    "plaintext": "",
    "price": 3300,
    "tags": [
@@ -8058,6 +8276,7 @@
   {
    "id": "2502",
    "name": "終わりなき絶望",
+   "nameEn": "Unending Despair",
    "plaintext": "",
    "price": 2800,
    "tags": [
@@ -8070,6 +8289,7 @@
   {
    "id": "2503",
    "name": "黒炎のトーチ",
+   "nameEn": "Blackfire Torch",
    "plaintext": "",
    "price": 2800,
    "tags": [
@@ -8082,6 +8302,7 @@
   {
    "id": "2504",
    "name": "ケイニック ルーケルン",
+   "nameEn": "Kaenic Rookern",
    "plaintext": "",
    "price": 2900,
    "tags": [
@@ -8093,6 +8314,7 @@
   {
    "id": "2508",
    "name": "運命の灰",
+   "nameEn": "Fated Ashes",
    "plaintext": "",
    "price": 900,
    "tags": [
@@ -8102,6 +8324,7 @@
   {
    "id": "2510",
    "name": "黄昏と暁",
+   "nameEn": "Dusk and Dawn",
    "plaintext": "",
    "price": 3100,
    "tags": [
@@ -8115,6 +8338,7 @@
   {
    "id": "2512",
    "name": "フィーンドハンターの矢",
+   "nameEn": "Fiendhunter Bolts",
    "plaintext": "",
    "price": 2650,
    "tags": [
@@ -8127,6 +8351,7 @@
   {
    "id": "2517",
    "name": "終わりなき飢え",
+   "nameEn": "Endless Hunger",
    "plaintext": "",
    "price": 3100,
    "tags": [
@@ -8140,6 +8365,7 @@
   {
    "id": "2520",
    "name": "バスティオンブレイカー",
+   "nameEn": "Bastionbreaker",
    "plaintext": "",
    "price": 3200,
    "tags": [
@@ -8151,6 +8377,7 @@
   {
    "id": "2522",
    "name": "アクチュアライザー",
+   "nameEn": "Actualizer",
    "plaintext": "",
    "price": 2800,
    "tags": [
@@ -8162,6 +8389,7 @@
   {
    "id": "2523",
    "name": "ヘクスオプティックC44",
+   "nameEn": "Hexoptics C44",
    "plaintext": "",
    "price": 2800,
    "tags": [
@@ -8172,6 +8400,7 @@
   {
    "id": "2524",
    "name": "バンドルパイプ",
+   "nameEn": "Bandlepipes",
    "plaintext": "",
    "price": 2300,
    "tags": [
@@ -8186,6 +8415,7 @@
   {
    "id": "2525",
    "name": "プロトプラズム ハーネス",
+   "nameEn": "Protoplasm Harness",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -8198,6 +8428,7 @@
   {
    "id": "2526",
    "name": "囁きのサークレット",
+   "nameEn": "Whispering Circlet",
    "plaintext": "",
    "price": 2250,
    "tags": [
@@ -8209,6 +8440,7 @@
   {
    "id": "3003",
    "name": "アークエンジェル スタッフ",
+   "nameEn": "Archangel's Staff",
    "plaintext": "最大マナを基に魔力が上昇",
    "price": 2900,
    "tags": [
@@ -8220,6 +8452,7 @@
   {
    "id": "3004",
    "name": "マナムネ",
+   "nameEn": "Manamune",
    "plaintext": "最大マナを基に攻撃力が上昇",
    "price": 2900,
    "tags": [
@@ -8233,6 +8466,7 @@
   {
    "id": "3006",
    "name": "バーサーカー ブーツ",
+   "nameEn": "Berserker's Greaves",
    "plaintext": "移動速度と攻撃速度が上昇",
    "price": 1100,
    "tags": [
@@ -8243,6 +8477,7 @@
   {
    "id": "3008",
    "name": "グラトナス ブーツ",
+   "nameEn": "Gluttonous Greaves",
    "plaintext": "最大マナを基に攻撃力が上昇",
    "price": 1000,
    "tags": [
@@ -8254,6 +8489,7 @@
   {
    "id": "3009",
    "name": "スイフトネス ブーツ",
+   "nameEn": "Boots of Swiftness",
    "plaintext": "移動速度が上昇し、スロウ効果が減少",
    "price": 1000,
    "tags": [
@@ -8263,6 +8499,7 @@
   {
    "id": "3020",
    "name": "ソーサラー シューズ",
+   "nameEn": "Sorcerer's Shoes",
    "plaintext": "移動速度と魔法ダメージが上昇",
    "price": 1100,
    "tags": [
@@ -8273,6 +8510,7 @@
   {
    "id": "3024",
    "name": "グレイシャル バックラー",
+   "nameEn": "Glacial Buckler",
    "plaintext": "物理防御が上昇し、クールダウンを短縮",
    "price": 900,
    "tags": [
@@ -8285,6 +8523,7 @@
   {
    "id": "3026",
    "name": "ガーディアン エンジェル",
+   "nameEn": "Guardian Angel",
    "plaintext": "一定時間ごとに、チャンピオンを死亡時に復活させる",
    "price": 3200,
    "tags": [
@@ -8295,6 +8534,7 @@
   {
    "id": "3031",
    "name": "インフィニティ エッジ",
+   "nameEn": "Infinity Edge",
    "plaintext": "クリティカルが大きく強化",
    "price": 3500,
    "tags": [
@@ -8305,6 +8545,7 @@
   {
    "id": "3032",
    "name": "ユン・タル ワイルドアロー",
+   "nameEn": "Yun Tal Wildarrows",
    "plaintext": "",
    "price": 3100,
    "tags": [
@@ -8316,6 +8557,7 @@
   {
    "id": "3033",
    "name": "モータル リマインダー",
+   "nameEn": "Mortal Reminder",
    "plaintext": "体力回復と物理防御の高い敵を打倒する",
    "price": 3000,
    "tags": [
@@ -8327,6 +8569,7 @@
   {
    "id": "3035",
    "name": "ラスト ウィスパー",
+   "nameEn": "Last Whisper",
    "plaintext": "物理防御の高い敵を打倒する",
    "price": 1450,
    "tags": [
@@ -8337,6 +8580,7 @@
   {
    "id": "3036",
    "name": "ドミニク リガード",
+   "nameEn": "Lord Dominik's Regards",
    "plaintext": "体力と物理防御の高い敵を打倒する",
    "price": 3300,
    "tags": [
@@ -8348,6 +8592,7 @@
   {
    "id": "3041",
    "name": "メジャイ ソウルスティーラー",
+   "nameEn": "Mejai's Soulstealer",
    "plaintext": "キル、アシストごとに魔力を付与",
    "price": 1500,
    "tags": [
@@ -8359,6 +8604,7 @@
   {
    "id": "3044",
    "name": "ファージ",
+   "nameEn": "Phage",
    "plaintext": "攻撃およびキルで小規模の移動速度増加を得る",
    "price": 1100,
    "tags": [
@@ -8370,6 +8616,7 @@
   {
    "id": "3046",
    "name": "ファントム ダンサー",
+   "nameEn": "Phantom Dancer",
    "plaintext": "敵を攻撃すると移動速度が上昇し、体力が低い場合にシールドを発生させる",
    "price": 2650,
    "tags": [
@@ -8381,6 +8628,7 @@
   {
    "id": "3047",
    "name": "プレート スチールキャップ",
+   "nameEn": "Plated Steelcaps",
    "plaintext": "移動速度が上昇し、通常攻撃によって受けるダメージが軽減",
    "price": 1200,
    "tags": [
@@ -8391,6 +8639,7 @@
   {
    "id": "3050",
    "name": "ジーク コンバージェンス",
+   "nameEn": "Zeke's Convergence",
    "plaintext": "アルティメットスキル使用時に自身と味方に追加効果を付与",
    "price": 2200,
    "tags": [
@@ -8403,6 +8652,7 @@
   {
    "id": "3051",
    "name": "ハースバウンド アックス",
+   "nameEn": "Hearthbound Axe",
    "plaintext": "",
    "price": 1200,
    "tags": [
@@ -8413,6 +8663,7 @@
   {
    "id": "3053",
    "name": "ステラックの篭手",
+   "nameEn": "Sterak's Gage",
    "plaintext": "大ダメージから身を守る",
    "price": 3200,
    "tags": [
@@ -8424,6 +8675,7 @@
   {
    "id": "3057",
    "name": "シーン",
+   "nameEn": "Sheen",
    "plaintext": "スキル使用後の次の攻撃に追加ダメージ付与",
    "price": 900,
    "tags": [
@@ -8434,6 +8686,7 @@
   {
    "id": "3065",
    "name": "スピリット ビサージュ",
+   "nameEn": "Spirit Visage",
    "plaintext": "体力とすべての回復効果が増加",
    "price": 2700,
    "tags": [
@@ -8447,6 +8700,7 @@
   {
    "id": "3066",
    "name": "翼のムーンプレート",
+   "nameEn": "Winged Moonplate",
    "plaintext": "",
    "price": 800,
    "tags": [
@@ -8457,6 +8711,7 @@
   {
    "id": "3067",
    "name": "キンドルジェム",
+   "nameEn": "Kindlegem",
    "plaintext": "体力が上昇し、クールダウンを短縮",
    "price": 800,
    "tags": [
@@ -8468,6 +8723,7 @@
   {
    "id": "3068",
    "name": "サンファイア イージス",
+   "nameEn": "Sunfire Aegis",
    "plaintext": "物理防御が大幅に増加。周囲の敵に常にダメージを与える。敵に移動不能効果を与えると、波状の炎を放ってダメージを与える。",
    "price": 2700,
    "tags": [
@@ -8480,6 +8736,7 @@
   {
    "id": "3070",
    "name": "女神の涙",
+   "nameEn": "Tear of the Goddess",
    "plaintext": "マナ消費時に最大マナが上昇",
    "price": 400,
    "tags": [
@@ -8490,6 +8747,7 @@
   {
    "id": "3071",
    "name": "ブラック クリーバー",
+   "nameEn": "Black Cleaver",
    "plaintext": "敵チャンピオンに物理ダメージを与えると、その対象の物理防御が低下",
    "price": 3000,
    "tags": [
@@ -8505,6 +8763,7 @@
   {
    "id": "3072",
    "name": "ブラッドサースター",
+   "nameEn": "Bloodthirster",
    "plaintext": "攻撃力、ライフ スティールが上昇。ライフ スティールで最大体力を超えて回復が可能。",
    "price": 3400,
    "tags": [
@@ -8515,6 +8774,7 @@
   {
    "id": "3073",
    "name": "実験的ヘクスプレート",
+   "nameEn": "Experimental Hexplate",
    "plaintext": "マナ消費時に最大マナが上昇",
    "price": 3000,
    "tags": [
@@ -8529,6 +8789,7 @@
   {
    "id": "3074",
    "name": "ラヴァナス ハイドラ",
+   "nameEn": "Ravenous Hydra",
    "plaintext": "近接攻撃で周囲の敵にダメージを与え、体力が回復",
    "price": 3300,
    "tags": [
@@ -8542,6 +8803,7 @@
   {
    "id": "3075",
    "name": "ソーンメイル",
+   "nameEn": "Thornmail",
    "plaintext": "",
    "price": 2450,
    "tags": [
@@ -8552,6 +8814,7 @@
   {
    "id": "3076",
    "name": "ブランブル ベスト",
+   "nameEn": "Bramble Vest",
    "plaintext": "",
    "price": 800,
    "tags": [
@@ -8561,6 +8824,7 @@
   {
    "id": "3077",
    "name": "ティアマット",
+   "nameEn": "Tiamat",
    "plaintext": "近接攻撃が周囲の敵にダメージを与える",
    "price": 1200,
    "tags": [
@@ -8571,6 +8835,7 @@
   {
    "id": "3078",
    "name": "トリニティ フォース",
+   "nameEn": "Trinity Force",
    "plaintext": "圧倒的ダメージ",
    "price": 3333,
    "tags": [
@@ -8586,6 +8851,7 @@
   {
    "id": "3082",
    "name": "ワーデン メイル",
+   "nameEn": "Warden's Mail",
    "plaintext": "",
    "price": 1000,
    "tags": [
@@ -8595,6 +8861,7 @@
   {
    "id": "3083",
    "name": "ワーモグ アーマー",
+   "nameEn": "Warmog's Armor",
    "plaintext": "大量の体力と体力自動回復を付与",
    "price": 3100,
    "tags": [
@@ -8605,6 +8872,7 @@
   {
    "id": "3084",
    "name": "心の鋼",
+   "nameEn": "Heartsteel",
    "plaintext": "キルまたはアシスト時に体力を回復",
    "price": 3000,
    "tags": [
@@ -8615,6 +8883,7 @@
   {
    "id": "3085",
    "name": "ルナーン ハリケーン",
+   "nameEn": "Runaan's Hurricane",
    "plaintext": "遠隔の通常攻撃で周辺の敵に対し2本の矢を射出",
    "price": 2650,
    "tags": [
@@ -8627,6 +8896,7 @@
   {
    "id": "3086",
    "name": "ジール",
+   "nameEn": "Zeal",
    "plaintext": "クリティカル率、移動速度、攻撃速度にわずかなボーナス付与",
    "price": 1200,
    "tags": [
@@ -8638,6 +8908,7 @@
   {
    "id": "3087",
    "name": "スタティック シヴ",
+   "nameEn": "Statikk Shiv",
    "plaintext": "移動によってチャージし、通常攻撃でチャージした雷撃を放つ",
    "price": 3000,
    "tags": [
@@ -8651,6 +8922,7 @@
   {
    "id": "3089",
    "name": "ラバドン デスキャップ",
+   "nameEn": "Rabadon's Deathcap",
    "plaintext": "魔力が大きく上昇",
    "price": 3500,
    "tags": [
@@ -8660,6 +8932,7 @@
   {
    "id": "3091",
    "name": "ウィッツ エンド",
+   "nameEn": "Wit's End",
    "plaintext": "魔法ダメージから身を守り、死の淵から生還させる",
    "price": 2800,
    "tags": [
@@ -8672,6 +8945,7 @@
   {
    "id": "3094",
    "name": "ラピッド ファイアキャノン",
+   "nameEn": "Rapid Firecannon",
    "plaintext": "移動によってチャージが溜まり、解放時に砲撃を放つ",
    "price": 2650,
    "tags": [
@@ -8683,6 +8957,7 @@
   {
    "id": "3097",
    "name": "ストームレイザー",
+   "nameEn": "Stormrazor",
    "plaintext": "敵ミニオンをキルした際、一定時間ごとに付近の味方も回復されゴールドを獲得する",
    "price": 3200,
    "tags": [
@@ -8695,6 +8970,7 @@
   {
    "id": "3100",
    "name": "リッチ ベイン",
+   "nameEn": "Lich Bane",
    "plaintext": "スキル使用後の次の攻撃に追加ダメージ付与",
    "price": 2900,
    "tags": [
@@ -8707,6 +8983,7 @@
   {
    "id": "3102",
    "name": "バンシー ヴェール",
+   "nameEn": "Banshee's Veil",
    "plaintext": "一定時間ごとに敵のスキルを無効化する",
    "price": 3000,
    "tags": [
@@ -8717,6 +8994,7 @@
   {
    "id": "3107",
    "name": "リデンプション",
+   "nameEn": "Redemption",
    "plaintext": "発動で範囲内の味方を回復して敵にダメージを与える",
    "price": 2300,
    "tags": [
@@ -8729,6 +9007,7 @@
   {
    "id": "3108",
    "name": "フィンディッシュの古書",
+   "nameEn": "Fiendish Codex",
    "plaintext": "魔力が上昇し、クールダウンを短縮",
    "price": 850,
    "tags": [
@@ -8740,6 +9019,7 @@
   {
    "id": "3109",
    "name": "騎士の誓い",
+   "nameEn": "Knight's Vow",
    "plaintext": "1人の味方とパートナーになってお互いを守る",
    "price": 2300,
    "tags": [
@@ -8755,6 +9035,7 @@
   {
    "id": "3110",
    "name": "フローズン ハート",
+   "nameEn": "Frozen Heart",
    "plaintext": "物理防御がかなり上昇し、敵の攻撃速度を低下させる",
    "price": 2500,
    "tags": [
@@ -8768,6 +9049,7 @@
   {
    "id": "3111",
    "name": "マーキュリー ブーツ",
+   "nameEn": "Mercury's Treads",
    "plaintext": "移動速度が上昇し、行動阻害の効果時間を短縮",
    "price": 1250,
    "tags": [
@@ -8779,6 +9061,7 @@
   {
    "id": "3112",
    "name": "ガーディアン オーブ",
+   "nameEn": "Guardian's Orb",
    "plaintext": "メイジ系チャンピオン向けの初期アイテム",
    "price": 950,
    "tags": [
@@ -8791,6 +9074,7 @@
   {
    "id": "3113",
    "name": "エーテル ウィスプ",
+   "nameEn": "Aether Wisp",
    "plaintext": "魔力と移動速度が上昇",
    "price": 900,
    "tags": [
@@ -8801,6 +9085,7 @@
   {
    "id": "3114",
    "name": "フォビドゥン アイドル",
+   "nameEn": "Forbidden Idol",
    "plaintext": "体力回復量、シールド量、マナ自動回復量が増加し、クールダウンを短縮する",
    "price": 600,
    "tags": [
@@ -8810,6 +9095,7 @@
   {
    "id": "3115",
    "name": "ナッシャー トゥース",
+   "nameEn": "Nashor's Tooth",
    "plaintext": "攻撃速度、魔力が上昇し、クールダウンを短縮",
    "price": 2900,
    "tags": [
@@ -8822,6 +9108,7 @@
   {
    "id": "3116",
    "name": "リーライ クリスタル セプター",
+   "nameEn": "Rylai's Crystal Scepter",
    "plaintext": "スキルによる攻撃で敵にスロウを付与",
    "price": 2600,
    "tags": [
@@ -8833,6 +9120,7 @@
   {
    "id": "3118",
    "name": "マリグナンス",
+   "nameEn": "Malignance",
    "plaintext": "1人の味方とパートナーになってお互いを守る",
    "price": 2700,
    "tags": [
@@ -8844,6 +9132,7 @@
   {
    "id": "3119",
    "name": "冬の訪れ",
+   "nameEn": "Winter's Approach",
    "plaintext": "",
    "price": 2400,
    "tags": [
@@ -8855,6 +9144,7 @@
   {
    "id": "3123",
    "name": "エクスキューショナー コーリング",
+   "nameEn": "Executioner's Calling",
    "plaintext": "体力回復効果の高い敵を打倒する",
    "price": 800,
    "tags": [
@@ -8864,6 +9154,7 @@
   {
    "id": "3124",
    "name": "グインソー レイジブレード",
+   "nameEn": "Guinsoo's Rageblade",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -8876,6 +9167,7 @@
   {
    "id": "3133",
    "name": "コールフィールド ウォーハンマー",
+   "nameEn": "Caulfield's Warhammer",
    "plaintext": "攻撃力が上昇し、クールダウンを短縮",
    "price": 1050,
    "tags": [
@@ -8887,6 +9179,7 @@
   {
    "id": "3134",
    "name": "セレイテッド ダーク",
+   "nameEn": "Serrated Dirk",
    "plaintext": "攻撃力と脅威が上昇",
    "price": 1000,
    "tags": [
@@ -8897,6 +9190,7 @@
   {
    "id": "3135",
    "name": "ヴォイド スタッフ",
+   "nameEn": "Void Staff",
    "plaintext": "魔法ダメージが上昇",
    "price": 3000,
    "tags": [
@@ -8907,6 +9201,7 @@
   {
    "id": "3137",
    "name": "クリプトブルーム",
+   "nameEn": "Cryptbloom",
    "plaintext": "発動ですべてのデバフを無効化し、移動速度がかなり増加",
    "price": 3000,
    "tags": [
@@ -8918,6 +9213,7 @@
   {
    "id": "3139",
    "name": "マーキュリアル シミター",
+   "nameEn": "Mercurial Scimitar",
    "plaintext": "発動で行動妨害系のデバフを無効化し、移動速度がかなり増加",
    "price": 3200,
    "tags": [
@@ -8932,6 +9228,7 @@
   {
    "id": "3140",
    "name": "クイックシルバー サッシュ",
+   "nameEn": "Quicksilver Sash",
    "plaintext": "発動で行動妨害系のデバフを無効化",
    "price": 1300,
    "tags": [
@@ -8942,6 +9239,7 @@
   {
    "id": "3142",
    "name": "妖夢の霊剣",
+   "nameEn": "Youmuu's Ghostblade",
    "plaintext": "発動で移動速度が大幅に上昇",
    "price": 2800,
    "tags": [
@@ -8954,6 +9252,7 @@
   {
    "id": "3143",
    "name": "ランデュイン オーメン",
+   "nameEn": "Randuin's Omen",
    "plaintext": "防御力が大幅に上昇し、発動で周辺の敵にスロウを付与",
    "price": 2700,
    "tags": [
@@ -8966,6 +9265,7 @@
   {
    "id": "3144",
    "name": "偵察兵のパチンコ",
+   "nameEn": "Scout's Slingshot",
    "plaintext": "発動で魔法ダメージとスロウを対象のチャンピオンに付与",
    "price": 600,
    "tags": [
@@ -8975,6 +9275,7 @@
   {
    "id": "3145",
    "name": "ヘクステック オルタネーター",
+   "nameEn": "Hextech Alternator",
    "plaintext": "魔力が上昇。一定期間毎に通常攻撃に魔法ダメージを追加。",
    "price": 1100,
    "tags": [
@@ -8984,6 +9285,7 @@
   {
    "id": "3146",
    "name": "ヘクステック ガンブレード",
+   "nameEn": "Hextech Gunblade",
    "plaintext": "攻撃力と魔力が上昇し、発動で対象にスロウを付与",
    "price": 3000,
    "tags": [
@@ -8997,6 +9299,7 @@
   {
    "id": "3147",
    "name": "悲愴な仮面",
+   "nameEn": "Haunting Guise",
    "plaintext": "敵を奇襲した時に追加物理ダメージを与える",
    "price": 1300,
    "tags": [
@@ -9007,6 +9310,7 @@
   {
    "id": "3152",
    "name": "ヘクステック ロケットベルト",
+   "nameEn": "Hextech Rocketbelt",
    "plaintext": "発動で前方にダッシュして火の矢を放つ",
    "price": 2650,
    "tags": [
@@ -9021,6 +9325,7 @@
   {
    "id": "3153",
    "name": "ルインドキング ブレード",
+   "nameEn": "Blade of The Ruined King",
    "plaintext": "対象の体力を元にしたダメージを与え、移動速度を吸収",
    "price": 3200,
    "tags": [
@@ -9034,6 +9339,7 @@
   {
    "id": "3155",
    "name": "ヘクスドリンカー",
+   "nameEn": "Hexdrinker",
    "plaintext": "攻撃力と魔法防御が上昇",
    "price": 1300,
    "tags": [
@@ -9044,6 +9350,7 @@
   {
    "id": "3156",
    "name": "マルモティウスの胃袋",
+   "nameEn": "Maw of Malmortius",
    "plaintext": "体力低下時に追加物理ダメージを付与",
    "price": 3100,
    "tags": [
@@ -9057,6 +9364,7 @@
   {
    "id": "3157",
    "name": "ゾーニャの砂時計",
+   "nameEn": "Zhonya's Hourglass",
    "plaintext": "発動ですべての行動が不可になるが、一定時間無敵になる",
    "price": 3250,
    "tags": [
@@ -9068,6 +9376,7 @@
   {
    "id": "3158",
    "name": "アイオニア ブーツ",
+   "nameEn": "Ionian Boots of Lucidity",
    "plaintext": "移動速度が上昇し、クールダウンを短縮",
    "price": 900,
    "tags": [
@@ -9078,6 +9387,7 @@
   {
    "id": "3161",
    "name": "ショウジンの矛",
+   "nameEn": "Spear of Shojin",
    "plaintext": "敵チャンピオンからの被ダメージを一定量軽減する。周囲に複数の敵チャンピオンがいると短時間だけ効果がさらに増加する。",
    "price": 3100,
    "tags": [
@@ -9089,6 +9399,7 @@
   {
    "id": "3165",
    "name": "モレロノミコン",
+   "nameEn": "Morellonomicon",
    "plaintext": "魔法ダメージが増加",
    "price": 2850,
    "tags": [
@@ -9101,6 +9412,7 @@
   {
    "id": "3168",
    "name": "不滅の道",
+   "nameEn": "Immortal Path",
    "plaintext": "",
    "price": 1000,
    "tags": [
@@ -9112,6 +9424,7 @@
   {
    "id": "3170",
    "name": "スイフトマーチ",
+   "nameEn": "Swiftmarch",
    "plaintext": "防御が強化され、行動阻害の効果時間を短縮",
    "price": 1000,
    "tags": [
@@ -9121,6 +9434,7 @@
   {
    "id": "3171",
    "name": "真紅のアイオニア ブーツ",
+   "nameEn": "Crimson Lucidity",
    "plaintext": "",
    "price": 900,
    "tags": [
@@ -9131,6 +9445,7 @@
   {
    "id": "3172",
    "name": "ガンメタル ブーツ",
+   "nameEn": "Gunmetal Greaves",
    "plaintext": "機動性と行動妨害耐性",
    "price": 1100,
    "tags": [
@@ -9142,6 +9457,7 @@
   {
    "id": "3173",
    "name": "チェインレースド クラッシャー",
+   "nameEn": "Chainlaced Crushers",
    "plaintext": "移動速度が上昇し、クールダウンを短縮",
    "price": 1250,
    "tags": [
@@ -9154,6 +9470,7 @@
   {
    "id": "3174",
    "name": "装甲強化の進撃",
+   "nameEn": "Armored Advance",
    "plaintext": "攻撃により回復力と防御力を向上させる",
    "price": 1200,
    "tags": [
@@ -9164,6 +9481,7 @@
   {
    "id": "3175",
    "name": "連呪使いのブーツ",
+   "nameEn": "Spellslinger's Shoes",
    "plaintext": "",
    "price": 1100,
    "tags": [
@@ -9174,6 +9492,7 @@
   {
    "id": "3177",
    "name": "ガーディアン ブレード",
+   "nameEn": "Guardian's Blade",
    "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
    "price": 950,
    "tags": [
@@ -9186,6 +9505,7 @@
   {
    "id": "3179",
    "name": "アンブラル グレイブ",
+   "nameEn": "Umbral Glaive",
    "plaintext": "定期的に罠とワードを見破る",
    "price": 2800,
    "tags": [
@@ -9199,6 +9519,7 @@
   {
    "id": "3181",
    "name": "ハルブレイカー",
+   "nameEn": "Hullbreaker",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9210,6 +9531,7 @@
   {
    "id": "3184",
    "name": "ガーディアン ハンマー",
+   "nameEn": "Guardian's Hammer",
    "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
    "price": 950,
    "tags": [
@@ -9222,6 +9544,7 @@
   {
    "id": "3190",
    "name": "ソラリのロケット",
+   "nameEn": "Locket of the Iron Solari",
    "plaintext": "発動すると周辺の味方にダメージを軽減するシールドを付与",
    "price": 2200,
    "tags": [
@@ -9237,6 +9560,7 @@
   {
    "id": "3211",
    "name": "スペクター カウル",
+   "nameEn": "Spectre's Cowl",
    "plaintext": "防御が強化され、攻撃を受けた際自動回復を付与",
    "price": 1250,
    "tags": [
@@ -9248,6 +9572,7 @@
   {
    "id": "3222",
    "name": "ミカエルの祝福",
+   "nameEn": "Mikael's Blessing",
    "plaintext": "発動で味方チャンピオンのすべての行動妨害効果を無効化",
    "price": 2300,
    "tags": [
@@ -9262,6 +9587,7 @@
   {
    "id": "3302",
    "name": "テルミヌス",
+   "nameEn": "Terminus",
    "plaintext": "一定時間ごとに、ミニオンをキルした時に周辺の仲間を回復し、ゴールドを付与する効果を発生させる",
    "price": 3000,
    "tags": [
@@ -9275,6 +9601,7 @@
   {
    "id": "3504",
    "name": "アーデント センサー",
+   "nameEn": "Ardent Censer",
    "plaintext": "他のユニットへシールドおよび回復効果を付与すると、その対象と自身の両方に攻撃速度増加と通常攻撃時の追加魔法ダメージが付与される",
    "price": 2200,
    "tags": [
@@ -9287,6 +9614,7 @@
   {
    "id": "3508",
    "name": "エッセンス リーバー",
+   "nameEn": "Essence Reaver",
    "plaintext": "",
    "price": 3050,
    "tags": [
@@ -9301,6 +9629,7 @@
   {
    "id": "3742",
    "name": "デッド マン プレート",
+   "nameEn": "Dead Man's Plate",
    "plaintext": "移動によって「熾烈」をためて敵を攻撃する",
    "price": 2900,
    "tags": [
@@ -9313,6 +9642,7 @@
   {
    "id": "3748",
    "name": "タイタン ハイドラ",
+   "nameEn": "Titanic Hydra",
    "plaintext": "所持者の体力に応じた範囲効果ダメージを与える",
    "price": 3300,
    "tags": [
@@ -9325,6 +9655,7 @@
   {
    "id": "3801",
    "name": "クリスタル ブレーサー",
+   "nameEn": "Crystalline Bracer",
    "plaintext": "体力と体力自動回復が増える",
    "price": 800,
    "tags": [
@@ -9335,6 +9666,7 @@
   {
    "id": "3802",
    "name": "ロスト チャプター",
+   "nameEn": "Lost Chapter",
    "plaintext": "レベルアップ時にマナを回復する",
    "price": 1200,
    "tags": [
@@ -9348,6 +9680,7 @@
   {
    "id": "3803",
    "name": "久遠のカタリスト",
+   "nameEn": "Catalyst of Aeons",
    "plaintext": "",
    "price": 1300,
    "tags": [
@@ -9360,6 +9693,7 @@
   {
    "id": "3814",
    "name": "ナイト エッジ",
+   "nameEn": "Edge of Night",
    "plaintext": "一定時間ごとに敵のスキルを無効化する",
    "price": 3000,
    "tags": [
@@ -9371,6 +9705,7 @@
   {
    "id": "3865",
    "name": "ワールド アトラス",
+   "nameEn": "World Atlas",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -9384,6 +9719,7 @@
   {
    "id": "3869",
    "name": "セレスティアル オポジション",
+   "nameEn": "Celestial Opposition",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -9398,6 +9734,7 @@
   {
    "id": "3870",
    "name": "ドリーム メーカー",
+   "nameEn": "Dream Maker",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -9412,6 +9749,7 @@
   {
    "id": "3871",
    "name": "ザズ＝ザクのレルムスパイク",
+   "nameEn": "Zaz'Zak's Realmspike",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -9426,6 +9764,7 @@
   {
    "id": "3876",
    "name": "至点のソリ",
+   "nameEn": "Solstice Sleigh",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -9440,6 +9779,7 @@
   {
    "id": "3877",
    "name": "ブラッドソング",
+   "nameEn": "Bloodsong",
    "plaintext": "",
    "price": 400,
    "tags": [
@@ -9454,6 +9794,7 @@
   {
    "id": "3916",
    "name": "忘却のオーブ",
+   "nameEn": "Oblivion Orb",
    "plaintext": "魔法ダメージが上昇",
    "price": 800,
    "tags": [
@@ -9463,6 +9804,7 @@
   {
    "id": "4005",
    "name": "帝国の指令",
+   "nameEn": "Imperial Mandate",
    "plaintext": "被ダメージを先送り",
    "price": 2400,
    "tags": [
@@ -9475,6 +9817,7 @@
   {
    "id": "4401",
    "name": "自然の力",
+   "nameEn": "Force of Nature",
    "plaintext": "移動速度、魔法防御、最大体力自動回復",
    "price": 2800,
    "tags": [
@@ -9486,6 +9829,7 @@
   {
    "id": "4628",
    "name": "ホライゾン フォーカス",
+   "nameEn": "Horizon Focus",
    "plaintext": "チャンピオンを移動不能にした際に雷で攻撃",
    "price": 2700,
    "tags": [
@@ -9496,6 +9840,7 @@
   {
    "id": "4629",
    "name": "コズミック ドライブ",
+   "nameEn": "Cosmic Drive",
    "plaintext": "大量のクールダウン短縮",
    "price": 3000,
    "tags": [
@@ -9508,6 +9853,7 @@
   {
    "id": "4630",
    "name": "枯死の宝石",
+   "nameEn": "Blighting Jewel",
    "plaintext": "",
    "price": 1100,
    "tags": [
@@ -9518,6 +9864,7 @@
   {
    "id": "4632",
    "name": "ヴァーダント バリア",
+   "nameEn": "Verdant Barrier",
    "plaintext": "",
    "price": 1600,
    "tags": [
@@ -9528,6 +9875,7 @@
   {
    "id": "4633",
    "name": "リフトメーカー",
+   "nameEn": "Riftmaker",
    "plaintext": "",
    "price": 3100,
    "tags": [
@@ -9540,6 +9888,7 @@
   {
    "id": "4642",
    "name": "バンドルグラスの鏡",
+   "nameEn": "Bandleglass Mirror",
    "plaintext": "",
    "price": 900,
    "tags": [
@@ -9552,6 +9901,7 @@
   {
    "id": "4645",
    "name": "シャドウフレイム",
+   "nameEn": "Shadowflame",
    "plaintext": "",
    "price": 3200,
    "tags": [
@@ -9562,6 +9912,7 @@
   {
    "id": "4646",
    "name": "ストームサージ",
+   "nameEn": "Stormsurge",
    "plaintext": "",
    "price": 2800,
    "tags": [
@@ -9574,6 +9925,7 @@
   {
    "id": "6333",
    "name": "デス ダンス",
+   "nameEn": "Death's Dance",
    "plaintext": "",
    "price": 3300,
    "tags": [
@@ -9585,6 +9937,7 @@
   {
    "id": "6609",
    "name": "ケミパンク チェーンソード",
+   "nameEn": "Chempunk Chainsword",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9597,6 +9950,7 @@
   {
    "id": "6610",
    "name": "サンダード スカイ",
+   "nameEn": "Sundered Sky",
    "plaintext": "",
    "price": 3100,
    "tags": [
@@ -9609,6 +9963,7 @@
   {
    "id": "6616",
    "name": "フロー ウォーター スタッフ",
+   "nameEn": "Staff of Flowing Water",
    "plaintext": "自身の回復効果とシールドが行動妨害効果を軽減し、移動速度が増加",
    "price": 2250,
    "tags": [
@@ -9621,6 +9976,7 @@
   {
    "id": "6617",
    "name": "ムーンストーンの再生",
+   "nameEn": "Moonstone Renewer",
    "plaintext": "自身の回復効果とシールドのクールダウンが短縮されて、体力の低下した味方への効果が増加",
    "price": 2200,
    "tags": [
@@ -9634,6 +9990,7 @@
   {
    "id": "6620",
    "name": "ヘリアの残響",
+   "nameEn": "Echoes of Helia",
    "plaintext": "体力が低下した敵にダメージを与えると呪いの爆発が発生して、周囲の敵にダメージとスロウ効果を付与",
    "price": 2200,
    "tags": [
@@ -9647,6 +10004,7 @@
   {
    "id": "6621",
    "name": "ドーンコア",
+   "nameEn": "Dawncore",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9657,6 +10015,7 @@
   {
    "id": "6631",
    "name": "ストライドブレイカー",
+   "nameEn": "Stridebreaker",
    "plaintext": "",
    "price": 3300,
    "tags": [
@@ -9669,6 +10028,7 @@
   {
    "id": "6653",
    "name": "ライアンドリーの仮面",
+   "nameEn": "Liandry's Torment",
    "plaintext": "戦闘でチャージされ、特に耐久力の高い敵に対して高い継続ダメージを与える",
    "price": 3000,
    "tags": [
@@ -9679,6 +10039,7 @@
   {
    "id": "6655",
    "name": "ルーデン エコー",
+   "nameEn": "Luden's Echo",
    "plaintext": "バーストダメージが大幅に増加、耐久力の低い敵に効果的",
    "price": 2750,
    "tags": [
@@ -9691,6 +10052,7 @@
   {
    "id": "6657",
    "name": "ロッド オブ エイジス",
+   "nameEn": "Rod of Ages",
    "plaintext": "",
    "price": 2600,
    "tags": [
@@ -9704,6 +10066,7 @@
   {
    "id": "6660",
    "name": "バミ シンダー",
+   "nameEn": "Bami's Cinder",
    "plaintext": "",
    "price": 900,
    "tags": [
@@ -9714,6 +10077,7 @@
   {
    "id": "6662",
    "name": "アイスボーン ガントレット",
+   "nameEn": "Iceborn Gauntlet",
    "plaintext": "魔法防御が大幅に増加。自動効果で周囲の敵にスロウ効果を付与。周囲でスキルが使用されると、エネルギー波を放ってダメージとスロウ効果を付与。",
    "price": 2900,
    "tags": [
@@ -9728,6 +10092,7 @@
   {
    "id": "6664",
    "name": "ホロウ レディアンス",
+   "nameEn": "Hollow Radiance",
    "plaintext": "敵に移動不能効果を与えるとシールドを獲得。発動すると相手に向かう際の移動速度が増加。",
    "price": 2800,
    "tags": [
@@ -9742,6 +10107,7 @@
   {
    "id": "6665",
    "name": "変幻自在のジャック＝ショー",
+   "nameEn": "Jak'Sho, The Protean",
    "plaintext": "",
    "price": 3200,
    "tags": [
@@ -9754,6 +10120,7 @@
   {
    "id": "6670",
    "name": "ヌーンクィヴァー",
+   "nameEn": "Noonquiver",
    "plaintext": "",
    "price": 1300,
    "tags": [
@@ -9764,6 +10131,7 @@
   {
    "id": "6672",
    "name": "クラーケン スレイヤー",
+   "nameEn": "Kraken Slayer",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9776,6 +10144,7 @@
   {
    "id": "6673",
    "name": "イモータル シールドボウ",
+   "nameEn": "Immortal Shieldbow",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9786,6 +10155,7 @@
   {
    "id": "6675",
    "name": "ナヴォリ フリッカーブレード",
+   "nameEn": "Navori Flickerblade",
    "plaintext": "",
    "price": 2650,
    "tags": [
@@ -9797,6 +10167,7 @@
   {
    "id": "6676",
    "name": "コレクター",
+   "nameEn": "The Collector",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9808,6 +10179,7 @@
   {
    "id": "6690",
    "name": "レクトリクス",
+   "nameEn": "Rectrix",
    "plaintext": "",
    "price": 775,
    "tags": [
@@ -9818,6 +10190,7 @@
   {
    "id": "6692",
    "name": "赤月の刃",
+   "nameEn": "Eclipse",
    "plaintext": "",
    "price": 2900,
    "tags": [
@@ -9829,6 +10202,7 @@
   {
    "id": "6694",
    "name": "セリルダの怨恨",
+   "nameEn": "Serylda's Grudge",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9841,6 +10215,7 @@
   {
    "id": "6695",
    "name": "毒蛇の牙",
+   "nameEn": "Serpent's Fang",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9851,6 +10226,7 @@
   {
    "id": "6696",
    "name": "アクシオム アーク",
+   "nameEn": "Axiom Arc",
    "plaintext": "",
    "price": 2750,
    "tags": [
@@ -9862,6 +10238,7 @@
   {
    "id": "6697",
    "name": "ヒュブリス",
+   "nameEn": "Hubris",
    "plaintext": "",
    "price": 2800,
    "tags": [
@@ -9875,6 +10252,7 @@
   {
    "id": "6698",
    "name": "プロフェイン ハイドラ",
+   "nameEn": "Profane Hydra",
    "plaintext": "",
    "price": 2850,
    "tags": [
@@ -9888,6 +10266,7 @@
   {
    "id": "6699",
    "name": "ボルテイク サイクロソード",
+   "nameEn": "Voltaic Cyclosword",
    "plaintext": "",
    "price": 3000,
    "tags": [
@@ -9901,6 +10280,7 @@
   {
    "id": "8010",
    "name": "ブラッドレターの呪い",
+   "nameEn": "Bloodletter's Curse",
    "plaintext": "",
    "price": 2900,
    "tags": [
@@ -9913,6 +10293,7 @@
   {
    "id": "8020",
    "name": "アビサル マスク",
+   "nameEn": "Abyssal Mask",
    "plaintext": "",
    "price": 2650,
    "tags": [
@@ -9926,6 +10307,7 @@
   {
    "id": "663039",
    "name": "アトマの報い",
+   "nameEn": "Atma's Reckoning",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9937,6 +10319,7 @@
   {
    "id": "663056",
    "name": "不死身の大王の王冠",
+   "nameEn": "Demon King's Crown",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9952,6 +10335,7 @@
   {
    "id": "663058",
    "name": "モルテンストーン シールド",
+   "nameEn": "Shield of Molten Stone",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9962,6 +10346,7 @@
   {
    "id": "663059",
    "name": "星空のマント",
+   "nameEn": "Cloak of Starry Night",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9972,6 +10357,7 @@
   {
    "id": "663060",
    "name": "天帝の剣",
+   "nameEn": "Sword of the Divine",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -9983,6 +10369,7 @@
   {
    "id": "663064",
    "name": "ベイガーの超越のタリスマン",
+   "nameEn": "Veigar's Talisman of Ascension",
    "plaintext": "",
    "price": 900,
    "tags": []
@@ -9990,6 +10377,7 @@
   {
    "id": "663172",
    "name": "ゼファー",
+   "nameEn": "Zephyr",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10003,6 +10391,7 @@
   {
    "id": "663193",
    "name": "ガーゴイル ストーンプレート",
+   "nameEn": "Gargoyle Stoneplate",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10016,6 +10405,7 @@
   {
    "id": "664011",
    "name": "花咲く夜明けの剣",
+   "nameEn": "Sword of Blossoming Dawn",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10029,6 +10419,7 @@
   {
    "id": "664644",
    "name": "シャッタードクイーン クラウン",
+   "nameEn": "Crown of the Shattered Queen",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10041,6 +10432,7 @@
   {
    "id": "667101",
    "name": "ギャンブラーの剣",
+   "nameEn": "Gambler's Blade",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10054,6 +10446,7 @@
   {
    "id": "667109",
    "name": "冷酷な一撃",
+   "nameEn": "Cruelty",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10065,6 +10458,7 @@
   {
    "id": "667112",
    "name": "肉喰らう者",
+   "nameEn": "Flesheater",
    "plaintext": "",
    "price": 2500,
    "tags": [
@@ -10082,61 +10476,73 @@
    "runes": [
     {
      "name": "電撃",
+     "nameEn": "Electrocute",
      "icon": "perk-images/Styles/Domination/Electrocute/Electrocute.png",
      "description": "3秒以内にチャンピオンを個別のスキルか通常攻撃で3回攻撃すると、追加アダプティブダメージを与える。"
     },
     {
      "name": "魂の収穫",
+     "nameEn": "Dark Harvest",
      "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
      "description": "体力の低下したチャンピオンにダメージを与えるとアダプティブダメージを与えて、犠牲者から魂を1つ収穫する。"
     },
     {
      "name": "ヘイルブレード",
+     "nameEn": "Hail of Blades",
      "icon": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png",
      "description": "敵チャンピオンに対する最初の3回の通常攻撃の攻撃速度が大きく増加し、追加確定ダメージを獲得する。"
     },
     {
      "name": "追い打ち",
+     "nameEn": "Cheap Shot",
      "icon": "perk-images/Styles/Domination/CheapShot/CheapShot.png",
      "description": "移動妨害か行動不能効果を受けているチャンピオンに追加確定ダメージを与える。"
     },
     {
      "name": "血の味わい",
+     "nameEn": "Taste of Blood",
      "icon": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png",
      "description": "敵チャンピオンにダメージを与えると体力を回復する。"
     },
     {
      "name": "サドンインパクト",
+     "nameEn": "Sudden Impact",
      "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png",
      "description": "ステルス状態が解除されるか、ダッシュ、リープ、ブリンク、テレポートを使用してから敵チャンピオンに通常攻撃かスキルでダメージを与えると、追加確定ダメージを与える。"
     },
     {
      "name": "第六感",
+     "nameEn": "Sixth Sense",
      "icon": "perk-images/Styles/Domination/SixthSense/SixthSense.png",
      "description": "長いクールダウンで、自動的に周囲の未追跡で未発見のワードを感知し、味方チームのために追跡する。 レベル11: さらにそのワードを10秒間可視化する。"
     },
     {
      "name": "グリスリー メメント",
+     "nameEn": "Grisly Mementos",
      "icon": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png",
      "description": "チャンピオンからキルまたはアシストを奪うとメメントを1個獲得する(合計最大18個)。 メメントを獲得するごとに、トリンケットヘイストが6増加する。"
     },
     {
      "name": "ディープワード",
+     "nameEn": "Deep Ward",
      "icon": "perk-images/Styles/Domination/DeepWard/DeepWard.png",
      "description": "敵ジャングル内の自身のワードがディープ状態になり、体力と効果時間が増加する。 レベル9: 川の中のワードもディープ状態になる。"
     },
     {
      "name": "貪欲な賞金首狩り",
+     "nameEn": "Treasure Hunter",
      "icon": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png",
      "description": "異なる対象から初めてキルまたはアシストを獲得した際に追加のゴールドを獲得する。"
     },
     {
      "name": "執拗な賞金首狩り",
+     "nameEn": "Relentless Hunter",
      "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png",
      "description": "それぞれ異なる敵チャンピオンからキルまたはアシストを獲得すると非戦闘時の移動速度が恒久的に増加する。"
     },
     {
      "name": "至極の賞金首狩り",
+     "nameEn": "Ultimate Hunter",
      "icon": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
      "description": "それぞれ異なる敵チャンピオンからキルまたはアシストを獲得するたびに、アルティメットスキルのクールダウンを恒久的に短縮する。"
     }
@@ -10148,61 +10554,73 @@
    "runes": [
     {
      "name": "グレイシャルオーグメント",
+     "nameEn": "Glacial Augment",
      "icon": "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png",
      "description": "敵チャンピオンに移動不能効果を与えると、3本の冷気の光線が発射されて周囲の敵にスロウ効果を与え、その敵が味方に与えるダメージを低下させる。"
     },
     {
      "name": "解放の魔導書",
+     "nameEn": "Unsealed Spellbook",
      "icon": "perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png",
      "description": "非戦闘時にサモナースペルを交換できる。新たな種類のサモナースペルに交換するたびに、次に交換可能になるまでの時間が短縮される。"
     },
     {
      "name": "ファーストストライク",
+     "nameEn": "First Strike",
      "icon": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png",
      "description": "チャンピオンとの戦闘を開始すると3秒間、7%の追加ダメージを与え、与ダメージに応じたゴールドを獲得する。"
     },
     {
      "name": "ヘクステックフラッシュネイター",
+     "nameEn": "Hextech Flashtraption",
      "icon": "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png",
      "description": "フラッシュがクールダウンに入ると「へクスフラッシュ」に置き換わる。 へクスフラッシュ: 詠唱後に指定位置に瞬間移動する。"
     },
     {
      "name": "魔法の靴",
+     "nameEn": "Magical Footwear",
      "icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png",
      "description": "試合開始から12分時点で無料のブーツを獲得するが、それまではブーツを購入できない。キルまたはアシストを獲得するたびに、ブーツ獲得までの時間が45秒短縮される。"
     },
     {
      "name": "キャッシュバック",
+     "nameEn": "Cash Back",
      "icon": "perk-images/Styles/Inspiration/CashBack/CashBack2.png",
      "description": "レジェンダリーアイテムを購入する際に、一部のゴールドが戻ってくる。"
     },
     {
      "name": "トリプル トニック",
+     "nameEn": "Triple Tonic",
      "icon": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png",
      "description": "レベル3になると「強欲のエリクサー」を獲得する。 レベル6になると「力のエリクサー」を獲得する。 レベル9になると「スキル エリクサー」を獲得する。"
     },
     {
      "name": "タイムワープトニック",
+     "nameEn": "Time Warp Tonic",
      "icon": "perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png",
      "description": "ポーション使用時に一定割合を即座に回復する。"
     },
     {
      "name": "ビスケットデリバリー",
+     "nameEn": "Biscuit Delivery",
      "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png",
      "description": "6分経過するまで2分毎にビスケットを獲得する。消費するか売却すると最大体力が増加し、体力が回復する。"
     },
     {
      "name": "宇宙の英知",
+     "nameEn": "Cosmic Insight",
      "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png",
      "description": "サモナースペルヘイスト +18 アイテムヘイスト +10"
     },
     {
      "name": "疾駆",
+     "nameEn": "Approach Velocity",
      "icon": "perk-images/Styles/Resolve/ApproachVelocity/ApproachVelocity.png",
      "description": "近くにいる移動妨害効果を受けた敵チャンピオンに向かって移動する時に移動速度が増加する。自身が敵チャンピオンに移動妨害効果を与えた場合は効果が上昇する。"
     },
     {
      "name": "なんでも屋",
+     "nameEn": "Jack Of All Trades",
      "icon": "perk-images/Styles/Inspiration/JackOfAllTrades/JackofAllTrades2.png",
      "description": "アイテムで増加したステータスの種類1つごとに「なんでも屋」のスタックを1つ獲得する。スタックごとにスキルヘイストが1増加する。 5スタックおよび10スタック時に追加でアダプティブフォースが増加する。"
     }
@@ -10214,66 +10632,79 @@
    "runes": [
     {
      "name": "プレスアタック",
+     "nameEn": "Press the Attack",
      "icon": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png",
      "description": "敵チャンピオンを3回連続で攻撃すると追加ダメージを与え、チャンピオンとの戦闘から離脱するまで自身のダメージが増幅する。"
     },
     {
      "name": "リーサルテンポ",
+     "nameEn": "Lethal Tempo",
      "icon": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
      "description": "敵チャンピオンに通常攻撃を行うと攻撃速度が増加する。この効果は最大6回までスタックする。最大スタックになると、通常攻撃時効果で追加アダプティブダメージを与えるようになる。"
     },
     {
      "name": "フリートフットワーク",
+     "nameEn": "Fleet Footwork",
      "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png",
      "description": "攻撃と移動でスタックが溜まる。100スタックで次の通常攻撃は自身を回復し、移動速度が増加する。"
     },
     {
      "name": "征服者",
+     "nameEn": "Conqueror",
      "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png",
      "description": "敵チャンピオンへの攻撃でアダプティブフォースのスタックを獲得する。スタック数が12になると、チャンピオンに与えたダメージの一定割合の体力を回復する。"
     },
     {
      "name": "体力吸収",
+     "nameEn": "Absorb Life",
      "icon": "perk-images/Styles/Precision/AbsorbLife/AbsorbLife.png",
      "description": "対象をキルすると自身の体力が回復する。"
     },
     {
      "name": "凱旋",
+     "nameEn": "Triumph",
      "icon": "perk-images/Styles/Precision/Triumph.png",
      "description": "キルまたはアシスト獲得時に減少体力の5%を回復し、20ゴールドを追加で獲得する。"
     },
     {
      "name": "冷静沈着",
+     "nameEn": "Presence of Mind",
      "icon": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png",
      "description": "敵チャンピオンにダメージを与えると、マナまたは気が少し回復する。キルまたはアシストを獲得するとマナまたは気を回復する。"
     },
     {
      "name": "レジェンド: 迅速",
+     "nameEn": "Legend: Alacrity",
      "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png",
      "description": "敵をキルまたはアシストすると恒久的に攻撃速度が増加する。"
     },
     {
      "name": "レジェンド: ヘイスト",
+     "nameEn": "Legend: Haste",
      "icon": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
      "description": "敵をキルまたはアシストすると恒久的に通常スキルヘイストが増加する。"
     },
     {
      "name": "レジェンド: 血脈",
+     "nameEn": "Legend: Bloodline",
      "icon": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png",
      "description": "敵からキルまたはアシストを獲得すると恒久的にライフスティールが増加する(上限あり)。上限に達すると最大体力が増加する。序盤は他のレジェンドルーンに比べて効果が薄いが、終盤になるにつれて強力になっていく。"
     },
     {
      "name": "最期の慈悲",
+     "nameEn": "Coup de Grace",
      "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png",
      "description": "体力の低下した敵チャンピオンに対して与えるダメージが増加する。"
     },
     {
      "name": "切り崩し",
+     "nameEn": "Cut Down",
      "icon": "perk-images/Styles/Precision/CutDown/CutDown.png",
      "description": "体力の多い敵チャンピオンに対して与えるダメージが増加する。"
     },
     {
      "name": "背水の陣",
+     "nameEn": "Last Stand",
      "icon": "perk-images/Styles/Sorcery/LastStand/LastStand.png",
      "description": "自身の体力が低下していると敵チャンピオンに与えるダメージが増加する。"
     }
@@ -10285,61 +10716,73 @@
    "runes": [
     {
      "name": "不死者の握撃",
+     "nameEn": "Grasp of the Undying",
      "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
      "description": "4秒毎に、敵チャンピオンに対する通常攻撃が追加魔法ダメージを与え、体力を回復。さらに最大体力を恒久的に増加させる。"
     },
     {
      "name": "アフターショック",
+     "nameEn": "Aftershock",
      "icon": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
      "description": "敵チャンピオンに移動不能効果を与えると防御力を獲得し、その後爆発して自身の周囲の敵に大きな魔法ダメージを与える。"
     },
     {
      "name": "ガーディアン",
+     "nameEn": "Guardian",
      "icon": "perk-images/Styles/Resolve/Guardian/Guardian.png",
      "description": "自身がスキルを使用した味方と自身の近くにいる味方をガードする。ガードしている味方か自身のどちらかがレベルに応じた一定以上のダメージを受けると、両者がシールドを獲得する。"
     },
     {
      "name": "打ちこわし",
+     "nameEn": "Demolish",
      "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png",
      "description": "タワーへの3回目の通常攻撃が追加ダメージを与える。"
     },
     {
      "name": "生命の泉",
+     "nameEn": "Font of Life",
      "icon": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
      "description": "敵チャンピオンに行動妨害効果を付与すると、近くにいる味方チャンピオンの体力が回復する。"
     },
     {
      "name": "シールドバッシュ",
+     "nameEn": "Shield Bash",
      "icon": "perk-images/Styles/Resolve/MirrorShell/MirrorShell.png",
      "description": "シールドを獲得するたびに、チャンピオンに対する次の通常攻撃が追加アダプティブダメージを与える。"
     },
     {
      "name": "心身調整",
+     "nameEn": "Conditioning",
      "icon": "perk-images/Styles/Resolve/Conditioning/Conditioning.png",
      "description": "試合開始12分後に物理防御 +8と魔法防御 +8を獲得。物理防御と魔法防御が3%増加する。"
     },
     {
      "name": "息継ぎ",
+     "nameEn": "Second Wind",
      "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png",
      "description": "敵チャンピオンからダメージを受けると、減少体力の一部を時間をかけて回復する。"
     },
     {
      "name": "ボーンアーマー",
+     "nameEn": "Bone Plating",
      "icon": "perk-images/Styles/Resolve/BonePlating/BonePlating.png",
      "description": "敵チャンピオンからダメージを受けると、そのチャンピオンから次に受ける3回のスキルまたは通常攻撃のダメージが30-60(チャンピオンレベルに応じて)軽減される。 効果時間: 1.5秒 クールダウン: 55秒"
     },
     {
      "name": "超成長",
+     "nameEn": "Overgrowth",
      "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
      "description": "自身の周囲で敵ミニオンまたはモンスターが倒されると恒久的に最大体力が増加する。"
     },
     {
      "name": "生気付与",
+     "nameEn": "Revitalize",
      "icon": "perk-images/Styles/Resolve/Revitalize/Revitalize.png",
      "description": "体力回復効果とシールド効果が5%上昇する。 自身が使用する、または付与される体力回復効果とシールド効果は、対象の体力が40%未満の場合、10%上昇する。"
     },
     {
      "name": "気迫",
+     "nameEn": "Unflinching",
      "icon": "perk-images/Styles/Sorcery/Unflinching/Unflinching.png",
      "description": "行動妨害効果を受けると物理防御と魔法防御が増加する。"
     }
@@ -10351,66 +10794,79 @@
    "runes": [
     {
      "name": "エアリー召喚",
+     "nameEn": "Summon Aery",
      "icon": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png",
      "description": "通常攻撃かスキルでエアリーを送り出し、味方にはシールド、敵にはダメージを与える。"
     },
     {
      "name": "秘儀の彗星",
+     "nameEn": "Arcane Comet",
      "icon": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png",
      "description": "スキルでダメージを与えた敵チャンピオンの位置に彗星を飛ばす。"
     },
     {
      "name": "嵐乗りの勇躍",
+     "nameEn": "Stormraider's Surge",
      "icon": "perk-images/Styles/Sorcery/PhaseRush/StormraidersSurgeRuneIcon2.png",
      "description": "対象チャンピオンの最大体力の25%にあたるダメージを与えると、瞬間的に移動速度が増加し、スロウ耐性を獲得する。"
     },
     {
      "name": "死神の残り火",
+     "nameEn": "Deathfire Touch",
      "icon": "perk-images/Styles/Sorcery/DeathfireTouch/DEATHFIRE_TOUCH_KEYSTONE.png",
      "description": "スキルでチャンピオンにダメージを与えると、継続燃焼ダメージを与える。"
     },
     {
      "name": "アクシオム アルカニスト",
+     "nameEn": "Axiom Arcanist",
      "icon": "perk-images/Styles/Sorcery/NullifyingOrb/Axiom_Arcanist.png",
      "description": "アルティメットスキルのダメージ、体力回復効果、シールド量が増加する。敵チャンピオンからキルまたはアシストを獲得すると、アルティメットスキルの現在のクールダウンが短縮される。"
     },
     {
      "name": "マナフローバンド",
+     "nameEn": "Manaflow Band",
      "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png",
      "description": "敵チャンピオンにスキルを当てるたびに最大マナが25ずつ恒久的に増加する(増加マナ上限は250)。 増加マナが250になると5秒ごとに減少マナの1%を回復する。"
     },
     {
      "name": "ニンバスクローク",
+     "nameEn": "Nimbus Cloak",
      "icon": "perk-images/Styles/Sorcery/NimbusCloak/6361.png",
      "description": "サモナースペル使用後、少しの間だけ移動速度が増加し、ユニットをすり抜けられるようになる。"
     },
     {
      "name": "至高",
+     "nameEn": "Transcendence",
      "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png",
      "description": "以下のレベルになるとボーナスを獲得: レベル5: スキルヘイスト +5 レベル8: スキルヘイスト +5 レベル11: チャンピオンからキルまたはアシストを獲得すると、通常スキルの残りクールダウンが20%短縮される。"
     },
     {
      "name": "追い風",
+     "nameEn": "Celerity",
      "icon": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png",
      "description": "自身のあらゆる移動速度ボーナスの効果が7%上昇し、移動速度が1%増加する。"
     },
     {
      "name": "英気集中",
+     "nameEn": "Absolute Focus",
      "icon": "perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png",
      "description": "体力が70%以上あると追加アダプティブダメージを獲得する。"
     },
     {
      "name": "追火",
+     "nameEn": "Scorch",
      "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png",
      "description": "10秒毎に攻撃スキルが命中した対象を燃やす。"
     },
     {
      "name": "水走り",
+     "nameEn": "Waterwalking",
      "icon": "perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png",
      "description": "川の中にいると移動速度が増加し、魔力または攻撃力(アダプティブ)を獲得する。"
     },
     {
      "name": "強まる嵐",
+     "nameEn": "Gathering Storm",
      "icon": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png",
      "description": "試合時間の経過とともに攻撃力または魔力(アダプティブ)が増加する。"
     }
@@ -10421,54 +10877,63 @@
   {
    "id": "SummonerBarrier",
    "name": "バリア",
+   "nameEn": "Barrier",
    "description": "一時的にシールドを獲得する。",
    "cooldown": 180
   },
   {
    "id": "SummonerBoost",
    "name": "クレンズ",
+   "nameEn": "Cleanse",
    "description": "行動妨害(サプレッションとノックアップを除く)やサモナースペルによるデバフをすべて解除し、行動妨害耐性が増加する。",
    "cooldown": 240
   },
   {
    "id": "SummonerDot",
    "name": "イグナイト",
+   "nameEn": "Ignite",
    "description": "対象の敵チャンピオンに継続確定ダメージを与え、効果時間中は対象の回復効果を減少させる。",
    "cooldown": 180
   },
   {
    "id": "SummonerExhaust",
    "name": "イグゾースト",
+   "nameEn": "Exhaust",
    "description": "敵チャンピオンにスロウ効果を付与し、与ダメージを低下させる。",
    "cooldown": 240
   },
   {
    "id": "SummonerFlash",
    "name": "フラッシュ",
+   "nameEn": "Flash",
    "description": "自身のチャンピオンを短い距離、指定した方向に瞬間移動させる。",
    "cooldown": 300
   },
   {
    "id": "SummonerHaste",
    "name": "ゴースト",
+   "nameEn": "Ghost",
    "description": "移動速度が増加し、効果時間中はユニットの衝突判定が無視できるようになる。",
    "cooldown": 240
   },
   {
    "id": "SummonerHeal",
    "name": "ヒール",
+   "nameEn": "Heal",
    "description": "自身および対象の味方チャンピオンの体力を回復し、移動速度を増加させる。",
    "cooldown": 240
   },
   {
    "id": "SummonerSmite",
    "name": "スマイト",
+   "nameEn": "Smite",
    "description": "モンスターまたはミニオンに確定ダメージを与える。",
    "cooldown": 15
   },
   {
    "id": "SummonerTeleport",
    "name": "テレポート",
+   "nameEn": "Teleport",
    "description": "短い詠唱後、対象指定不可になって味方ユニットの位置まで移動する。「真テレポート」にアップグレードされると移動速度が大幅に増加する。 ",
    "cooldown": 300
   }

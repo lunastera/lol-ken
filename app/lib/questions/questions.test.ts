@@ -141,6 +141,33 @@ describe("buildQuizSet", () => {
     }
   });
 
+  it("hard mode attaches full candidate pools containing the answer", () => {
+    const questions = buildQuizSet(
+      data,
+      { ...DEFAULT_SELECTION, hard: true },
+      createRng(11),
+      40,
+    );
+    const withCandidates = questions.filter((q) => q.candidates);
+    expect(withCandidates.length).toBeGreaterThan(0);
+    for (const q of withCandidates) {
+      const answer = q.choices[q.answerIndex];
+      const names = q.candidates?.map((c) => c.name) ?? [];
+      expect(names, q.text).toContain(answer);
+      expect(names.length).toBeGreaterThan(4);
+      for (const c of q.candidates ?? []) {
+        expect(c.nameEn, c.name).toBeTruthy();
+        // Image-guessing questions must not leak the answer via icons.
+        if (q.text.startsWith("この画像の")) {
+          expect(c.imageUrl, q.text).toBeUndefined();
+        }
+      }
+    }
+    // Normal mode attaches none.
+    const normal = buildQuizSet(data, DEFAULT_SELECTION, createRng(11), 40);
+    expect(normal.every((q) => q.candidates === undefined)).toBe(true);
+  });
+
   it("only produces questions of the selected types", () => {
     const questions = buildQuizSet(
       data,

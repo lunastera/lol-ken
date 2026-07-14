@@ -1,16 +1,25 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router";
+import { AnswerCombobox, candidateLabel } from "~/components/AnswerCombobox";
 import { ChoiceButton } from "~/components/ChoiceButton";
 import { ProgressBar } from "~/components/ProgressBar";
 import { QuestionCard } from "~/components/QuestionCard";
 import { loadQuizData } from "~/lib/data";
-import { buildQuizSet } from "~/lib/questions";
+import { buildQuizSet, type Candidate } from "~/lib/questions";
 import { createRng, randomSeed } from "~/lib/random";
 import { laneLabel, parseSelection } from "~/lib/selection";
 import type { Route } from "./+types/quiz";
 
 export async function clientLoader() {
   return loadQuizData();
+}
+
+/** What the user answered on the current question. */
+interface Answered {
+  /** index into choices (4-choice mode), null in hard mode */
+  choiceIndex: number | null;
+  label: string;
+  correct: boolean;
 }
 
 export default function Quiz({ loaderData: data }: Route.ComponentProps) {
@@ -32,7 +41,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
   );
 
   const [index, setIndex] = useState(0);
-  const [selected, setSelected] = useState<number | null>(null);
+  const [answered, setAnswered] = useState<Answered | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
 
   // Warm the browser cache for every image in the set so later questions
@@ -57,17 +66,36 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
   }
 
   const question = questions[index];
-  const revealed = selected !== null;
+  const answer = question.choices[question.answerIndex];
+  const revealed = answered !== null;
   const isLast = index + 1 >= questions.length;
-  const label = laneLabel(selection.lanes);
+  const label = [laneLabel(selection.lanes), selection.hard ? "ハード" : ""]
+    .filter(Boolean)
+    .join(" / ");
   const title = label ? `LoLもん（${label}）` : "LoLもん";
+  const hardMode = question.candidates !== undefined;
+  const answerCandidate = question.candidates?.find((c) => c.name === answer);
 
-  const choose = (choiceIndex: number) => {
+  const answerWith = (partial: Answered) => {
     if (revealed) return;
-    setSelected(choiceIndex);
-    if (choiceIndex === question.answerIndex) {
-      setCorrectCount((c) => c + 1);
-    }
+    setAnswered(partial);
+    if (partial.correct) setCorrectCount((c) => c + 1);
+  };
+
+  const chooseButton = (choiceIndex: number) => {
+    answerWith({
+      choiceIndex,
+      label: question.choices[choiceIndex],
+      correct: choiceIndex === question.answerIndex,
+    });
+  };
+
+  const chooseCandidate = (candidate: Candidate) => {
+    answerWith({
+      choiceIndex: null,
+      label: candidateLabel(candidate),
+      correct: candidate.name === answer,
+    });
   };
 
   const next = () => {
@@ -77,6 +105,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
           lanes: selection.lanes,
           types: selection.types,
           count: selection.count,
+          hard: selection.hard,
           correct: correctCount,
           total: questions.length,
         },
@@ -85,7 +114,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
       return;
     }
     setIndex(index + 1);
-    setSelected(null);
+    setAnswered(null);
   };
 
   return (
@@ -101,32 +130,63 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
 
       <QuestionCard question={question} />
 
-      <div className="flex flex-col gap-2">
-        {question.choices.map((choice, i) => (
-          <ChoiceButton
-            key={choice}
-            label={choice}
-            iconUrl={question.choiceImageUrls?.[i]}
-            tooltip={question.choiceTooltips?.[i]}
-            revealed={revealed}
-            isAnswer={i === question.answerIndex}
-            isSelected={i === selected}
-            onClick={() => choose(i)}
+      {hardMode ? (
+        !revealed && (
+          <AnswerCombobox
+            // Reset the input between questions.
+            key={index}
+            candidates={question.candidates ?? []}
+            onSelect={chooseCandidate}
           />
-        ))}
-      </div>
+        )
+      ) : (
+        <div className="flex flex-col gap-2">
+          {question.choices.map((choice, i) => (
+            <ChoiceButton
+              key={choice}
+              label={choice}
+              iconUrl={question.choiceImageUrls?.[i]}
+              tooltip={question.choiceTooltips?.[i]}
+              revealed={revealed}
+              isAnswer={i === question.answerIndex}
+              isSelected={i === answered?.choiceIndex}
+              onClick={() => chooseButton(i)}
+            />
+          ))}
+        </div>
+      )}
 
-      {revealed && (
+      {answered && (
         <div className="flex flex-col items-center gap-3">
           <p
             className={`text-lg font-bold ${
-              selected === question.answerIndex
-                ? "text-hextech-blue"
-                : "text-red-400"
+              answered.correct ? "text-hextech-blue" : "text-red-400"
             }`}
           >
-            {selected === question.answerIndex ? "正解！" : "不正解…"}
+            {answered.correct ? "正解！" : "不正解…"}
           </p>
+          {hardMode && (
+            <div className="flex flex-col items-center gap-1 text-sm">
+              <p className="flex items-center gap-2 text-blue-light">
+                {answerCandidate?.imageUrl && (
+                  <img
+                    src={answerCandidate.imageUrl}
+                    alt=""
+                    width={24}
+                    height={24}
+                    className="h-6 w-6 rounded border border-gold-dark/40"
+                  />
+                )}
+                正解:{" "}
+                {answerCandidate ? candidateLabel(answerCandidate) : answer}
+              </p>
+              {!answered.correct && (
+                <p className="text-red-300/80">
+                  あなたの回答: {answered.label}
+                </p>
+              )}
+            </div>
+          )}
           <button
             type="button"
             onClick={next}

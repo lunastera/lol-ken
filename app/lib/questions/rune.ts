@@ -29,7 +29,7 @@ export const runeStyleOf: QuestionGenerator = ({ data, rng }) => {
 };
 
 /** 効果テキストからルーンを当てる（選択肢は同系統のルーン） */
-export const runeEffect: QuestionGenerator = ({ data, rng }) => {
+export const runeEffect: QuestionGenerator = ({ data, rng, hard }) => {
   const styles = data.runeStyles.filter((s) => s.runes.length >= 4);
   if (styles.length === 0) return undefined;
   const style = pick(rng, styles);
@@ -49,6 +49,16 @@ export const runeEffect: QuestionGenerator = ({ data, rng }) => {
     choiceImageUrls: built.choices.map((name) => {
       const r = byName(name);
       return r ? runeImageUrl(r.icon) : undefined;
+    }),
+    // Hard mode searches every rune, not just this style.
+    ...(hard && {
+      candidates: data.runeStyles.flatMap((s) =>
+        s.runes.map((r) => ({
+          name: r.name,
+          nameEn: r.nameEn,
+          imageUrl: runeImageUrl(r.icon),
+        })),
+      ),
     }),
     category: "rune",
   };
@@ -76,7 +86,11 @@ export const summonerCooldown: QuestionGenerator = ({ data, rng }) => {
 };
 
 /** 説明文からサモナースペルを当てる */
-export const summonerByDescription: QuestionGenerator = ({ data, rng }) => {
+export const summonerByDescription: QuestionGenerator = ({
+  data,
+  rng,
+  hard,
+}) => {
   const candidates = data.summonerSpells.filter(
     (s) => s.description.trim() !== "",
   );
@@ -93,6 +107,13 @@ export const summonerByDescription: QuestionGenerator = ({ data, rng }) => {
     choiceImageUrls: built.choices.map((name) => {
       const s = data.summonerSpells.find((sp) => sp.name === name);
       return s ? summonerSpellImageUrl(data, s) : undefined;
+    }),
+    ...(hard && {
+      candidates: data.summonerSpells.map((s) => ({
+        name: s.name,
+        nameEn: s.nameEn,
+        imageUrl: summonerSpellImageUrl(data, s),
+      })),
     }),
     category: "rune",
   };

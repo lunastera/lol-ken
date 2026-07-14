@@ -20,6 +20,7 @@ export function parseSelection(params: URLSearchParams): QuizSelection {
     lanes: lanes.length > 0 ? lanes : [...DEFAULT_SELECTION.lanes],
     types: types.length > 0 ? types : [...DEFAULT_SELECTION.types],
     count: isQuestionCount(count) ? count : QUESTION_COUNT,
+    hard: params.get("hard") === "1",
   };
 }
 
@@ -50,6 +51,7 @@ export function selectionToSearch(selection: QuizSelection): string {
   if (selection.count !== undefined && selection.count !== QUESTION_COUNT) {
     params.set("count", String(selection.count));
   }
+  if (selection.hard) params.set("hard", "1");
   const qs = params.toString();
   return qs ? `?${qs}` : "";
 }

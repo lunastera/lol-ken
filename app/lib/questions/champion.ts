@@ -6,7 +6,24 @@ import {
   type QuizData,
 } from "../data";
 import { pick } from "../random";
-import { buildChoices, type QuestionGenerator } from "./index";
+import { buildChoices, type Candidate, type QuestionGenerator } from "./index";
+
+/**
+ * Hard-mode pool: every champion in the (lane-filtered) pool.
+ * Pass withIcons: false when the question shows the answer's image
+ * (matching icons in the dropdown would give it away).
+ */
+function championCandidates(
+  data: QuizData,
+  pool: readonly Champion[],
+  withIcons = true,
+): Candidate[] {
+  return pool.map((c) => ({
+    name: c.name,
+    nameEn: c.nameEn,
+    ...(withIcons && { imageUrl: championImageUrl(data, c) }),
+  }));
+}
 
 /** Champion icons for choices that are champion names. */
 function championIcons(
@@ -26,7 +43,12 @@ function maskName(text: string, name: string): string {
 }
 
 /** スキルのアイコン・名前・説明からチャンピオンを当てる */
-export const skillOwner: QuestionGenerator = ({ data, champions, rng }) => {
+export const skillOwner: QuestionGenerator = ({
+  data,
+  champions,
+  rng,
+  hard,
+}) => {
   const candidates = champions.filter((c) => c.spells.length > 0);
   if (candidates.length === 0) return undefined;
   const champion = pick(rng, candidates);
@@ -58,6 +80,7 @@ export const skillOwner: QuestionGenerator = ({ data, champions, rng }) => {
     imageUrl: skill.imageUrl,
     ...built,
     choiceImageUrls: championIcons(data, built.choices, champions),
+    ...(hard && { candidates: championCandidates(data, champions) }),
     category: "champion",
   };
 };
@@ -109,7 +132,12 @@ export const championTitle: QuestionGenerator = ({ champions, rng }) => {
 };
 
 /** 称号からチャンピオンを当てる */
-export const titleOwner: QuestionGenerator = ({ data, champions, rng }) => {
+export const titleOwner: QuestionGenerator = ({
+  data,
+  champions,
+  rng,
+  hard,
+}) => {
   const champion = pick(rng, champions);
   const distractors = champions
     .filter((c) => c.title !== champion.title)
@@ -120,12 +148,18 @@ export const titleOwner: QuestionGenerator = ({ data, champions, rng }) => {
     text: `「${champion.title}」という称号を持つチャンピオンは？`,
     ...built,
     choiceImageUrls: championIcons(data, built.choices, champions),
+    ...(hard && { candidates: championCandidates(data, champions) }),
     category: "champion",
   };
 };
 
 /** アイコン画像からチャンピオンを当てる */
-export const championImage: QuestionGenerator = ({ data, champions, rng }) => {
+export const championImage: QuestionGenerator = ({
+  data,
+  champions,
+  rng,
+  hard,
+}) => {
   const champion = pick(rng, champions);
   const distractors = champions.map((c) => c.name);
   const built = buildChoices(rng, champion.name, distractors);
@@ -134,6 +168,7 @@ export const championImage: QuestionGenerator = ({ data, champions, rng }) => {
     text: "この画像のチャンピオンは？",
     imageUrl: championImageUrl(data, champion),
     ...built,
+    ...(hard && { candidates: championCandidates(data, champions, false) }),
     category: "champion",
   };
 };

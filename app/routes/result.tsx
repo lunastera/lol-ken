@@ -25,6 +25,7 @@ function isResultState(state: unknown): state is ResultState {
     Array.isArray(s.types) &&
     s.types.every(isQuestionTypeId) &&
     (s.count === undefined || isQuestionCount(s.count)) &&
+    (s.hard === undefined || typeof s.hard === "boolean") &&
     typeof s.correct === "number" &&
     typeof s.total === "number" &&
     s.total > 0
@@ -35,24 +36,31 @@ export default function Result() {
   const { state } = useLocation();
   if (!isResultState(state)) return <Navigate to="/" replace />;
 
-  const { lanes, types, count, correct, total } = state;
+  const { lanes, types, count, hard, correct, total } = state;
   const rank = judgeRank(correct, total);
   const pageUrl = `${window.location.origin}${import.meta.env.BASE_URL}`;
   const shareUrl = buildShareUrl(
-    buildShareText(lanes, correct, total, rank),
+    buildShareText(lanes, correct, total, rank, hard),
     pageUrl,
   );
   const retrySearch = selectionToSearch({
     lanes: lanes as Position[],
     types: types as QuestionTypeId[],
     count,
+    hard,
   });
 
   return (
     <main className="mx-auto flex min-h-dvh max-w-xl flex-col items-center gap-8 px-4 py-12">
       <header className="text-center">
         <h1 className="text-lg font-black text-gold">
-          結果発表{laneLabel(lanes) && `（${laneLabel(lanes)}）`}
+          結果発表
+          {(() => {
+            const label = [laneLabel(lanes), hard ? "ハード" : ""]
+              .filter(Boolean)
+              .join(" / ");
+            return label && `（${label}）`;
+          })()}
         </h1>
         <p className="mt-2 text-4xl font-black">
           {correct}

@@ -46,6 +46,8 @@ export interface Champion {
   /** numeric key (e.g. "266") */
   key: string;
   name: string;
+  /** English name (e.g. "Kai'Sa") for hard-mode search */
+  nameEn: string;
   title: string;
   tags: string[];
   positions: Position[];
@@ -58,6 +60,8 @@ export interface Item {
   /** numeric id — also the image filename stem */
   id: string;
   name: string;
+  /** English name for hard-mode search */
+  nameEn: string;
   /** short plain-text effect summary (may be empty) */
   plaintext: string;
   /** total gold cost */
@@ -67,6 +71,8 @@ export interface Item {
 
 export interface Rune {
   name: string;
+  /** English name for hard-mode search */
+  nameEn: string;
   /** icon path under cdn img/ (e.g. "perk-images/Styles/...") */
   icon: string;
   /** plain-text effect summary */
@@ -84,6 +90,8 @@ export interface RuneStyle {
 export interface SummonerSpell {
   id: string;
   name: string;
+  /** English name for hard-mode search */
+  nameEn: string;
   description: string;
   cooldown: number;
 }

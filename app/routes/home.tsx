@@ -136,6 +136,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
     ...DEFAULT_CHECKED_TYPES,
   ]);
   const [count, setCount] = useState<QuestionCount>(QUESTION_COUNT);
+  const [hard, setHard] = useState(false);
 
   const toggleLane = (lane: Position, on: boolean) =>
     setLanes((prev) => (on ? [...prev, lane] : prev.filter((l) => l !== lane)));
@@ -157,7 +158,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
 
   const start = () => {
     if (blocker) return;
-    navigate(`/quiz${selectionToSearch({ lanes, types, count })}`);
+    navigate(`/quiz${selectionToSearch({ lanes, types, count, hard })}`);
   };
 
   return (
@@ -270,6 +271,35 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
             </label>
           ))}
         </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="mb-2 text-sm font-bold text-gold/80">モード</h2>
+        <label
+          className={`flex cursor-pointer items-start gap-3 rounded-lg border px-4 py-3 transition-colors ${
+            hard
+              ? "border-gold bg-gold/10"
+              : "border-gold-dark/50 bg-hextech-black/40"
+          }`}
+        >
+          <input
+            type="checkbox"
+            checked={hard}
+            onChange={(e) => setHard(e.target.checked)}
+            className="mt-1 accent-[#c89b3c]"
+          />
+          <span>
+            <span
+              className={`text-sm font-bold ${hard ? "text-gold" : "text-gold-light/70"}`}
+            >
+              ハードモード
+            </span>
+            <span className="block text-xs leading-relaxed text-gold-light/50">
+              4択の代わりに、全候補から名前を検索して回答します（日本語 /
+              English 対応）。名前が答えになる問題が対象です。
+            </span>
+          </span>
+        </label>
       </section>
 
       <button

@@ -18,6 +18,13 @@ import {
 
 export type Category = "champion" | "item" | "rune";
 
+/** A hard-mode answer candidate, searchable by Japanese or English name. */
+export interface Candidate {
+  name: string;
+  nameEn?: string;
+  imageUrl?: string;
+}
+
 export interface Question {
   text: string;
   /** supplementary text shown under the question (e.g. skill description) */
@@ -36,6 +43,11 @@ export interface Question {
   choiceImageUrls?: (string | undefined)[];
   /** hover tooltip for each choice, aligned with `choices` */
   choiceTooltips?: (string | undefined)[];
+  /**
+   * Hard mode: the full answer pool. When present the UI shows a
+   * filterable dropdown over these instead of the 4 choices.
+   */
+  candidates?: Candidate[];
   category: Category;
 }
 
@@ -44,6 +56,8 @@ export interface GeneratorContext {
   /** champion pool after lane filtering */
   champions: Champion[];
   rng: Rng;
+  /** hard mode: name-answer questions attach the full candidate pool */
+  hard: boolean;
 }
 
 /** Returns undefined when the pool cannot produce a valid question. */
@@ -140,6 +154,8 @@ export interface QuizSelection {
   types: QuestionTypeId[];
   /** defaults to QUESTION_COUNT when omitted */
   count?: QuestionCount;
+  /** hard mode: answer by searching the full pool instead of 4 choices */
+  hard?: boolean;
 }
 
 /** "Everything" — the fallback for URLs without lanes/types params. */
@@ -205,7 +221,12 @@ export function buildQuizSet(
   );
   if (types.length === 0) return [];
 
-  const ctx: GeneratorContext = { data, champions: pool, rng };
+  const ctx: GeneratorContext = {
+    data,
+    champions: pool,
+    rng,
+    hard: selection.hard ?? false,
+  };
   const questions: Question[] = [];
   const seen = new Set<string>();
   const maxAttempts = count * 30;

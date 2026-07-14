@@ -9,6 +9,21 @@ describe("share", () => {
     );
   });
 
+  it("includes hard mode in the label", () => {
+    expect(buildShareText(["TOP"], 10, 20, judgeRank(10, 20), true)).toBe(
+      "LoLもん（TOP / ハード）で20問中10問正解、【プラチナ】ランクでした！",
+    );
+    expect(
+      buildShareText(
+        ["TOP", "JUNGLE", "MIDDLE", "BOTTOM", "UTILITY"],
+        10,
+        20,
+        judgeRank(10, 20),
+        true,
+      ),
+    ).toBe("LoLもん（ハード）で20問中10問正解、【プラチナ】ランクでした！");
+  });
+
   it("omits lane label when every lane is selected", () => {
     expect(
       buildShareText(

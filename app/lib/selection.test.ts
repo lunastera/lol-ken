@@ -17,7 +17,14 @@ describe("parseSelection", () => {
     expect(parseSelection(new URLSearchParams())).toEqual({
       ...DEFAULT_SELECTION,
       count: 20,
+      hard: false,
     });
+  });
+
+  it("parses the hard flag", () => {
+    expect(parseSelection(new URLSearchParams("hard=1")).hard).toBe(true);
+    expect(parseSelection(new URLSearchParams("hard=0")).hard).toBe(false);
+    expect(parseSelection(new URLSearchParams()).hard).toBe(false);
   });
 
   it("parses lanes and types, dropping invalid entries", () => {
@@ -30,7 +37,7 @@ describe("parseSelection", () => {
 
   it("falls back to everything when params are entirely invalid", () => {
     const sel = parseSelection(new URLSearchParams("lanes=BOGUS&types=nope"));
-    expect(sel).toEqual({ ...DEFAULT_SELECTION, count: 20 });
+    expect(sel).toEqual({ ...DEFAULT_SELECTION, count: 20, hard: false });
   });
 
   it("parses count, rejecting values outside the options", () => {
@@ -51,6 +58,15 @@ describe("selectionToSearch", () => {
       types: ["item-price", "title"],
     });
     expect(search).toBe("?lanes=TOP%2CMIDDLE&types=title%2Citem-price");
+  });
+
+  it("encodes hard only when enabled", () => {
+    const base = {
+      lanes: [...DEFAULT_SELECTION.lanes],
+      types: [...DEFAULT_SELECTION.types],
+    };
+    expect(selectionToSearch({ ...base, hard: false })).toBe("");
+    expect(selectionToSearch({ ...base, hard: true })).toBe("?hard=1");
   });
 
   it("encodes count only when it differs from the default", () => {

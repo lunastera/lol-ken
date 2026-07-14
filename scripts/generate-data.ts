@@ -130,17 +130,38 @@ async function main() {
   const version = versions[0];
   console.log(`Data Dragon version: ${version}`);
 
-  const locale = "ja_JP";
-  const base = `${DDRAGON}/cdn/${version}/data/${locale}`;
+  const base = `${DDRAGON}/cdn/${version}/data/ja_JP`;
+  const baseEn = `${DDRAGON}/cdn/${version}/data/en_US`;
 
-  const [championFull, itemData, runeData, summonerData, merakiRates] =
-    await Promise.all([
-      fetchJson<DDragonChampionFull>(`${base}/championFull.json`),
-      fetchJson<DDragonItems>(`${base}/item.json`),
-      fetchJson<DDragonRunes>(`${base}/runesReforged.json`),
-      fetchJson<DDragonSummoner>(`${base}/summoner.json`),
-      fetchJson<MerakiRates>(MERAKI_RATES),
-    ]);
+  const [
+    championFull,
+    itemData,
+    runeData,
+    summonerData,
+    merakiRates,
+    championEn,
+    itemEn,
+    runeEn,
+    summonerEn,
+  ] = await Promise.all([
+    fetchJson<DDragonChampionFull>(`${base}/championFull.json`),
+    fetchJson<DDragonItems>(`${base}/item.json`),
+    fetchJson<DDragonRunes>(`${base}/runesReforged.json`),
+    fetchJson<DDragonSummoner>(`${base}/summoner.json`),
+    fetchJson<MerakiRates>(MERAKI_RATES),
+    fetchJson<DDragonChampionFull>(`${baseEn}/champion.json`),
+    fetchJson<DDragonItems>(`${baseEn}/item.json`),
+    fetchJson<DDragonRunes>(`${baseEn}/runesReforged.json`),
+    fetchJson<DDragonSummoner>(`${baseEn}/summoner.json`),
+  ]);
+
+  // English rune names keyed by icon path (locale-independent identifier).
+  const runeEnByIcon = new Map<string, string>();
+  for (const style of runeEn) {
+    for (const slot of style.slots) {
+      for (const r of slot.runes) runeEnByIcon.set(r.icon, r.name);
+    }
+  }
 
   // Data Dragon normalizes every champion to exactly 4 spells; multi-skill
   // kits (Hwei's subjects, Aphelios' weapon system, form swappers like Jayce)
@@ -158,6 +179,7 @@ async function main() {
       id: c.id,
       key: c.key,
       name: c.name,
+      nameEn: championEn.data[c.id]?.name ?? c.id,
       title: c.title,
       tags: c.tags,
       positions: assignPositions(merakiRates.data[c.key]),
@@ -204,6 +226,7 @@ async function main() {
     .map(([id, i]) => ({
       id,
       name: i.name,
+      nameEn: itemEn.data[id]?.name ?? i.name,
       plaintext: i.plaintext ?? "",
       price: i.gold.total,
       tags: i.tags,
@@ -216,6 +239,7 @@ async function main() {
     runes: style.slots.flatMap((slot) =>
       slot.runes.map((r) => ({
         name: r.name,
+        nameEn: runeEnByIcon.get(r.icon) ?? r.name,
         icon: r.icon,
         description: stripHtml(r.shortDesc),
       })),
@@ -227,6 +251,7 @@ async function main() {
     .map((s) => ({
       id: s.id,
       name: s.name,
+      nameEn: summonerEn.data[s.id]?.name ?? s.id,
       description: s.description,
       cooldown: s.cooldown[0] ?? 0,
     }))

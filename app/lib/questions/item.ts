@@ -1,6 +1,18 @@
 import { type Item, itemImageUrl, type QuizData } from "../data";
 import { pick } from "../random";
-import { buildChoices, type QuestionGenerator } from "./index";
+import { buildChoices, type Candidate, type QuestionGenerator } from "./index";
+
+/**
+ * Hard-mode pool: every item. Pass withIcons: false when the question shows
+ * the answer's image (matching icons in the dropdown would give it away).
+ */
+function itemCandidates(data: QuizData, withIcons = true): Candidate[] {
+  return data.items.map((i) => ({
+    name: i.name,
+    nameEn: i.nameEn,
+    ...(withIcons && { imageUrl: itemImageUrl(data, i) }),
+  }));
+}
 
 /** Item icons for choices that are item names. */
 function itemIcons(
@@ -35,7 +47,7 @@ export const itemPrice: QuestionGenerator = ({ data, rng }) => {
 };
 
 /** アイコン画像からアイテムを当てる */
-export const itemImage: QuestionGenerator = ({ data, rng }) => {
+export const itemImage: QuestionGenerator = ({ data, rng, hard }) => {
   const candidates = data.items.filter((i) => i.price >= MIN_PRICE);
   if (candidates.length === 0) return undefined;
   const item = pick(rng, candidates);
@@ -46,12 +58,13 @@ export const itemImage: QuestionGenerator = ({ data, rng }) => {
     text: "この画像のアイテムは？",
     imageUrl: itemImageUrl(data, item),
     ...built,
+    ...(hard && { candidates: itemCandidates(data, false) }),
     category: "item",
   };
 };
 
 /** 効果テキストからアイテムを当てる */
-export const itemEffect: QuestionGenerator = ({ data, rng }) => {
+export const itemEffect: QuestionGenerator = ({ data, rng, hard }) => {
   const candidates = data.items.filter((i) => i.plaintext.trim() !== "");
   if (candidates.length === 0) return undefined;
   const item = pick(rng, candidates);
@@ -64,6 +77,7 @@ export const itemEffect: QuestionGenerator = ({ data, rng }) => {
     text: `「${item.plaintext}」— この効果を持つアイテムは？`,
     ...built,
     choiceImageUrls: itemIcons(data, built.choices, data.items),
+    ...(hard && { candidates: itemCandidates(data) }),
     category: "item",
   };
 };
