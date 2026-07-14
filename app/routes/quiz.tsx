@@ -9,6 +9,7 @@ import { buildQuizSet, type Candidate } from "~/lib/questions";
 import { createRng, randomSeed } from "~/lib/random";
 import { laneLabel, parseSelection } from "~/lib/selection";
 import type { Route } from "./+types/quiz";
+import type { AnswerRecord } from "./result";
 
 export async function clientLoader() {
   return loadQuizData();
@@ -45,6 +46,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
   const [index, setIndex] = useState(0);
   const [answered, setAnswered] = useState<Answered | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
+  const [records, setRecords] = useState<AnswerRecord[]>([]);
 
   // Warm the browser cache for every image in the set so later questions
   // render without a visible load.
@@ -82,6 +84,21 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
     if (revealed) return;
     setAnswered(partial);
     if (partial.correct) setCorrectCount((c) => c + 1);
+    setRecords((prev) => [
+      ...prev,
+      {
+        text: question.text,
+        detail: question.detail,
+        imageUrl: question.imageUrl,
+        answer: answerCandidate ? candidateLabel(answerCandidate) : answer,
+        answerImageUrl:
+          answerCandidate?.imageUrl ??
+          question.choiceImageUrls?.[question.answerIndex],
+        given: partial.label,
+        correct: partial.correct,
+        skipped: partial.skipped,
+      },
+    ]);
   };
 
   const chooseButton = (choiceIndex: number) => {
@@ -119,6 +136,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
           hard: selection.hard,
           correct: correctCount,
           total: questions.length,
+          records,
         },
         replace: true,
       });
