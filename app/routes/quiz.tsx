@@ -20,6 +20,8 @@ interface Answered {
   choiceIndex: number | null;
   label: string;
   correct: boolean;
+  /** skipped without answering (counts as incorrect) */
+  skipped?: boolean;
 }
 
 export default function Quiz({ loaderData: data }: Route.ComponentProps) {
@@ -98,6 +100,15 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
     });
   };
 
+  const skip = () => {
+    answerWith({
+      choiceIndex: null,
+      label: "スキップ",
+      correct: false,
+      skipped: true,
+    });
+  };
+
   const next = () => {
     if (isLast) {
       navigate("/result", {
@@ -156,14 +167,32 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
         </div>
       )}
 
+      {!revealed && (
+        <button
+          type="button"
+          onClick={skip}
+          className="self-center text-xs text-gold-light/50 underline underline-offset-4 transition-colors hover:text-gold cursor-pointer"
+        >
+          答えずにスキップ（不正解扱い）
+        </button>
+      )}
+
       {answered && (
         <div className="flex flex-col items-center gap-3">
           <p
             className={`text-lg font-bold ${
-              answered.correct ? "text-hextech-blue" : "text-red-400"
+              answered.skipped
+                ? "text-gold-light/60"
+                : answered.correct
+                  ? "text-hextech-blue"
+                  : "text-red-400"
             }`}
           >
-            {answered.correct ? "正解！" : "不正解…"}
+            {answered.skipped
+              ? "スキップしました"
+              : answered.correct
+                ? "正解！"
+                : "不正解…"}
           </p>
           {hardMode && (
             <div className="flex flex-col items-center gap-1 text-sm">
@@ -180,7 +209,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
                 正解:{" "}
                 {answerCandidate ? candidateLabel(answerCandidate) : answer}
               </p>
-              {!answered.correct && (
+              {!answered.correct && !answered.skipped && (
                 <p className="text-red-300/80">
                   あなたの回答: {answered.label}
                 </p>
