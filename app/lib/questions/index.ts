@@ -156,6 +156,8 @@ export interface QuizSelection {
   count?: QuestionCount;
   /** hard mode: answer by searching the full pool instead of 4 choices */
   hard?: boolean;
+  /** endless mode: questions continue until the first miss */
+  endless?: boolean;
 }
 
 /** "Everything" — the fallback for URLs without lanes/types params. */
@@ -201,17 +203,23 @@ export function championPool(
   );
 }
 
+/** Yields unique questions one at a time; undefined when exhausted. */
+export interface QuestionStream {
+  next(): Question | undefined;
+}
+
+const ATTEMPTS_PER_QUESTION = 60;
+
 /**
- * Build a quiz set from the selected lanes and question types. Lanes narrow
- * the champion pool of champion questions; item and rune questions are not
- * tied to a lane.
+ * Create a question stream for the selected lanes and question types. Lanes
+ * narrow the champion pool of champion questions; item and rune questions
+ * are not tied to a lane. Questions never repeat within one stream.
  */
-export function buildQuizSet(
+export function createQuestionStream(
   data: QuizData,
   selection: QuizSelection,
   rng: Rng,
-  count: number = selection.count ?? QUESTION_COUNT,
-): Question[] {
+): QuestionStream {
   const lanes = selection.lanes.length > 0 ? selection.lanes : [...POSITIONS];
   const pool = championPool(data, lanes);
   const types = QUESTION_TYPES.filter(
@@ -219,7 +227,7 @@ export function buildQuizSet(
       selection.types.includes(t.id) &&
       (t.category !== "champion" || pool.length >= MIN_POOL_SIZE),
   );
-  if (types.length === 0) return [];
+  if (types.length === 0) return { next: () => undefined };
 
   const ctx: GeneratorContext = {
     data,
@@ -227,18 +235,38 @@ export function buildQuizSet(
     rng,
     hard: selection.hard ?? false,
   };
-  const questions: Question[] = [];
   const seen = new Set<string>();
-  const maxAttempts = count * 30;
-  for (let i = 0; i < maxAttempts && questions.length < count; i++) {
-    const type = pick(rng, types);
-    const generate = pick(rng, type.generators);
-    const q = generate(ctx);
-    // Image questions share the same text, so the image and the answer are
-    // part of a question's identity.
-    const key = `${q?.text}|${q?.imageUrl ?? ""}|${q?.choices[q.answerIndex]}`;
-    if (!q || seen.has(key)) continue;
-    seen.add(key);
+  return {
+    next() {
+      for (let i = 0; i < ATTEMPTS_PER_QUESTION; i++) {
+        const type = pick(rng, types);
+        const generate = pick(rng, type.generators);
+        const q = generate(ctx);
+        if (!q) continue;
+        // Image questions share the same text, so the image and the answer
+        // are part of a question's identity.
+        const key = `${q.text}|${q.imageUrl ?? ""}|${q.choices[q.answerIndex]}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        return q;
+      }
+      return undefined;
+    },
+  };
+}
+
+/** Build a fixed-size quiz set (may be shorter when the pool runs out). */
+export function buildQuizSet(
+  data: QuizData,
+  selection: QuizSelection,
+  rng: Rng,
+  count: number = selection.count ?? QUESTION_COUNT,
+): Question[] {
+  const stream = createQuestionStream(data, selection, rng);
+  const questions: Question[] = [];
+  for (let i = 0; i < count; i++) {
+    const q = stream.next();
+    if (!q) break;
     questions.push(q);
   }
   return questions;

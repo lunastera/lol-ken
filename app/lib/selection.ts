@@ -21,6 +21,7 @@ export function parseSelection(params: URLSearchParams): QuizSelection {
     types: types.length > 0 ? types : [...DEFAULT_SELECTION.types],
     count: isQuestionCount(count) ? count : QUESTION_COUNT,
     hard: params.get("hard") === "1",
+    endless: params.get("endless") === "1",
   };
 }
 
@@ -52,6 +53,7 @@ export function selectionToSearch(selection: QuizSelection): string {
     params.set("count", String(selection.count));
   }
   if (selection.hard) params.set("hard", "1");
+  if (selection.endless) params.set("endless", "1");
   const qs = params.toString();
   return qs ? `?${qs}` : "";
 }

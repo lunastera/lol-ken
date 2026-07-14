@@ -55,6 +55,7 @@ function isResultState(state: unknown): state is ResultState {
     s.types.every(isQuestionTypeId) &&
     (s.count === undefined || isQuestionCount(s.count)) &&
     (s.hard === undefined || typeof s.hard === "boolean") &&
+    (s.endless === undefined || typeof s.endless === "boolean") &&
     typeof s.correct === "number" &&
     typeof s.total === "number" &&
     s.total > 0 &&
@@ -164,11 +165,15 @@ export default function Result() {
   const { state } = useLocation();
   if (!isResultState(state)) return <Navigate to="/" replace />;
 
-  const { lanes, types, count, hard, correct, total, records } = state;
-  const rank = judgeRank(correct, total);
+  const { lanes, types, count, hard, endless, correct, total, records } = state;
+  // Endless runs are ranked by streak length on the 20-question scale
+  // (a 20+ streak reaches Challenger).
+  const rank = endless
+    ? judgeRank(Math.min(correct, 20), 20)
+    : judgeRank(correct, total);
   const pageUrl = `${window.location.origin}${import.meta.env.BASE_URL}`;
   const shareUrl = buildShareUrl(
-    buildShareText(lanes, correct, total, rank, hard),
+    buildShareText(lanes, correct, total, rank, hard, endless),
     pageUrl,
   );
   const retrySearch = selectionToSearch({
@@ -176,6 +181,7 @@ export default function Result() {
     types: types as QuestionTypeId[],
     count,
     hard,
+    endless,
   });
 
   const laneText =
@@ -190,11 +196,15 @@ export default function Result() {
       : QUESTION_TYPES.filter((t) => types.includes(t.id))
           .map((t) => t.label)
           .join("・");
+  const modeText =
+    [endless ? "エンドレス" : "", hard ? "ハード" : ""]
+      .filter(Boolean)
+      .join("・") || "通常";
   const conditions: [string, string][] = [
     ["レーン", laneText],
     ["出題タイプ", typeText],
-    ["出題数", `${total}問`],
-    ["モード", hard ? "ハード" : "通常"],
+    ["出題数", endless ? `エンドレス（${total}問回答）` : `${total}問`],
+    ["モード", modeText],
   ];
 
   return (
@@ -203,7 +213,9 @@ export default function Result() {
         <h1 className="text-lg font-black text-gold">結果発表</h1>
         <p className="mt-2 text-4xl font-black">
           {correct}
-          <span className="text-lg text-gold-light/60"> / {total} 問正解</span>
+          <span className="text-lg text-gold-light/60">
+            {endless ? " 問連続正解" : ` / ${total} 問正解`}
+          </span>
         </p>
       </header>
 

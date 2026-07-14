@@ -137,6 +137,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
   ]);
   const [count, setCount] = useState<QuestionCount>(QUESTION_COUNT);
   const [hard, setHard] = useState(false);
+  const [endless, setEndless] = useState(false);
 
   const toggleLane = (lane: Position, on: boolean) =>
     setLanes((prev) => (on ? [...prev, lane] : prev.filter((l) => l !== lane)));
@@ -158,7 +159,9 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
 
   const start = () => {
     if (blocker) return;
-    navigate(`/quiz${selectionToSearch({ lanes, types, count, hard })}`);
+    navigate(
+      `/quiz${selectionToSearch({ lanes, types, count, hard, endless })}`,
+    );
   };
 
   return (
@@ -248,13 +251,22 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="mb-2 text-sm font-bold text-gold/80">出題数</h2>
+      <section className={`mb-8 ${endless ? "opacity-40" : ""}`}>
+        <h2 className="mb-2 text-sm font-bold text-gold/80">
+          出題数
+          {endless && (
+            <span className="ml-2 font-normal text-gold-light/50">
+              （エンドレスでは無効）
+            </span>
+          )}
+        </h2>
         <div className="flex flex-wrap gap-2">
           {QUESTION_COUNT_OPTIONS.map((option) => (
             <label
               key={option}
-              className={`flex cursor-pointer items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors ${
+              className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors ${
+                endless ? "cursor-not-allowed" : "cursor-pointer"
+              } ${
                 count === option
                   ? "border-gold bg-gold/10 text-gold-light"
                   : "border-gold-dark/50 bg-hextech-black/40 text-gold-light/50"
@@ -264,6 +276,7 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
                 type="radio"
                 name="question-count"
                 checked={count === option}
+                disabled={endless}
                 onChange={() => setCount(option)}
                 className="accent-[#c89b3c]"
               />
@@ -275,31 +288,58 @@ export default function Home({ loaderData: data }: Route.ComponentProps) {
 
       <section className="mb-8">
         <h2 className="mb-2 text-sm font-bold text-gold/80">モード</h2>
-        <label
-          className={`flex cursor-pointer items-start gap-3 rounded-lg border px-4 py-3 transition-colors ${
-            hard
-              ? "border-gold bg-gold/10"
-              : "border-gold-dark/50 bg-hextech-black/40"
-          }`}
-        >
-          <input
-            type="checkbox"
-            checked={hard}
-            onChange={(e) => setHard(e.target.checked)}
-            className="mt-1 accent-[#c89b3c]"
-          />
-          <span>
-            <span
-              className={`text-sm font-bold ${hard ? "text-gold" : "text-gold-light/70"}`}
-            >
-              ハードモード
+        <div className="flex flex-col gap-2">
+          <label
+            className={`flex cursor-pointer items-start gap-3 rounded-lg border px-4 py-3 transition-colors ${
+              hard
+                ? "border-gold bg-gold/10"
+                : "border-gold-dark/50 bg-hextech-black/40"
+            }`}
+          >
+            <input
+              type="checkbox"
+              checked={hard}
+              onChange={(e) => setHard(e.target.checked)}
+              className="mt-1 accent-[#c89b3c]"
+            />
+            <span>
+              <span
+                className={`text-sm font-bold ${hard ? "text-gold" : "text-gold-light/70"}`}
+              >
+                ハードモード
+              </span>
+              <span className="block text-xs leading-relaxed text-gold-light/50">
+                4択の代わりに、全候補から名前を検索して回答します（日本語 /
+                English 対応）。名前が答えになる問題が対象です。
+              </span>
             </span>
-            <span className="block text-xs leading-relaxed text-gold-light/50">
-              4択の代わりに、全候補から名前を検索して回答します（日本語 /
-              English 対応）。名前が答えになる問題が対象です。
+          </label>
+          <label
+            className={`flex cursor-pointer items-start gap-3 rounded-lg border px-4 py-3 transition-colors ${
+              endless
+                ? "border-gold bg-gold/10"
+                : "border-gold-dark/50 bg-hextech-black/40"
+            }`}
+          >
+            <input
+              type="checkbox"
+              checked={endless}
+              onChange={(e) => setEndless(e.target.checked)}
+              className="mt-1 accent-[#c89b3c]"
+            />
+            <span>
+              <span
+                className={`text-sm font-bold ${endless ? "text-gold" : "text-gold-light/70"}`}
+              >
+                エンドレスモード
+              </span>
+              <span className="block text-xs leading-relaxed text-gold-light/50">
+                間違える（またはスキップする）まで出題が続きます。連続正解数で
+                ランクを判定。ハードモードと併用できます。
+              </span>
             </span>
-          </span>
-        </label>
+          </label>
+        </div>
       </section>
 
       <button

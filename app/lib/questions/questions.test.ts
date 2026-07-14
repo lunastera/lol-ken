@@ -6,6 +6,7 @@ import {
   buildChoices,
   buildQuizSet,
   championPool,
+  createQuestionStream,
   DEFAULT_SELECTION,
 } from "./index";
 
@@ -45,6 +46,26 @@ describe("buildQuizSet", () => {
       expect(q.answerIndex).toBeGreaterThanOrEqual(0);
       expect(q.answerIndex).toBeLessThan(4);
     }
+  });
+
+  it("streams unique questions until the pool is exhausted", () => {
+    // Summoner-only has a small finite pool: 9 spells x 2 formats = 18 max.
+    const stream = createQuestionStream(
+      data,
+      { lanes: [...DEFAULT_SELECTION.lanes], types: ["summoner"] },
+      createRng(1),
+    );
+    const seen = new Set<string>();
+    let q = stream.next();
+    while (q) {
+      const key = `${q.text}|${q.choices[q.answerIndex]}`;
+      expect(seen.has(key)).toBe(false);
+      seen.add(key);
+      q = stream.next();
+    }
+    expect(seen.size).toBe(18);
+    // Once exhausted it stays exhausted.
+    expect(stream.next()).toBeUndefined();
   });
 
   it("respects the count in the selection", () => {

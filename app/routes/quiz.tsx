@@ -1,11 +1,17 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router";
 import { AnswerCombobox, candidateLabel } from "~/components/AnswerCombobox";
 import { ChoiceButton } from "~/components/ChoiceButton";
 import { ProgressBar } from "~/components/ProgressBar";
 import { QuestionCard } from "~/components/QuestionCard";
 import { loadQuizData } from "~/lib/data";
-import { buildQuizSet, type Candidate } from "~/lib/questions";
+import {
+  buildQuizSet,
+  type Candidate,
+  createQuestionStream,
+  type Question,
+  type QuestionStream,
+} from "~/lib/questions";
 import { createRng, randomSeed } from "~/lib/random";
 import { laneLabel, parseSelection } from "~/lib/selection";
 import type { Route } from "./+types/quiz";
@@ -30,6 +36,7 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
   const [searchParams] = useSearchParams();
 
   const selection = useMemo(() => parseSelection(searchParams), [searchParams]);
+  const endless = selection.endless === true;
   // Keep the seed stable across re-renders so the question set never shifts
   // mid-quiz; a fresh visit gets a fresh seed.
   const [seed] = useState(() => {
@@ -38,15 +45,36 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
       ? fromUrl
       : randomSeed();
   });
-  const questions = useMemo(
-    () => buildQuizSet(data, selection, createRng(seed)),
-    [data, selection, seed],
+
+  // Normal mode: the whole set up front. Endless mode: questions come from a
+  // stream one at a time until the first miss (or the pool runs out).
+  const normalQuestions = useMemo(
+    () => (endless ? [] : buildQuizSet(data, selection, createRng(seed))),
+    [endless, data, selection, seed],
+  );
+  const streamRef = useRef<QuestionStream | null>(null);
+  const [endlessQuestions, setEndlessQuestions] = useState<Question[] | null>(
+    null,
   );
 
   const [index, setIndex] = useState(0);
   const [answered, setAnswered] = useState<Answered | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [records, setRecords] = useState<AnswerRecord[]>([]);
+
+  useEffect(() => {
+    if (!endless) return;
+    const stream = createQuestionStream(data, selection, createRng(seed));
+    streamRef.current = stream;
+    const first = stream.next();
+    setEndlessQuestions(first ? [first] : []);
+    setIndex(0);
+    setAnswered(null);
+    setCorrectCount(0);
+    setRecords([]);
+  }, [endless, data, selection, seed]);
+
+  const questions = endless ? (endlessQuestions ?? []) : normalQuestions;
 
   // Warm the browser cache for every image in the set so later questions
   // render without a visible load.
@@ -57,6 +85,11 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
       }
     }
   }, [questions]);
+
+  if (endless && endlessQuestions === null) {
+    // First stream question arrives via the effect above.
+    return null;
+  }
 
   if (questions.length === 0) {
     return (
@@ -72,8 +105,12 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
   const question = questions[index];
   const answer = question.choices[question.answerIndex];
   const revealed = answered !== null;
-  const isLast = index + 1 >= questions.length;
-  const label = [laneLabel(selection.lanes), selection.hard ? "ハード" : ""]
+  const isLast = !endless && index + 1 >= questions.length;
+  const label = [
+    laneLabel(selection.lanes),
+    endless ? "エンドレス" : "",
+    selection.hard ? "ハード" : "",
+  ]
     .filter(Boolean)
     .join(" / ");
   const title = label ? `LoLもん（${label}）` : "LoLもん";
@@ -126,20 +163,37 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
     });
   };
 
+  const finish = () => {
+    navigate("/result", {
+      state: {
+        lanes: selection.lanes,
+        types: selection.types,
+        count: selection.count,
+        hard: selection.hard,
+        endless,
+        correct: correctCount,
+        total: records.length,
+        records,
+      },
+      replace: true,
+    });
+  };
+
   const next = () => {
+    if (endless) {
+      // A miss ends the run; so does exhausting every unique question.
+      const q = answered?.correct ? streamRef.current?.next() : undefined;
+      if (!q) {
+        finish();
+        return;
+      }
+      setEndlessQuestions((prev) => [...(prev ?? []), q]);
+      setIndex(index + 1);
+      setAnswered(null);
+      return;
+    }
     if (isLast) {
-      navigate("/result", {
-        state: {
-          lanes: selection.lanes,
-          types: selection.types,
-          count: selection.count,
-          hard: selection.hard,
-          correct: correctCount,
-          total: questions.length,
-          records,
-        },
-        replace: true,
-      });
+      finish();
       return;
     }
     setIndex(index + 1);
@@ -155,7 +209,14 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
         </Link>
       </header>
 
-      <ProgressBar current={index + 1} total={questions.length} />
+      {endless ? (
+        <div className="flex justify-between text-xs text-gold/80">
+          <span>第 {index + 1} 問</span>
+          <span>連続正解 {correctCount}</span>
+        </div>
+      ) : (
+        <ProgressBar current={index + 1} total={questions.length} />
+      )}
 
       <QuestionCard question={question} />
 
@@ -239,7 +300,9 @@ export default function Quiz({ loaderData: data }: Route.ComponentProps) {
             onClick={next}
             className="w-full rounded-lg border border-gold bg-gold/10 px-4 py-3 font-bold text-gold transition-colors hover:bg-gold/20 cursor-pointer"
           >
-            {isLast ? "結果を見る" : "次の問題へ"}
+            {isLast || (endless && !answered.correct)
+              ? "結果を見る"
+              : "次の問題へ"}
           </button>
         </div>
       )}

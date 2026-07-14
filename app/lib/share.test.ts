@@ -24,6 +24,19 @@ describe("share", () => {
     ).toBe("LoLもん（ハード）で20問中10問正解、【プラチナ】ランクでした！");
   });
 
+  it("uses streak wording for endless mode", () => {
+    expect(
+      buildShareText(
+        ["TOP", "JUNGLE", "MIDDLE", "BOTTOM", "UTILITY"],
+        13,
+        14,
+        judgeRank(13, 20),
+        false,
+        true,
+      ),
+    ).toBe("LoLもん（エンドレス）で13問連続正解、【エメラルド】ランクでした！");
+  });
+
   it("omits lane label when every lane is selected", () => {
     expect(
       buildShareText(
