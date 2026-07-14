@@ -88,7 +88,9 @@ interface DDragonRunes
   extends Array<{
     name: string;
     icon: string;
-    slots: { runes: { name: string; icon: string }[] }[];
+    slots: {
+      runes: { name: string; icon: string; shortDesc: string }[];
+    }[];
   }> {}
 
 interface DDragonSummoner {
@@ -212,7 +214,11 @@ async function main() {
     name: style.name,
     icon: style.icon,
     runes: style.slots.flatMap((slot) =>
-      slot.runes.map((r) => ({ name: r.name, icon: r.icon })),
+      slot.runes.map((r) => ({
+        name: r.name,
+        icon: r.icon,
+        description: stripHtml(r.shortDesc),
+      })),
     ),
   }));
 

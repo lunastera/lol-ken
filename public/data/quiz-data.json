@@ -1,6 +1,6 @@
 {
  "version": "16.13.1",
- "generatedAt": "2026-07-13T23:44:53.381Z",
+ "generatedAt": "2026-07-14T01:18:11.005Z",
  "champions": [
   {
    "id": "Aatrox",
@@ -10082,51 +10082,63 @@
    "runes": [
     {
      "name": "電撃",
-     "icon": "perk-images/Styles/Domination/Electrocute/Electrocute.png"
+     "icon": "perk-images/Styles/Domination/Electrocute/Electrocute.png",
+     "description": "3秒以内にチャンピオンを個別のスキルか通常攻撃で3回攻撃すると、追加アダプティブダメージを与える。"
     },
     {
      "name": "魂の収穫",
-     "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png"
+     "icon": "perk-images/Styles/Domination/DarkHarvest/DarkHarvest.png",
+     "description": "体力の低下したチャンピオンにダメージを与えるとアダプティブダメージを与えて、犠牲者から魂を1つ収穫する。"
     },
     {
      "name": "ヘイルブレード",
-     "icon": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png"
+     "icon": "perk-images/Styles/Domination/HailOfBlades/HailOfBlades.png",
+     "description": "敵チャンピオンに対する最初の3回の通常攻撃の攻撃速度が大きく増加し、追加確定ダメージを獲得する。"
     },
     {
      "name": "追い打ち",
-     "icon": "perk-images/Styles/Domination/CheapShot/CheapShot.png"
+     "icon": "perk-images/Styles/Domination/CheapShot/CheapShot.png",
+     "description": "移動妨害か行動不能効果を受けているチャンピオンに追加確定ダメージを与える。"
     },
     {
      "name": "血の味わい",
-     "icon": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png"
+     "icon": "perk-images/Styles/Domination/TasteOfBlood/GreenTerror_TasteOfBlood.png",
+     "description": "敵チャンピオンにダメージを与えると体力を回復する。"
     },
     {
      "name": "サドンインパクト",
-     "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png"
+     "icon": "perk-images/Styles/Domination/SuddenImpact/SuddenImpact.png",
+     "description": "ステルス状態が解除されるか、ダッシュ、リープ、ブリンク、テレポートを使用してから敵チャンピオンに通常攻撃かスキルでダメージを与えると、追加確定ダメージを与える。"
     },
     {
      "name": "第六感",
-     "icon": "perk-images/Styles/Domination/SixthSense/SixthSense.png"
+     "icon": "perk-images/Styles/Domination/SixthSense/SixthSense.png",
+     "description": "長いクールダウンで、自動的に周囲の未追跡で未発見のワードを感知し、味方チームのために追跡する。 レベル11: さらにそのワードを10秒間可視化する。"
     },
     {
      "name": "グリスリー メメント",
-     "icon": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png"
+     "icon": "perk-images/Styles/Domination/GrislyMementos/GrislyMementos.png",
+     "description": "チャンピオンからキルまたはアシストを奪うとメメントを1個獲得する(合計最大18個)。 メメントを獲得するごとに、トリンケットヘイストが6増加する。"
     },
     {
      "name": "ディープワード",
-     "icon": "perk-images/Styles/Domination/DeepWard/DeepWard.png"
+     "icon": "perk-images/Styles/Domination/DeepWard/DeepWard.png",
+     "description": "敵ジャングル内の自身のワードがディープ状態になり、体力と効果時間が増加する。 レベル9: 川の中のワードもディープ状態になる。"
     },
     {
      "name": "貪欲な賞金首狩り",
-     "icon": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png"
+     "icon": "perk-images/Styles/Domination/TreasureHunter/TreasureHunter.png",
+     "description": "異なる対象から初めてキルまたはアシストを獲得した際に追加のゴールドを獲得する。"
     },
     {
      "name": "執拗な賞金首狩り",
-     "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png"
+     "icon": "perk-images/Styles/Domination/RelentlessHunter/RelentlessHunter.png",
+     "description": "それぞれ異なる敵チャンピオンからキルまたはアシストを獲得すると非戦闘時の移動速度が恒久的に増加する。"
     },
     {
      "name": "至極の賞金首狩り",
-     "icon": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png"
+     "icon": "perk-images/Styles/Domination/UltimateHunter/UltimateHunter.png",
+     "description": "それぞれ異なる敵チャンピオンからキルまたはアシストを獲得するたびに、アルティメットスキルのクールダウンを恒久的に短縮する。"
     }
    ]
   },
@@ -10136,51 +10148,63 @@
    "runes": [
     {
      "name": "グレイシャルオーグメント",
-     "icon": "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png"
+     "icon": "perk-images/Styles/Inspiration/GlacialAugment/GlacialAugment.png",
+     "description": "敵チャンピオンに移動不能効果を与えると、3本の冷気の光線が発射されて周囲の敵にスロウ効果を与え、その敵が味方に与えるダメージを低下させる。"
     },
     {
      "name": "解放の魔導書",
-     "icon": "perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png"
+     "icon": "perk-images/Styles/Inspiration/UnsealedSpellbook/UnsealedSpellbook.png",
+     "description": "非戦闘時にサモナースペルを交換できる。新たな種類のサモナースペルに交換するたびに、次に交換可能になるまでの時間が短縮される。"
     },
     {
      "name": "ファーストストライク",
-     "icon": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png"
+     "icon": "perk-images/Styles/Inspiration/FirstStrike/FirstStrike.png",
+     "description": "チャンピオンとの戦闘を開始すると3秒間、7%の追加ダメージを与え、与ダメージに応じたゴールドを獲得する。"
     },
     {
      "name": "ヘクステックフラッシュネイター",
-     "icon": "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png"
+     "icon": "perk-images/Styles/Inspiration/HextechFlashtraption/HextechFlashtraption.png",
+     "description": "フラッシュがクールダウンに入ると「へクスフラッシュ」に置き換わる。 へクスフラッシュ: 詠唱後に指定位置に瞬間移動する。"
     },
     {
      "name": "魔法の靴",
-     "icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png"
+     "icon": "perk-images/Styles/Inspiration/MagicalFootwear/MagicalFootwear.png",
+     "description": "試合開始から12分時点で無料のブーツを獲得するが、それまではブーツを購入できない。キルまたはアシストを獲得するたびに、ブーツ獲得までの時間が45秒短縮される。"
     },
     {
      "name": "キャッシュバック",
-     "icon": "perk-images/Styles/Inspiration/CashBack/CashBack2.png"
+     "icon": "perk-images/Styles/Inspiration/CashBack/CashBack2.png",
+     "description": "レジェンダリーアイテムを購入する際に、一部のゴールドが戻ってくる。"
     },
     {
      "name": "トリプル トニック",
-     "icon": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png"
+     "icon": "perk-images/Styles/Inspiration/PerfectTiming/AlchemistCabinet.png",
+     "description": "レベル3になると「強欲のエリクサー」を獲得する。 レベル6になると「力のエリクサー」を獲得する。 レベル9になると「スキル エリクサー」を獲得する。"
     },
     {
      "name": "タイムワープトニック",
-     "icon": "perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png"
+     "icon": "perk-images/Styles/Inspiration/TimeWarpTonic/TimeWarpTonic.png",
+     "description": "ポーション使用時に一定割合を即座に回復する。"
     },
     {
      "name": "ビスケットデリバリー",
-     "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png"
+     "icon": "perk-images/Styles/Inspiration/BiscuitDelivery/BiscuitDelivery.png",
+     "description": "6分経過するまで2分毎にビスケットを獲得する。消費するか売却すると最大体力が増加し、体力が回復する。"
     },
     {
      "name": "宇宙の英知",
-     "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png"
+     "icon": "perk-images/Styles/Inspiration/CosmicInsight/CosmicInsight.png",
+     "description": "サモナースペルヘイスト +18 アイテムヘイスト +10"
     },
     {
      "name": "疾駆",
-     "icon": "perk-images/Styles/Resolve/ApproachVelocity/ApproachVelocity.png"
+     "icon": "perk-images/Styles/Resolve/ApproachVelocity/ApproachVelocity.png",
+     "description": "近くにいる移動妨害効果を受けた敵チャンピオンに向かって移動する時に移動速度が増加する。自身が敵チャンピオンに移動妨害効果を与えた場合は効果が上昇する。"
     },
     {
      "name": "なんでも屋",
-     "icon": "perk-images/Styles/Inspiration/JackOfAllTrades/JackofAllTrades2.png"
+     "icon": "perk-images/Styles/Inspiration/JackOfAllTrades/JackofAllTrades2.png",
+     "description": "アイテムで増加したステータスの種類1つごとに「なんでも屋」のスタックを1つ獲得する。スタックごとにスキルヘイストが1増加する。 5スタックおよび10スタック時に追加でアダプティブフォースが増加する。"
     }
    ]
   },
@@ -10190,55 +10214,68 @@
    "runes": [
     {
      "name": "プレスアタック",
-     "icon": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png"
+     "icon": "perk-images/Styles/Precision/PressTheAttack/PressTheAttack.png",
+     "description": "敵チャンピオンを3回連続で攻撃すると追加ダメージを与え、チャンピオンとの戦闘から離脱するまで自身のダメージが増幅する。"
     },
     {
      "name": "リーサルテンポ",
-     "icon": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png"
+     "icon": "perk-images/Styles/Precision/LethalTempo/LethalTempoTemp.png",
+     "description": "敵チャンピオンに通常攻撃を行うと攻撃速度が増加する。この効果は最大6回までスタックする。最大スタックになると、通常攻撃時効果で追加アダプティブダメージを与えるようになる。"
     },
     {
      "name": "フリートフットワーク",
-     "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png"
+     "icon": "perk-images/Styles/Precision/FleetFootwork/FleetFootwork.png",
+     "description": "攻撃と移動でスタックが溜まる。100スタックで次の通常攻撃は自身を回復し、移動速度が増加する。"
     },
     {
      "name": "征服者",
-     "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png"
+     "icon": "perk-images/Styles/Precision/Conqueror/Conqueror.png",
+     "description": "敵チャンピオンへの攻撃でアダプティブフォースのスタックを獲得する。スタック数が12になると、チャンピオンに与えたダメージの一定割合の体力を回復する。"
     },
     {
      "name": "体力吸収",
-     "icon": "perk-images/Styles/Precision/AbsorbLife/AbsorbLife.png"
+     "icon": "perk-images/Styles/Precision/AbsorbLife/AbsorbLife.png",
+     "description": "対象をキルすると自身の体力が回復する。"
     },
     {
      "name": "凱旋",
-     "icon": "perk-images/Styles/Precision/Triumph.png"
+     "icon": "perk-images/Styles/Precision/Triumph.png",
+     "description": "キルまたはアシスト獲得時に減少体力の5%を回復し、20ゴールドを追加で獲得する。"
     },
     {
      "name": "冷静沈着",
-     "icon": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png"
+     "icon": "perk-images/Styles/Precision/PresenceOfMind/PresenceOfMind.png",
+     "description": "敵チャンピオンにダメージを与えると、マナまたは気が少し回復する。キルまたはアシストを獲得するとマナまたは気を回復する。"
     },
     {
      "name": "レジェンド: 迅速",
-     "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png"
+     "icon": "perk-images/Styles/Precision/LegendAlacrity/LegendAlacrity.png",
+     "description": "敵をキルまたはアシストすると恒久的に攻撃速度が増加する。"
     },
     {
      "name": "レジェンド: ヘイスト",
-     "icon": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png"
+     "icon": "perk-images/Styles/Precision/LegendHaste/LegendHaste.png",
+     "description": "敵をキルまたはアシストすると恒久的に通常スキルヘイストが増加する。"
     },
     {
      "name": "レジェンド: 血脈",
-     "icon": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png"
+     "icon": "perk-images/Styles/Precision/LegendBloodline/LegendBloodline.png",
+     "description": "敵からキルまたはアシストを獲得すると恒久的にライフスティールが増加する(上限あり)。上限に達すると最大体力が増加する。序盤は他のレジェンドルーンに比べて効果が薄いが、終盤になるにつれて強力になっていく。"
     },
     {
      "name": "最期の慈悲",
-     "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png"
+     "icon": "perk-images/Styles/Precision/CoupDeGrace/CoupDeGrace.png",
+     "description": "体力の低下した敵チャンピオンに対して与えるダメージが増加する。"
     },
     {
      "name": "切り崩し",
-     "icon": "perk-images/Styles/Precision/CutDown/CutDown.png"
+     "icon": "perk-images/Styles/Precision/CutDown/CutDown.png",
+     "description": "体力の多い敵チャンピオンに対して与えるダメージが増加する。"
     },
     {
      "name": "背水の陣",
-     "icon": "perk-images/Styles/Sorcery/LastStand/LastStand.png"
+     "icon": "perk-images/Styles/Sorcery/LastStand/LastStand.png",
+     "description": "自身の体力が低下していると敵チャンピオンに与えるダメージが増加する。"
     }
    ]
   },
@@ -10248,51 +10285,63 @@
    "runes": [
     {
      "name": "不死者の握撃",
-     "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png"
+     "icon": "perk-images/Styles/Resolve/GraspOfTheUndying/GraspOfTheUndying.png",
+     "description": "4秒毎に、敵チャンピオンに対する通常攻撃が追加魔法ダメージを与え、体力を回復。さらに最大体力を恒久的に増加させる。"
     },
     {
      "name": "アフターショック",
-     "icon": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png"
+     "icon": "perk-images/Styles/Resolve/VeteranAftershock/VeteranAftershock.png",
+     "description": "敵チャンピオンに移動不能効果を与えると防御力を獲得し、その後爆発して自身の周囲の敵に大きな魔法ダメージを与える。"
     },
     {
      "name": "ガーディアン",
-     "icon": "perk-images/Styles/Resolve/Guardian/Guardian.png"
+     "icon": "perk-images/Styles/Resolve/Guardian/Guardian.png",
+     "description": "自身がスキルを使用した味方と自身の近くにいる味方をガードする。ガードしている味方か自身のどちらかがレベルに応じた一定以上のダメージを受けると、両者がシールドを獲得する。"
     },
     {
      "name": "打ちこわし",
-     "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png"
+     "icon": "perk-images/Styles/Resolve/Demolish/Demolish.png",
+     "description": "タワーへの3回目の通常攻撃が追加ダメージを与える。"
     },
     {
      "name": "生命の泉",
-     "icon": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png"
+     "icon": "perk-images/Styles/Resolve/FontOfLife/FontOfLife.png",
+     "description": "敵チャンピオンに行動妨害効果を付与すると、近くにいる味方チャンピオンの体力が回復する。"
     },
     {
      "name": "シールドバッシュ",
-     "icon": "perk-images/Styles/Resolve/MirrorShell/MirrorShell.png"
+     "icon": "perk-images/Styles/Resolve/MirrorShell/MirrorShell.png",
+     "description": "シールドを獲得するたびに、チャンピオンに対する次の通常攻撃が追加アダプティブダメージを与える。"
     },
     {
      "name": "心身調整",
-     "icon": "perk-images/Styles/Resolve/Conditioning/Conditioning.png"
+     "icon": "perk-images/Styles/Resolve/Conditioning/Conditioning.png",
+     "description": "試合開始12分後に物理防御 +8と魔法防御 +8を獲得。物理防御と魔法防御が3%増加する。"
     },
     {
      "name": "息継ぎ",
-     "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png"
+     "icon": "perk-images/Styles/Resolve/SecondWind/SecondWind.png",
+     "description": "敵チャンピオンからダメージを受けると、減少体力の一部を時間をかけて回復する。"
     },
     {
      "name": "ボーンアーマー",
-     "icon": "perk-images/Styles/Resolve/BonePlating/BonePlating.png"
+     "icon": "perk-images/Styles/Resolve/BonePlating/BonePlating.png",
+     "description": "敵チャンピオンからダメージを受けると、そのチャンピオンから次に受ける3回のスキルまたは通常攻撃のダメージが30-60(チャンピオンレベルに応じて)軽減される。 効果時間: 1.5秒 クールダウン: 55秒"
     },
     {
      "name": "超成長",
-     "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png"
+     "icon": "perk-images/Styles/Resolve/Overgrowth/Overgrowth.png",
+     "description": "自身の周囲で敵ミニオンまたはモンスターが倒されると恒久的に最大体力が増加する。"
     },
     {
      "name": "生気付与",
-     "icon": "perk-images/Styles/Resolve/Revitalize/Revitalize.png"
+     "icon": "perk-images/Styles/Resolve/Revitalize/Revitalize.png",
+     "description": "体力回復効果とシールド効果が5%上昇する。 自身が使用する、または付与される体力回復効果とシールド効果は、対象の体力が40%未満の場合、10%上昇する。"
     },
     {
      "name": "気迫",
-     "icon": "perk-images/Styles/Sorcery/Unflinching/Unflinching.png"
+     "icon": "perk-images/Styles/Sorcery/Unflinching/Unflinching.png",
+     "description": "行動妨害効果を受けると物理防御と魔法防御が増加する。"
     }
    ]
   },
@@ -10302,55 +10351,68 @@
    "runes": [
     {
      "name": "エアリー召喚",
-     "icon": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png"
+     "icon": "perk-images/Styles/Sorcery/SummonAery/SummonAery.png",
+     "description": "通常攻撃かスキルでエアリーを送り出し、味方にはシールド、敵にはダメージを与える。"
     },
     {
      "name": "秘儀の彗星",
-     "icon": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png"
+     "icon": "perk-images/Styles/Sorcery/ArcaneComet/ArcaneComet.png",
+     "description": "スキルでダメージを与えた敵チャンピオンの位置に彗星を飛ばす。"
     },
     {
      "name": "嵐乗りの勇躍",
-     "icon": "perk-images/Styles/Sorcery/PhaseRush/StormraidersSurgeRuneIcon2.png"
+     "icon": "perk-images/Styles/Sorcery/PhaseRush/StormraidersSurgeRuneIcon2.png",
+     "description": "対象チャンピオンの最大体力の25%にあたるダメージを与えると、瞬間的に移動速度が増加し、スロウ耐性を獲得する。"
     },
     {
      "name": "死神の残り火",
-     "icon": "perk-images/Styles/Sorcery/DeathfireTouch/DEATHFIRE_TOUCH_KEYSTONE.png"
+     "icon": "perk-images/Styles/Sorcery/DeathfireTouch/DEATHFIRE_TOUCH_KEYSTONE.png",
+     "description": "スキルでチャンピオンにダメージを与えると、継続燃焼ダメージを与える。"
     },
     {
      "name": "アクシオム アルカニスト",
-     "icon": "perk-images/Styles/Sorcery/NullifyingOrb/Axiom_Arcanist.png"
+     "icon": "perk-images/Styles/Sorcery/NullifyingOrb/Axiom_Arcanist.png",
+     "description": "アルティメットスキルのダメージ、体力回復効果、シールド量が増加する。敵チャンピオンからキルまたはアシストを獲得すると、アルティメットスキルの現在のクールダウンが短縮される。"
     },
     {
      "name": "マナフローバンド",
-     "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png"
+     "icon": "perk-images/Styles/Sorcery/ManaflowBand/ManaflowBand.png",
+     "description": "敵チャンピオンにスキルを当てるたびに最大マナが25ずつ恒久的に増加する(増加マナ上限は250)。 増加マナが250になると5秒ごとに減少マナの1%を回復する。"
     },
     {
      "name": "ニンバスクローク",
-     "icon": "perk-images/Styles/Sorcery/NimbusCloak/6361.png"
+     "icon": "perk-images/Styles/Sorcery/NimbusCloak/6361.png",
+     "description": "サモナースペル使用後、少しの間だけ移動速度が増加し、ユニットをすり抜けられるようになる。"
     },
     {
      "name": "至高",
-     "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png"
+     "icon": "perk-images/Styles/Sorcery/Transcendence/Transcendence.png",
+     "description": "以下のレベルになるとボーナスを獲得: レベル5: スキルヘイスト +5 レベル8: スキルヘイスト +5 レベル11: チャンピオンからキルまたはアシストを獲得すると、通常スキルの残りクールダウンが20%短縮される。"
     },
     {
      "name": "追い風",
-     "icon": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png"
+     "icon": "perk-images/Styles/Sorcery/Celerity/CelerityTemp.png",
+     "description": "自身のあらゆる移動速度ボーナスの効果が7%上昇し、移動速度が1%増加する。"
     },
     {
      "name": "英気集中",
-     "icon": "perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png"
+     "icon": "perk-images/Styles/Sorcery/AbsoluteFocus/AbsoluteFocus.png",
+     "description": "体力が70%以上あると追加アダプティブダメージを獲得する。"
     },
     {
      "name": "追火",
-     "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png"
+     "icon": "perk-images/Styles/Sorcery/Scorch/Scorch.png",
+     "description": "10秒毎に攻撃スキルが命中した対象を燃やす。"
     },
     {
      "name": "水走り",
-     "icon": "perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png"
+     "icon": "perk-images/Styles/Sorcery/Waterwalking/Waterwalking.png",
+     "description": "川の中にいると移動速度が増加し、魔力または攻撃力(アダプティブ)を獲得する。"
     },
     {
      "name": "強まる嵐",
-     "icon": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png"
+     "icon": "perk-images/Styles/Sorcery/GatheringStorm/GatheringStorm.png",
+     "description": "試合時間の経過とともに攻撃力または魔力(アダプティブ)が増加する。"
     }
    ]
   }

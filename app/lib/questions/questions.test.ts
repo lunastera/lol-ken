@@ -31,8 +31,13 @@ describe("buildQuizSet", () => {
   it("builds 20 well-formed unique questions with everything selected", () => {
     const questions = buildQuizSet(data, DEFAULT_SELECTION, createRng(42));
     expect(questions).toHaveLength(20);
-    // Identity is text + image (image questions share the same text).
-    const keys = new Set(questions.map((q) => `${q.text}|${q.imageUrl ?? ""}`));
+    // Identity is text + image + answer (image and effect questions share
+    // the same text).
+    const keys = new Set(
+      questions.map(
+        (q) => `${q.text}|${q.imageUrl ?? ""}|${q.choices[q.answerIndex]}`,
+      ),
+    );
     expect(keys.size).toBe(20);
     for (const q of questions) {
       expect(q.choices).toHaveLength(4);
@@ -100,6 +105,29 @@ describe("buildQuizSet", () => {
     }
     expect(slotSeen).toBeGreaterThan(0);
     expect(ownerSeen).toBeGreaterThan(0);
+  });
+
+  it("rune effect questions: detail matches the answer rune's description", () => {
+    const questions = buildQuizSet(
+      data,
+      { lanes: [...DEFAULT_SELECTION.lanes], types: ["rune-effect"] },
+      createRng(5),
+    );
+    expect(questions.length).toBeGreaterThanOrEqual(15);
+    const runes = data.runeStyles.flatMap((s) =>
+      s.runes.map((r) => ({ ...r, style: s.name })),
+    );
+    for (const q of questions) {
+      const answer = runes.find((r) => r.name === q.choices[q.answerIndex]);
+      expect(answer, q.choices[q.answerIndex]).toBeDefined();
+      expect(q.detail).toBe(answer?.description);
+      // Distractors come from the same style.
+      for (const choice of q.choices) {
+        expect(runes.find((r) => r.name === choice)?.style).toBe(answer?.style);
+      }
+      // No tooltips: they would reveal the answer.
+      expect(q.choiceTooltips).toBeUndefined();
+    }
   });
 
   it("only produces questions of the selected types", () => {

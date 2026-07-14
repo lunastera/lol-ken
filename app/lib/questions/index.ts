@@ -9,7 +9,12 @@ import {
   titleOwner,
 } from "./champion";
 import { itemEffect, itemImage, itemPrice } from "./item";
-import { runeStyleOf, summonerByDescription, summonerCooldown } from "./rune";
+import {
+  runeEffect,
+  runeStyleOf,
+  summonerByDescription,
+  summonerCooldown,
+} from "./rune";
 
 export type Category = "champion" | "item" | "rune";
 
@@ -18,6 +23,10 @@ export interface Question {
   /** supplementary text shown under the question (e.g. skill description) */
   detail?: string;
   imageUrl?: string;
+  /** hover tooltip for the question image (e.g. rune effect) */
+  imageTooltip?: string;
+  /** hover tooltip for the 「term」 portion of the question text */
+  termTooltip?: { term: string; tooltip: string };
   choices: string[];
   answerIndex: number;
   /**
@@ -90,6 +99,12 @@ export const QUESTION_TYPES = [
     label: "ルーン系統",
     category: "rune",
     generators: [runeStyleOf],
+  },
+  {
+    id: "rune-effect",
+    label: "ルーン効果",
+    category: "rune",
+    generators: [runeEffect],
   },
   {
     id: "summoner",
@@ -178,8 +193,9 @@ export function buildQuizSet(
     const type = pick(rng, types);
     const generate = pick(rng, type.generators);
     const q = generate(ctx);
-    // Image questions share the same text, so the image is part of identity.
-    const key = `${q?.text}|${q?.imageUrl ?? ""}`;
+    // Image questions share the same text, so the image and the answer are
+    // part of a question's identity.
+    const key = `${q?.text}|${q?.imageUrl ?? ""}|${q?.choices[q.answerIndex]}`;
     if (!q || seen.has(key)) continue;
     seen.add(key);
     questions.push(q);

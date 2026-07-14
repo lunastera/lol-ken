@@ -17,10 +17,38 @@ export const runeStyleOf: QuestionGenerator = ({ data, rng }) => {
   return {
     text: `ルーン「${rune.name}」が属する系統は？`,
     imageUrl: runeImageUrl(rune.icon),
+    imageTooltip: rune.description,
+    termTooltip: { term: rune.name, tooltip: rune.description },
     ...built,
     choiceImageUrls: built.choices.map((name) => {
       const s = data.runeStyles.find((st) => st.name === name);
       return s ? runeImageUrl(s.icon) : undefined;
+    }),
+    category: "rune",
+  };
+};
+
+/** 効果テキストからルーンを当てる（選択肢は同系統のルーン） */
+export const runeEffect: QuestionGenerator = ({ data, rng }) => {
+  const styles = data.runeStyles.filter((s) => s.runes.length >= 4);
+  if (styles.length === 0) return undefined;
+  const style = pick(rng, styles);
+  const rune = pick(rng, style.runes);
+  if (!rune.description) return undefined;
+  const distractors = style.runes
+    .filter((r) => r.description !== rune.description)
+    .map((r) => r.name);
+  const built = buildChoices(rng, rune.name, distractors);
+  if (!built) return undefined;
+  const byName = (name: string) => style.runes.find((r) => r.name === name);
+  return {
+    text: "この効果を持つルーンは？",
+    detail: rune.description,
+    ...built,
+    // Tooltips would hand out the answer here, so only icons decorate choices.
+    choiceImageUrls: built.choices.map((name) => {
+      const r = byName(name);
+      return r ? runeImageUrl(r.icon) : undefined;
     }),
     category: "rune",
   };

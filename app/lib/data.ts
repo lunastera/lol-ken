@@ -69,6 +69,8 @@ export interface Rune {
   name: string;
   /** icon path under cdn img/ (e.g. "perk-images/Styles/...") */
   icon: string;
+  /** plain-text effect summary */
+  description: string;
 }
 
 export interface RuneStyle {
